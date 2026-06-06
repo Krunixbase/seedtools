@@ -138,4 +138,3 @@ SeedTools is built as a **public good**, with sustainability based on:
 
 ---
 
-**[Executive Summary](ca://s?q=Open_executive_summary)** — high‑level overview of SeedTools Suite
