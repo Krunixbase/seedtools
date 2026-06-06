@@ -1,3 +1,5 @@
+![SeedTools Logo](attachments/branding/logo/seedtools-logo.png)
+
 # **SeedTools Suite — Deterministic Bitcoin Recovery & Forensics**
 
 SeedTools Suite is a **modular, deterministic, offline‑first toolkit** for Bitcoin seed recovery, forensics, entropy diagnostics, path analysis, and address verification — designed for individuals, NGOs, support teams, and researchers operating in high‑risk or high‑integrity environments.
