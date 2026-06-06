@@ -1,0 +1,13 @@
+# SeedTools Suite — Logo
+
+This folder contains the official logo for SeedTools Suite, used in the Pitch Deck, financing documents, GitHub Pages, and application UI.
+
+## Prompt Used
+
+“Minimalist, geometric logo for SeedTools Suite.  
+Symbol: stylized deterministic seed node with three branching HD paths (BIP‑style), forming a clean, symmetric, technical mark.  
+Style: ultra‑minimal, modern, high‑precision, crypto‑forensics aesthetic.  
+Colors: white symbol on deep blue (#0A84FF) or black background (#0D1117).  
+Typography: Inter / JetBrains Mono / IBM Plex Sans, semi‑bold, clean, technical.  
+Composition: symbol on the left, text ‘SeedTools’ on the right.  
+No gradients, no shadows, no 3D, no icons — pure vector, enterprise‑grade.”
