@@ -7,7 +7,7 @@ SeedTools provides:
 
 - **Recovery Mode** — deterministic wallet recovery
 - **Forensics Mode** — analysis of corrupted or compromised backups
-- **Deep Path Scanner** — 0 → 100 500
+- **Deep Path Scanner** — 0 → X
 - **BIP44/49/84/86 + Taproot**
 - **Mnemonic integrity tools**
 - **Offline‑first architecture** (no telemetry, no API calls)
