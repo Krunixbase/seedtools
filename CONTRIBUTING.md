@@ -1,6 +1,3 @@
-# **CONTRIBUTING.md (gotowy do wklejenia)**
-
-````markdown
 # Contributing to SeedTools Suite
 
 Thank you for your interest in contributing to **SeedTools Suite** — a deterministic, offline‑first toolkit for Bitcoin recovery, forensics, entropy diagnostics, and wallet structure analysis.
