@@ -1,140 +1,184 @@
-# **SeedTools 2.0 — Offline HD Wallet Recovery & Forensics Toolkit**
+# **SeedTools Suite — Deterministic Bitcoin Recovery & Forensics**
 
-SeedTools 2.0 is an **open‑source, offline‑first toolkit** for recovering Bitcoin HD wallets, analyzing failed backups, scanning BIP paths, and verifying addresses.
-It is designed for high‑risk users, activists, journalists, NGOs, and the global Bitcoin community who need **secure, private, offline wallet recovery tools**.
-
-SeedTools provides:
-
-- **Recovery Mode** — deterministic wallet recovery
-- **Forensics Mode** — analysis of corrupted or compromised backups
-- **Deep Path Scanner** — 0 → X
-- **BIP44/49/84/86 + Taproot**
-- **Mnemonic integrity tools**
-- **Offline‑first architecture** (no telemetry, no API calls)
+SeedTools Suite is a **modular, deterministic, offline‑first toolkit** for Bitcoin seed recovery, forensics, entropy diagnostics, path analysis, and address verification — designed for individuals, NGOs, support teams, and researchers operating in high‑risk or high‑integrity environments.
 
 ---
 
-## **Features**
+## **✨ Key Features**
 
-- deterministic HD wallet engine
-- multi‑standard support (Legacy, SegWit, Taproot)
-- deep index scanning
-- address verification (BTC + ETH)
-- mnemonic analysis & repair
-- forensics tools for compromised devices
-- GUI + CLI + Core modules
-- demo pack & case studies
-- fully offline workflows
+- **Deterministic Recovery Engine** — reproducible, predictable, auditable  
+- **Offline‑First Architecture** — no telemetry, no servers, no cloud  
+- **Hardened Security Modes** — zero‑trace, secure memory, isolated workflows  
+- **Modular Tools** — Recovery, Forensics, Entropy, Mnemonic, Path, Scanner  
+- **NGO‑Ready Workflows** — safe defaults, printable reports, guided UX  
+- **Reproducible Builds** — deterministic binaries for trust and verification  
+- **Cross‑Tool Automation** — Recovery → Forensics → Scanner → Export  
 
 ---
 
-## **Architecture**
+## **📦 Modules Overview**
 
-SeedTools is built as a modular suite:
+SeedTools Suite consists of the following modules:
 
-- **seedtools-core** — deterministic engine, BIP logic, scanning
-- **seedtools-gui** — desktop interface
-- **seedtools-cli** — air‑gapped command‑line tools
-- **seedtools-utils** — helpers, converters, validators
+- **SeedTools Core** — deterministic engines  
+- **SeedTools GUI** — desktop application  
+- **SeedTools CLI** — scripting & automation  
+- **SeedTools Utils** — shared utilities  
+- **Launcher** — unified entry point  
 
-Documentation:
-`/product/seedtools-architecture.md`
-
----
-
-## **Demo Pack**
-
-The demo pack includes:
-
-- sample recovery scenarios
-- corrupted mnemonic examples
-- wrong‑path case studies
-- Taproot verification examples
-
-Location: `/demo/`
-
-Case studies: `/demo/extra/`
+Each module is fully offline, auditable, and designed for high‑risk environments.
 
 ---
 
-## **Roadmap**
+## **🧠 What Problems SeedTools Solves**
 
-12‑month development plan:
+- corrupted mnemonics  
+- missing or uncertain words  
+- entropy drift  
+- checksum mismatches  
+- unknown derivation paths  
+- mixed‑wallet structures  
+- compromised backups  
+- incorrect wallet metadata  
+- multi‑account wallets  
+- Taproot (BIP86) complexity  
 
-- Recovery Mode PRO
-- Forensics Mode PRO
-- Safe Mode for activists
-- CLI for Tails/Qubes
-- Sparrow/Specter integrations
-- Taproot forensics expansion
-- installer (.exe)
-- branding & UI polish
-
-Full roadmap: `/roadmap/roadmap-pro.md`
-
----
-
-## **Funding & Grants**
-
-SeedTools participates in multiple open‑source funding programs:
-
-- OpenSats
-- Human Rights Foundation
-- BTCPay Grants
-- Spiral (Jack Dorsey)
-
-All applications are stored in:
-
-`/financing/`
-`/applications/`
-
-Funding Overview: **Funding Overview**
+SeedTools provides deterministic, transparent, safe workflows for each of these.
 
 ---
 
-## **License**
+## **🛠️ Tools Included**
 
-SeedTools is released under the **MIT License**, enabling:
+### **Recovery Tool**
+Deterministic wallet reconstruction with path inference, scanning, and verification.  
+👉 **Recovery Roadmap**
 
-- free use
-- modification
-- commercial use
-- redistribution
+### **Forensics Tool**
+Entropy drift detection, corruption mapping, anomaly scoring.  
+👉 **Forensics Roadmap**
 
-License file: `LICENSE`
+### **Entropy Inspector**
+Bit‑level entropy analysis, checksum extraction, drift visualization.  
+👉 **Entropy Roadmap**
 
----
+### **Mnemonic Tools**
+Checksum validation, entropy conversion, partial reconstruction.  
+👉 **Mnemonic Roadmap**
 
-## **Project Status**
+### **Path Explorer**
+BIP32/44/49/84/86 path validation, derivation, and forensics.  
+👉 **Path Roadmap**
 
-SeedTools is an active, evolving project with:
-
-- working MVP
-- full deterministic engine
-- GUI prototype
-- CLI prototype
-- documented architecture
-- demo pack
-- roadmap
-- grant applications in progress
-
----
-
-## **Contributing**
-
-Contributions are welcome:
-
-- code
-- documentation
-- testing
-- security review
-- UX feedback
-
-Guidelines coming soon.
+### **Address Scanner**
+Batch verification, type detection, path inference.  
+👉 **Scanner Roadmap**
 
 ---
 
-## **Contact**
+## **🏛️ Architecture**
 
-Krunixbase Organization
-SeedTools Development Team
+SeedTools Suite follows a **4‑layer deterministic architecture**:
+
+1. **Apps** — Desktop, CLI, Launcher  
+2. **GUI Layer** — UX, workflows, guided flows  
+3. **Core Engines** — deterministic logic  
+4. **Utils** — shared validation, encoding, secure buffers  
+
+👉 **Architecture Roadmap**  
+👉 **Product Architecture**
+
+---
+
+## **🔐 Security Model**
+
+SeedTools is built on a **zero‑trust, offline‑first** security philosophy:
+
+- no telemetry  
+- no network calls  
+- no analytics  
+- hardened mode  
+- zero‑trace execution  
+- secure memory  
+- reproducible builds  
+
+👉 **Security Roadmap**  
+👉 **Product Security**
+
+---
+
+## **📚 Product Documentation**
+
+- **Product Overview**  
+- **Product Vision**  
+- **Product Spec**  
+- **Product Components**  
+- **Product Workflows**  
+- **Product Value**  
+- **Product Positioning**  
+- **Product Messaging**  
+
+---
+
+## **🗺️ Roadmaps**
+
+- **Suite Roadmap PRO**  
+- **Milestones**  
+- Recovery / Forensics / Entropy / Mnemonic / Path / Scanner / Security / Architecture  
+
+---
+
+## **📄 Grant Applications**
+
+SeedTools Suite includes a full financing package:
+
+- **OpenSats Mini‑Grant**  
+- **HRF Micro‑Grant**  
+- **BTCPay Grant**  
+- **Spiral Application**  
+
+👉 **Go to financing**
+
+---
+
+## **🎬 Demo & Scenarios**
+
+The `demo/` folder includes:
+
+- real‑world scenarios  
+- corrupted mnemonic examples  
+- NGO field cases  
+- step‑by‑step walkthroughs  
+
+👉 **Open Demo Folder**
+
+---
+
+## **🧩 Screenshots**
+
+Screenshots are available in:
+
+```
+product/screenshots/
+```
+
+---
+
+## **🤝 Contributing**
+
+SeedTools Suite welcomes:
+
+- developers  
+- security researchers  
+- UX contributors  
+- translators  
+- NGO partners  
+
+Contribution guidelines coming soon.
+
+---
+
+## **📜 License**
+
+SeedTools Suite is open‑source under the **MIT License**.
+
+---
