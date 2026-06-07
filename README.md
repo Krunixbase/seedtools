@@ -1,7 +1,14 @@
-# **SeedTools Suite**
+# 🚀 SeedTools Suite  
+**Offline • Deterministic • Secure • Forensics & Compliance Toolkit**
 
-SeedTools is an offline, deterministic toolkit for Bitcoin seed recovery, forensics, NGO verification workflows, and compliance analysis.  
-It is designed for high‑risk users, journalists, activists, and organizations operating in adversarial environments.
+[![Status](https://img.shields.io/badge/status-active-brightgreen)]()
+[![Security](https://img.shields.io/badge/security-offline%20first-blue)]()
+[![License](https://img.shields.io/badge/license-MIT-lightgrey)]()
+[![Python](https://img.shields.io/badge/python-3.10%2B-yellow)]()
+
+SeedTools is an offline, deterministic toolkit for Bitcoin seed recovery, entropy analysis,  
+forensics, NGO verification workflows, and compliance automation.  
+Designed for high‑risk users, journalists, activists, and organizations operating in adversarial environments.
 
 ---
 
