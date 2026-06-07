@@ -1,14 +1,24 @@
 # Slide 09 — Compliance
 
 ## Title
-Compliance & Standards
+SeedTools Suite — Compliance & Standards
 
-## Points
+## Key Points
 - GDPR‑ready
 - ISO‑aligned architecture
-- Deterministic audit trails
 - Zero data leakage
+- Deterministic audit trails
 - Offline‑first compliance model
+
+## Compliance Layers
+1. Data Isolation
+2. Deterministic Logging
+3. Secure Memory Handling
+4. Regulatory Transparency
+5. Operational Integrity
+
+## Tagline
+Offline • Compliant • Verifiable
 
 ## Graphic
 (compliance diagram placeholder)
