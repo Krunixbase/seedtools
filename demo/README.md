@@ -1,114 +1,90 @@
-# SeedTools Suite — Demo
+# **SeedTools 2.0 — Demo Pack**
+Real-world testing of the SeedTools 2.0 application.
+Screenshots show address generation, verification, BIP path scanning, and address validation.
 
-The `demo/` directory contains practical examples, real‑world scenarios, corrupted mnemonic samples, and case studies demonstrating how SeedTools Suite works in practice.
+--
 
-This folder is designed for:
-- reviewers evaluating the project,
-- developers exploring the toolkit,
-- NGOs and support teams learning workflows,
-- users testing recovery and forensics features.
+## **1. Demo 1 — Seed → Seed Hex → BTC/ETH Addresses**
+File: `seedtools-demo-01.png`
 
----
+Shows:
 
-## 📁 Folder Structure
+- mnemonic entry
+- conversion to seed_hex
+- **Seed OK** status
+- address generation:
+- BTC BIP44
+- BTC BIP49
+- BTC BIP84
+- BTC BIP86
+- ETH BIP44
+- Index = 0
+- full deterministic address set
 
-```
-demo/
-├── scenarios/            # step‑by‑step usage scenarios
-├── corrupted-mnemonics/  # real-world corrupted seed examples
-├── case-studies/         # full analyses of real recovery cases
-└── README.md             # this file
-```
-
----
-
-## 🧪 Scenarios (`scenarios/`)
-
-This folder contains **guided, step‑by‑step scenarios** showing how to use SeedTools Suite in real situations.
-
-Examples include:
-- recovering a wallet from a partial mnemonic,
-- detecting entropy drift,
-- analyzing BIP32/44/49/84/86 derivation paths,
-- performing wallet structure forensics,
-- verifying addresses in batch mode.
-
-Browse scenarios here:  
-[`./scenarios/`](./scenarios/)
+**Conclusion:**
+SeedTools generates valid addresses for all major BIP standards.
 
 ---
 
-## ⚠️ Corrupted Mnemonics (`corrupted-mnemonics/`)
+## **2. Demo 2 — ETH BIP44 Address Verification**
+File: `seedtools-demo-02.png`
 
-This folder contains **realistic corrupted seed examples**, including:
-- missing words,
-- swapped words,
-- checksum failures,
-- entropy drift,
-- mixed wordlists,
-- invalid language cases.
+Shows:
 
-These samples are used for:
-- testing,
-- forensics,
-- demonstrations,
-- reproducible examples.
+- generated ETH address
+- pasting it into the Verify section
+- result: **Match: True, Info: seed_hex:ETH_BIP44**
 
-Browse corrupted mnemonics here:  
-[`./corrupted-mnemonics/`](./corrupted-mnemonics/)
+**Conclusion:**
+SeedTools can associate an ETH address with a specific seed and standard.
 
----
+--
 
-## 📚 Case Studies (`case-studies/`)
+## **3. Demo 3 — BTC BIP86, Index 0**
+File: `seedtools-demo-03.png`
 
-This folder contains **full, narrative-style analyses** of real recovery situations.
+Shows:
 
-Each case study includes:
-- the problem,
-- the analysis steps,
-- the tools used,
-- the final outcome,
-- lessons learned.
+- Taproot address generation (BIP86)
+- Verify → **Match: True**
+- Validate Address → **Valid: True**
 
-Examples include:
-- lost 12‑word seed recovery,
-- unknown derivation path analysis,
-- damaged paper backup reconstruction,
-- confiscated device recovery,
-- mixed-wallet structure forensics.
-
-Browse case studies here:  
-[`./case-studies/`](./case-studies/)
+**Conclusion:**
+Taroot support is working correctly.
 
 ---
 
-## 🧰 How to Use the Demo
+## **4. Demo 4 - BTC BIP86, Index 1 + Scan Paths**
+File: `seedtools-demo-04.png`
 
-### 1. Try scenarios first  
-They show how to use the tools step by step.
+Shows:
 
-### 2. Test corrupted mnemonics  
-Use them to validate recovery and forensics modules.
+- Index = 1
+- Verify → **False** (expected)
+- Scan Paths → **True**, found:
+- path: `m/86'/0'/0'/0/1`
+- index: 1
+- standard: BTC BIP86
 
-### 3. Study real cases  
-Understand how SeedTools solves real‑world problems.
-
-### 4. Use CLI or Desktop App  
-Each scenario includes instructions for both interfaces.
-
----
-
-## 🛠 Requirements
-
-- SeedTools CLI or Desktop App  
-- Offline environment recommended  
-- No internet connection required  
-- All examples are deterministic and reproducible  
+**Conclusion:**
+- Verify only checks the current index
+- Scan Paths searches the entire path
+- This behavior is identical to professional forensics tools
 
 ---
 
-## 📄 License
+## **5. Demo 5 — Multi-Seed Tests**
+File: `seedtools-demo-05.png`
 
-All demo materials are provided under the MIT License, unless stated otherwise.
+Shows:
+
+- different mnemonics
+- different seed_hex
+- different BTC/ETH addresses
+- correct Verify and Scan results
+- correct address types (p2pkh, p2sh, bech32, bech32m)
+
+**Conclusion:**
+SeedTools works deterministically for multiple seeds and multiple standards.
 
 ---
