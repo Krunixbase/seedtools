@@ -155,7 +155,7 @@ These demos show:
 - deterministic BTC/ETH address generation  
 - BIP44 / BIP49 / BIP84 / BIP86  
 - Taproot (BIP86) verification  
-- path scanning (0 → 100500)  
+- path scanning (0 → X)  
 - multi-seed consistency tests  
 
 👉 Explore the full demo pack in the [`demo/`](demo/) folder.
