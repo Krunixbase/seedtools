@@ -9,12 +9,14 @@ class CryptoCore:
         from .bip39 import BIP39
         from .bip44 import BIP44
         from .taproot import TaprootEngine
-
+        from .eth_core import ETHCore
+        
         self.bip32 = BIP32()
         self.bip39 = BIP39()
         self.bip44 = BIP44()
         self.taproot = TaprootEngine()
-
+        self.eth = ETHCore()
+        
     # --- BIP39 ---
     def mnemonic_to_entropy(self, mnemonic: str) -> bytes:
         return self.bip39.mnemonic_to_entropy(mnemonic)
@@ -33,3 +35,6 @@ class CryptoCore:
     # --- Taproot ---
     def taproot_keypath(self, seed: bytes, path: str) -> dict:
         return self.taproot.derive_keypath(seed, path)
+
+    def derive_eth(self, seed: bytes, path: str) -> dict:
+        return self.eth.derive_eth_address(seed, path)
