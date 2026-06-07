@@ -1,6 +1,3 @@
-# **📁 attachments/README.md**
-
-```markdown
 # SeedTools Suite — Attachments
 
 The `attachments/` directory contains all non‑text assets used across the SeedTools Suite ecosystem.  
