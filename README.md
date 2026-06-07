@@ -142,15 +142,24 @@ SeedTools Suite includes a full financing package:
 
 ---
 
-## **🎬 Demo & Scenarios**
+## 🧪 Demo Pack
 
-The `demo/` folder includes:
+SeedTools Suite includes a full demo pack with real-world scenarios, screenshots, and reproducible tests.
 
-- real‑world scenarios  
-- corrupted mnemonic examples  
-- NGO field cases  
-- step‑by‑step walkthroughs  
+- Basic Demo: [`demo/README-demo.md`](demo/README-demo.md)
+- Advanced Demo: [`demo/README-seedtools-extra-demo.md`](demo/README-seedtools-extra-demo.md)
+- Screenshots: [`product/screenshots/`](product/screenshots/)
 
+These demos show:
+- seed → seed_hex conversion  
+- deterministic BTC/ETH address generation  
+- BIP44 / BIP49 / BIP84 / BIP86  
+- Taproot (BIP86) verification  
+- path scanning (0 → 100500)  
+- multi-seed consistency tests  
+
+👉 Explore the full demo pack in the [`demo/`](demo/) folder.
+  
 👉 **Open Demo Folder**
 
 ---
