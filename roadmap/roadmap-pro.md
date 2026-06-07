@@ -1,119 +1,115 @@
-# **SeedTools Suite — Roadmap PRO (3/6/12 Months)**
+# **🚀 SeedTools PRO Roadmap**
 
-This document presents the unified, strategic, enterprise‑grade roadmap for the entire SeedTools Suite. It consolidates all module‑level roadmaps into one coherent plan designed for funding applications, technical planning, and long‑term development.
+## **Overview**
 
----
-
-## 🎯 Vision
-SeedTools Suite delivers deterministic, offline‑first tools for Bitcoin/ETH recovery, forensics, entropy diagnostics, and secure workflows for high‑risk users, NGOs, and professionals.
-
-The PRO roadmap defines the next 12 months of development across all modules.
+SeedTools Suite is an offline‑first Bitcoin recovery and forensics toolkit.  
+This roadmap outlines the **3‑month, 6‑month, and 12‑month development plan**, aligned with grant applications (OpenSats, HRF, BTCPay).
 
 ---
 
-# 📅 **3‑Month Roadmap (Q1)**
+# **📅 3‑Month Plan (Q1)** — *Foundation & Stability*
 
-## Core Deliverables
-- Stable Core Engine (mnemonic → seed → addresses)
-- Deterministic BIP32/44/49/84/86 implementation
-- Taproot (BIP86) verification engine
-- Entropy Inspector MVP
-- Path Explorer MVP
-- Address Scanner MVP
-- Recovery Tool MVP
+### **Core Goals**
+- deterministic recovery engine v2  
+- entropy inspector improvements  
+- BIP32/44/49/84/86 path explorer refinements  
+- Taproot scanning stability  
+- documentation restructuring  
 
-## Documentation & Demo
-- Full Demo Pack (basic + advanced)
-- Screenshots library
-- Technical documentation for all modules
-- Architecture overview
+### **Milestones**
+- **Core Engine v2** — deterministic, modular, test‑ready  
+- **Entropy Inspector v2** — entropy scoring, heuristics  
+- **Path Explorer UX** — presets, templates  
+- **Taproot Forensics Base** — script path detection  
+- **Docs Overhaul** — new README, security model  
 
-## Security & Reliability
-- Offline‑first architecture validation
-- Reproducible builds (initial version)
-- Basic fuzz testing for seed parsing
+### **Status**
+🟢 In progress
 
 ---
 
-# 📅 **6‑Month Roadmap (Q2–Q3)**
+# **📅 6‑Month Plan (Q2–Q3)** — *NGO Workflows & Desktop*
 
-## Feature Expansion
-- Advanced Recovery Engine (missing words, fuzzy matching)
-- Entropy Drift Analyzer
-- Multi‑seed batch processing
-- Extended Taproot forensics
-- Derivation Path Explorer (full version)
-- Address Scanner with deep search (0 → 100k)
-- Safe Mode for high‑risk users
+### **Core Goals**
+- NGO‑ready offline workflows  
+- printable audit reports  
+- desktop GUI (offline, auditable)  
+- Safe Mode for high‑risk users  
+- reproducible builds v2  
 
-## Desktop Application
-- SeedTools Desktop (Electron/PySide)
-- Offline GUI for all modules
-- Exportable reports (PDF/HTML)
-- NGO‑friendly workflows
+### **Milestones**
+- **NGO Workflow Pack** — templates, flows, reports  
+- **Printable Reports** — PDF‑ready offline exports  
+- **Desktop GUI Alpha** — PySide/Qt offline interface  
+- **Safe Mode** — restricted environment for activists  
+- **Reproducible Builds v2** — pinned deps, deterministic env  
 
-## Integrations
-- Sparrow Wallet integration
-- Specter Desktop integration
-- PSBT analysis module
-
-## Security & QA
-- Static analysis
-- Threat model v1
-- Extended fuzzing
-- Test suite for all BIP standards
+### **Status**
+🟡 Planned
 
 ---
 
-# 📅 **12‑Month Roadmap (Q4)**
+# **📅 12‑Month Plan (Q4)** — *Forensics, Automation & Enterprise*
 
-## Enterprise‑Grade Features
-- Full Forensics Suite
-- Multi‑wallet scanning
-- Multi‑chain support (ETH, LTC, testnets)
-- Advanced entropy forensics
-- Hardware wallet compatibility layer
+### **Core Goals**
+- advanced Taproot forensics  
+- multi‑wallet scanning  
+- automation engine  
+- hardened CLI  
+- security review  
 
-## Suite Launcher
-- Unified launcher for all modules
-- Auto‑update (offline‑safe)
-- Module sandboxing
+### **Milestones**
+- **Taproot Forensics PRO** — script path mapping, heuristics  
+- **Multi‑Wallet Scanner** — parallel scanning, batching  
+- **Automation Engine** — cross‑tool workflows  
+- **Hardened CLI** — sandboxed execution  
+- **Security Review** — independent audit  
 
-## Security & Compliance
-- Full threat model v2
-- External security audit
-- Reproducible builds v2
-- NGO deployment guidelines
-
-## Documentation & Community
-- Complete documentation portal
-- Developer API
-- Plugin system (experimental)
-- Community contribution guidelines
+### **Status**
+🟡 Planned
 
 ---
 
-# 📌 Milestones Overview
+# **🔍 Module‑Level Roadmaps**
 
-| Timeline | Milestone |
-|----------|-----------|
-| 3 months | Core Engine, MVP tools, demo pack |
-| 6 months | Desktop app, advanced recovery, integrations |
-| 12 months | Full Suite, forensics, audits, launcher |
-
----
-
-# 📁 Module Links
-- Suite Roadmap
-- Desktop Roadmap
-- Recovery Roadmap
-- Entropy Roadmap
-- Path Explorer Roadmap
-- Scanner Roadmap
-- Security Roadmap
-- Architecture Roadmap
+- **Core Roadmap**  
+- **Desktop Roadmap**  
+- **Path Explorer Roadmap**  
+- **Scanner Roadmap**  
+- **Architecture Roadmap**  
 
 ---
 
-# 📜 Summary
-The Roadmap PRO defines the strategic direction of SeedTools Suite for the next 12 months. It consolidates all module‑level plans into a single, enterprise‑ready document suitable for grant applications, investor materials, and long‑term planning.
+# **📊 Milestone Table**
+
+| Milestone | Timeline | Status | Link |
+|----------|----------|--------|------|
+| Core Engine v2 | 3 months | 🟢 In progress | **Open** |
+| Entropy Inspector v2 | 3 months | 🟢 In progress | **Open** |
+| NGO Workflow Pack | 6 months | 🟡 Planned | **Open** |
+| Desktop GUI Alpha | 6 months | 🟡 Planned | **Open** |
+| Safe Mode | 6 months | 🟡 Planned | **Open** |
+| Taproot Forensics PRO | 12 months | 🟡 Planned | **Open** |
+| Automation Engine | 12 months | 🟡 Planned | **Open** |
+| Security Review | 12 months | 🟡 Planned | **Open** |
+
+---
+
+# **🎯 Strategic Priorities**
+
+1. **Offline‑first security**  
+2. **NGO‑ready workflows**  
+3. **Deterministic recovery**  
+4. **Taproot forensics**  
+5. **Desktop GUI**  
+6. **Reproducible builds**  
+7. **Auditability & transparency**
+
+---
+
+# **📬 Contact**
+
+For roadmap discussions or contributions:  
+**krunixbase@gmail.com**
+
+---
