@@ -33,6 +33,6 @@ Operation → Event Capture → Hashing → Integrity Chain → Export
 
 - **Forensic Logging**  
 - **Integrity Chain**  
-```
+
 
 ---
