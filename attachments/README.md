@@ -1,46 +1,44 @@
+# **📁 attachments/README.md**
+
+```markdown
 # SeedTools Suite — Attachments
 
-The `attachments/` directory contains all non‑text assets used across the SeedTools Suite documentation, financing materials, pitch deck, branding, and technical diagrams.  
-This folder centralizes all visual and binary resources to keep the repository clean, modular, and professional.
+The `attachments/` directory contains all non‑text assets used across the SeedTools Suite ecosystem.  
+It centralizes every visual, graphical, and presentation resource required for:
 
-It is designed for:
-- grant reviewers (OpenSats, HRF, Spiral, BTCPay),
-- contributors and developers,
-- NGOs and field operators,
-- documentation and presentation workflows.
+- grant applications (OpenSats, HRF, Spiral, BTCPay)
+- pitch decks and investor materials
+- documentation and architecture diagrams
+- branding and identity
+- screenshots, UI previews, and workflow examples
+- PDF exports of funding documents and microgrants
+
+This folder ensures that all materials are consistent, accessible, and ready for reuse across the entire project.
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```
 attachments/
-│
 ├── pitch-deck/
 │   ├── slides/
 │   ├── diagrams/
 │   └── exports/
-│
 ├── branding/
 │   ├── logo/
 │   ├── colors/
 │   └── typography/
-│
 ├── diagrams/
 │   ├── architecture/
 │   ├── data-flow/
 │   └── module-map/
-│
 ├── screenshots/
 │   ├── cli/
 │   └── desktop/
-│
 ├── pdf/
-│   ├── executive-summary.pdf
-│   ├── one-pager.pdf
-│   ├── pitch-deck.pdf
-│   └── full-grant-package.pdf
-│
+│   ├── microgrants/
+│   └── funding/
 └── misc/
     ├── references/
     └── drafts/
@@ -48,74 +46,103 @@ attachments/
 
 ---
 
-## 🧭 Folder Descriptions
+## Folder Descriptions
 
 ### **pitch-deck/**
 Contains all assets used in the SeedTools Suite pitch deck:
-- slide exports (PNG/JPG),
-- diagrams included in the presentation,
-- PDF exports,
-- UI mockups and visual elements.
+- slide exports (PNG/JPG)
+- diagrams included in the presentation
+- PDF exports (full, lite, HRF, OpenSats)
+- UI mockups and visual elements
 
-This folder is frequently used by grant reviewers.
+Used heavily in grant submissions and investor presentations.
 
 ---
 
 ### **branding/**
-Contains the visual identity of SeedTools Suite:
-- official logos (SVG/PNG),
-- color palette,
-- typography guidelines,
-- usage rules.
+Contains the complete visual identity of SeedTools Suite:
+- official logos (dark/light/mono/icon)
+- color palette and usage rules
+- typography guidelines
 
-Used for presentations, documentation, and grant materials.
+Ensures consistent branding across all materials.
 
 ---
 
 ### **diagrams/**
 Contains all technical diagrams:
-- system architecture,
-- data flow diagrams,
-- module maps,
-- deterministic engine diagrams,
-- recovery pipeline diagrams.
+- system architecture
+- module map
+- data flow
+- recovery pipeline
+- compliance suite architecture
+- NGO workflows
 
-These assets support technical documentation and grant applications.
+Used in documentation, pitch decks, and grant applications.
 
 ---
 
 ### **screenshots/**
-Contains screenshots of the SeedTools Suite tools:
-- CLI examples,
-- Desktop App interface,
-- Suite Launcher workflows.
+Contains CLI and GUI screenshots:
+- module previews
+- workflows
+- examples for documentation and manuals
 
-Used in README files, pitch deck, and demo materials.
+Used in README, user guides, and grant materials.
 
 ---
 
 ### **pdf/**
-Contains PDF exports of key documents:
-- executive summary,
-- one‑pager,
-- pitch deck,
-- full grant package.
+Contains all PDF exports:
+- microgrant proposals
+- funding documents
+- executive summary
+- one‑pager
+- full grant package
 
-Grant reviewers often prefer PDF versions for offline review.
+These files are used directly in submissions.
 
 ---
 
 ### **misc/**
-Contains additional supporting materials:
-- reference documents,
-- drafts,
-- notes,
-- supplementary assets.
+Contains supporting materials:
+- references
+- drafts
+- notes
+- early diagrams
+
+Used internally during planning and documentation.
 
 ---
 
-## 📄 License
+## Purpose of This Directory
 
-All attachments are provided under the MIT License unless stated otherwise.
+The `attachments/` folder exists to:
+
+- keep all visual assets in one place  
+- ensure consistency across all documents  
+- simplify grant submissions  
+- support pitch deck generation  
+- provide a clean structure for contributors and reviewers  
+- maintain a professional, enterprise‑grade documentation ecosystem  
+
+It is a **core component** of the SeedTools documentation and funding workflow.
+
+---
+
+## Usage
+
+You can reference assets from this folder in:
+
+- README files  
+- documentation in `/docs/`  
+- pitch deck exports  
+- grant submissions  
+- marketing materials  
+- internal planning documents  
+
+All assets are version‑controlled and updated as the project evolves.
+
+```
 
 ---
