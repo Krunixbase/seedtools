@@ -6,7 +6,10 @@
 [![License](https://img.shields.io/badge/license-MIT-lightgrey)]()
 [![Python](https://img.shields.io/badge/python-3.10%2B-yellow)]()
 
-# <img src="docs/assets/seedtools-icon.png" width="32" /> SeedTools Suite
+<p align="center">
+  <img src="attachments/branding/icon/seedtools-icon.png" width="120" />
+</p>
+
 
 SeedTools is an offline, deterministic toolkit for Bitcoin seed recovery, entropy analysis,  
 forensics, NGO verification workflows, and compliance automation.  
