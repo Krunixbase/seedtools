@@ -1,5 +1,3 @@
-# src/core/eth_core.py
-
 import hashlib
 
 class ETHCore:
