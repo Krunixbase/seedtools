@@ -68,6 +68,7 @@ This modular design ensures offline‑first security, deterministic behavior, an
 - Entropy analysis engine
 - Taproot forensics (future)
 - Local offline storage (optional)
+```
 
 ---
 
