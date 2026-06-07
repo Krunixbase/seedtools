@@ -7,8 +7,22 @@
 [![Python](https://img.shields.io/badge/python-3.10%2B-yellow)]()
 
 <p align="center">
-  <img src="attachments/branding/icon/seedtools-icon.png" width="120" />
+  <img src="docs/assets/seedtools-logo.png" width="220" alt="SeedTools Logo"/>
 </p>
+
+<h1 align="center">SeedTools Suite</h1>
+
+<p align="center">
+  Offline • Deterministic • Secure • Forensics & Compliance Toolkit
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/status-active-brightgreen" />
+  <img src="https://img.shields.io/badge/security-offline%20first-blue" />
+  <img src="https://img.shields.io/badge/license-MIT-lightgrey" />
+  <img src="https://img.shields.io/badge/python-3.10%2B-yellow" />
+</p>
+
 
 
 SeedTools is an offline, deterministic toolkit for Bitcoin seed recovery, entropy analysis,  
