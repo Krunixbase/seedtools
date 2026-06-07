@@ -1,18 +1,18 @@
 ```
 
-====================================================================+
-|                        Compliance Suite (SeedTools)                |
++====================================================================+
+|                        SeedTools Compliance Suite                  |
 +====================================================================+
 
-                         [ USER INTERFACES ]
+                           [ USER INTERFACES ]
 +--------------------------------------------------------------------+
-| - CLI tools                                                        |
+| - CLI Tools                                                        |
 | - Desktop GUI (planned)                                            |
-| - Guided audits / wizards                                          |
+| - Guided Compliance Wizards                                        |
 +-------------------------------+------------------------------------+
                                 |
                                 v
-                     [ APPLICATION LAYER (SUITE) ]
+                     [ COMPLIANCE APPLICATION LAYER ]
 +--------------------------------------------------------------------+
 |  GDPR Evidence Validator                                           |
 |  SOC2 Evidence Validator                                           |
@@ -22,27 +22,30 @@
 +-------------------------------+------------------------------------+
                                 |
                                 v
-                        [ VALIDATION LAYER ]
+                         [ VALIDATION FRAMEWORK ]
 +--------------------------------------------------------------------+
-| - Rulesets per standard (GDPR, SOC2, IAM, licensing)               |
+| - Rule sets per standard (GDPR, SOC2, IAM, Licensing)              |
 | - Evidence schemas (logs, configs, policies, keys)                 |
-| - Consistency checks & cross‑mapping                               |
+| - Cross‑mapping & consistency checks                               |
+| - Risk scoring & classification                                    |
 +-------------------------------+------------------------------------+
                                 |
                                 v
-                         [ EVIDENCE LAYER ]
+                         [ EVIDENCE PROCESSING ]
 +--------------------------------------------------------------------+
-| - Parsers for files, configs, logs (offline)                       |
-| - Normalization of formats and fields                              |
-| - Integrity checks (no tampering)                                  |
+| - File parsers (JSON, YAML, logs, configs)                         |
+| - Normalization of fields & formats                                |
+| - Integrity checks (tamper detection)                              |
+| - Offline‑only processing                                          |
 +-------------------------------+------------------------------------+
                                 |
                                 v
-                         [ STORAGE & EXPORT ]
+                         [ STORAGE & EXPORT LAYER ]
 +--------------------------------------------------------------------+
-| - Local cache of parsed evidence                                   |
-| - Offline compliance reports (PDF/Markdown)                        |
+| - Local encrypted evidence cache                                   |
 | - Deterministic audit trail                                        |
+| - Offline compliance reports (PDF/Markdown)                        |
+| - Versioned schema (tool version, rule version)                    |
 +--------------------------------------------------------------------+
-
+                          
 ```
