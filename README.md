@@ -1,10 +1,3 @@
-# 🚀 SeedTools Suite  
-**Offline • Deterministic • Secure • Forensics & Compliance Toolkit**
-
-[![Status](https://img.shields.io/badge/status-active-brightgreen)]()
-[![Security](https://img.shields.io/badge/security-offline%20first-blue)]()
-[![License](https://img.shields.io/badge/license-MIT-lightgrey)]()
-[![Python](https://img.shields.io/badge/python-3.10%2B-yellow)]()
 
 <p align="center">
   <img src="docs/assets/seedtools-logo.png" width="220" alt="SeedTools Logo"/>
