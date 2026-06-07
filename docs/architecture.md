@@ -1,8 +1,5 @@
-# **🧩 SeedTools Architecture (High‑Level)**
 
-Below is a clear ASCII diagram showing how SeedTools is organized internally — from the GUI layer down to the cryptographic core.
-
-```text
+```
 +------------------------------------------------------------+
 |                        SeedTools Suite                     |
 +-----------------------------+------------------------------+
@@ -32,4 +29,3 @@ Below is a clear ASCII diagram showing how SeedTools is organized internally —
 +------------------------------------------------------------+
 ```
 
----
