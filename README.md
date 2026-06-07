@@ -94,6 +94,5 @@ SeedTools Suite is actively applying for open‑source and human‑rights‑focu
 
 - Email: `krunixbase@gmail.com`  
 - Repository: `https://github.com/Krunixbase/seedtools`
-```
 
 ---
