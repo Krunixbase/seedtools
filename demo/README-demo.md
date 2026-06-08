@@ -95,7 +95,7 @@ SeedTools works deterministically for multiple seeds and multiple standards.
 
 ## Related Documentation
 
-- **[Standard Demo Pack](README-demo.md)** — basic deterministic tests, BTC/ETH generation, verification, scanning  
-- **[Extra Demo Pack](README-seedtools-extra-demo.md)** — advanced scenarios, high indexes, Taproot, extreme path scans
+- **[Standard Demo Pack](demo/README-demo.md)** — basic deterministic tests, BTC/ETH generation, verification, scanning  
+- **[Extra Demo Pack](demo/README-seedtools-extra-demo.md)** — advanced scenarios, high indexes, Taproot, extreme path scans
 
 ---
