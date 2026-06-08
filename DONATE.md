@@ -1,10 +1,3 @@
-Jasne, Szefie Andrzej — poniżej masz **gotowy, profesjonalny plik `DONATE.md`**, idealny do repo SeedTools.  
-Zawiera jasną strukturę, przejrzystość i minimalizm, którego oczekują projekty open‑source z obszaru security.
-
-Wstawiłem placeholder na adres BTC — podmień go, gdy będziesz gotowy.
-
----
-
 # ❤️ **DONATE.md — Support SeedTools Development**
 
 SeedTools Suite is an offline, deterministic, open‑source security tool designed for high‑risk and regulated environments.  
