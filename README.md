@@ -120,7 +120,7 @@ Wstawiłem placeholder na adres BTC — podmienisz, gdy będziesz gotowy.
 
 ---
 
-## **10 ❤️ Donate
+## **10. Donate**
 
 If you find SeedTools useful and want to support its development, security research, and maintenance, you can donate BTC.
 
