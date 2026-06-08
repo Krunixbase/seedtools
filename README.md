@@ -13,14 +13,21 @@
   <img src="https://img.shields.io/badge/security-offline%20first-blue" />
   <img src="https://img.shields.io/badge/license-MIT-lightgrey" />
   <img src="https://img.shields.io/badge/python-3.10%2B-yellow" />
-  <a href="docs/DONATE.md">
+
+  <!-- Donate badge (links to existing file in root) -->
+  <a href="DONATE.md">
     <img src="https://img.shields.io/badge/Donate-BTC-black?logo=bitcoin&logoColor=white" />
   </a>
+
+  <!-- Explorer badge -->
   <a href="https://mempool.space/address/bc1qj2gwhsraad4stznukpp9my764nggmkjea84hd2">
     <img src="https://img.shields.io/badge/Explorer-mempool.space-orange?logo=bitcoin&logoColor=white" />
   </a>
 </p>
 
+SeedTools is an offline, deterministic toolkit for Bitcoin seed recovery, entropy analysis,  
+forensics, NGO verification workflows, and compliance automation.  
+Designed for high‑risk users, journalists, activists, and organizations operating in adversarial environments.
 
 ---
 
