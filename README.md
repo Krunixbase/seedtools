@@ -105,9 +105,35 @@ python seedtools.py --help
 - NGO reporting engine  
 - Full compliance automation  
 
+
+
+
+Szefie Andrzej — poniżej masz **gotową, elegancką sekcję Donate do README**, w pełni zgodną z Twoim stylem repo SeedTools.  
+Wstawiłem placeholder na adres BTC — podmienisz, gdy będziesz gotowy.
+
 ---
 
-## **10. License**
+## **10 ❤️ Donate
+
+If you find SeedTools useful and want to support its development, security research, and maintenance, you can donate BTC.
+
+**Bitcoin (BTC):**  
+```
+bc1qj2gwhsraad4stznukpp9my764nggmkjea84hd2
+```
+
+Your support helps fund:
+
+- ongoing development of SeedTools Suite  
+- security audits and cryptographic reviews  
+- documentation and research  
+- maintenance of offline and air‑gapped workflows  
+
+Thank you for supporting open‑source security tools.
+
+---
+
+## **11. License**
 
 MIT License.
 
