@@ -1,3 +1,7 @@
+> 📎 **Related:**  
+> For basic deterministic tests and standard address generation, see  
+> **[Demo Pack — Standard Tests](README-demo.md)**.
+
 # **📸 Extra Demo — Advanced Test Cases (SeedTools 2.0)**
 
 This extended demo demonstrates SeedTools 2.0 in advanced scenarios:
@@ -56,3 +60,9 @@ SeedTools maintains full determinism and consistency even with extreme input dat
 
 ---
 
+## Related Documentation
+
+- **[Standard Demo Pack](README-demo.md)** — basic deterministic tests, BTC/ETH generation, verification, scanning  
+- **[Extra Demo Pack](README-seedtools-extra-demo.md)** — advanced scenarios, high indexes, Taproot, extreme path scans
+
+---
