@@ -50,7 +50,7 @@ Shows:
 - Validate Address → **Valid: True**
 
 **Conclusion:**
-Taroot support is working correctly.
+Taproot support is working correctly.
 
 ---
 
