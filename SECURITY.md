@@ -69,7 +69,7 @@ If you discover a security issue, please report it privately.
 Send an email to:
 
 ```
-security@seedtools.dev
+krunixbase@gmail.com
 ```
 
 Include:
