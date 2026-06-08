@@ -38,7 +38,7 @@ Shows:
 - Correct detection of the address type: **p2tr**
 
 **Conclusion:**
-Taroot support works correctly even with extreme indexes.
+Taproot support works correctly even with extreme indexes.
 
 --
 
