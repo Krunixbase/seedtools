@@ -1,31 +1,43 @@
+### SeedTools Suite — ASCII architecture diagram
 
 ```
-+------------------------------------------------------------+
-|                        SeedTools Suite                     |
-+-----------------------------+------------------------------+
-|         GUI LAYER           |          INTERFACES          |
-|-----------------------------+------------------------------|
-| - Desktop App (planned)     | - CLI tools                  |
-| - Wizards / presets         | - Demo workflows             |
-+-----------------------------+------------------------------+
+                         +----------------------+
+                         |   SeedTools Suite    |
+                         |  (Ecosystem View)    |
+                         +----------+-----------+
+                                    |
+          +-------------------------+-------------------------+
+          |                         |                         |
+          v                         v                         v
++------------------+      +------------------+      +------------------+
+|  SeedTools Core  |      |  SeedTools Utils |      |  SeedTools GUI   |
+|  (Crypto Engine) |      | (Utility Layer)  |      | (UI Framework)   |
++---------+--------+      +---------+--------+      +---------+--------+
+          ^                         ^                         ^
+          |                         |                         |
+          |                         |                         |
+          |                         |                         |
+          |                 +-------+--------+                |
+          |                 |  SeedTools CLI |                |
+          |                 | (CLI Engine)   |                |
+          |                 +-------+--------+                |
+          |                         ^                         |
+          |                         |                         |
+          |                         |                         |
+          |          +--------------+--------------+          |
+          |          |                             |          |
+          v          v                             v          v
++----------------+  +----------------+   +----------------+  +----------------+
+| Recovery Tool  |  | Forensics Tool |   | Address Scanner|  | Entropy Insp. |
++----------------+  +----------------+   +----------------+  +----------------+
+          ^                    ^                    ^                 ^
+          |                    |                    |                 |
+          +--------------------+--------------------+-----------------+
+                               |
+                               v
+                      +--------------------+
+                      | SeedTools Desktop  |
+                      |  & Suite Launcher  |
+                      +--------------------+
 
-+------------------------------------------------------------+
-|                     APPLICATION LAYER                      |
-+------------------------------------------------------------+
-| - SeedService            | deterministic recovery engine   |
-| - EntropyService         | entropy checks & diagnostics    |
-| - PathExplorer           | BIP32/44/49/84/86/Taproot       |
-| - Scanner                | address / UTXO scanning         |
-| - Reports                | NGO / audit reports (planned)   |
-+------------------------------------------------------------+
-
-+------------------------------------------------------------+
-|                         CORE LAYER                         |
-+------------------------------------------------------------+
-| - Crypto Core            | key derivation, BIP logic       |
-| - Entropy Engine         | randomness analysis             |
-| - Forensics Core         | Taproot, multi‑wallet (future)  |
-| - Storage Engine*        | offline local data handling     |
-+------------------------------------------------------------+
 ```
-
