@@ -1,4 +1,4 @@
-# 📘 **Threat Model — SeedTools Suite (English Version)**
+# 📘 **Threat Model — SeedTools Suite**
 
 SeedTools Suite operates in high‑risk, regulated, and offline environments.  
 The threat model assumes adversaries with significant capabilities, including malware, physical access, and supply‑chain compromise.
