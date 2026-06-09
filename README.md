@@ -51,15 +51,23 @@ Designed for high‑risk users, journalists, activists, and organizations operat
 
 # 2. 🏗 Architecture
 
+SeedTools Suite includes a complete architecture documentation set covering:
+
 - System Architecture  
 - Module Map  
 - Data Flow Diagram  
-- Security Model  
+- Trust Boundaries  
+- Architecture Diagrams  
 
-Architecture diagrams are located in:
+All architecture documentation is located in:
 
 ```
 docs/architecture/
+ ├── system-architecture.md
+ ├── modules.md
+ ├── data-flow.md
+ ├── trust-boundaries.md
+ └── diagrams.md
 ```
 
 ---
@@ -195,6 +203,7 @@ SeedTools includes deterministic, offline‑safe demos illustrating how the tool
 
 - **[Basic Demo](demo/README-demo.md)** — core examples covering mnemonic → entropy → seed → address derivation.
 - **[Advanced Demo](demo/README-seedtools-extra-demo.md)** — extended workflows including Taproot, Ethereum, and multi‑path derivations.
+ 
 
 Demo files:
 
