@@ -3,8 +3,6 @@
 ## **Requested Amount**
 **15 000 USD**
 
-Kwota dopasowana do typowych grantów HRF (5k–25k USD), z naciskiem na funkcje wspierające aktywistów i dziennikarzy.
-
 ---
 
 # **1. Budget Overview**
