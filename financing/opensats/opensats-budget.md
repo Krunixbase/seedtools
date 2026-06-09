@@ -3,8 +3,6 @@
 ## **Requested Amount**
 **20 000 USD**
 
-Kwota dopasowana do typowych mini‑grantów OpenSats (10k–25k USD).
-
 ---
 
 # **1. Budget Overview**
