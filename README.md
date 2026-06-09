@@ -144,7 +144,29 @@ Thank you for supporting open‑source security tools.
 
 ---
 
-## **11. License**
+## 11. Demo
+
+SeedTools includes a set of deterministic, offline‑safe demos that illustrate how the toolkit works in practice.
+
+### Available demos
+
+- **[Basic Demo](demo/README-demo.md)** — core examples covering mnemonic → entropy → seed → address derivation.
+- **[Advanced Demo](demo/README-seedtools-extra-demo.md)** — extended workflows including Taproot, Ethereum, and multi‑path derivations.
+
+
+Demo files are located in:
+
+```
+demo/
+ ├── README-demo.md
+ └── README-seedtools-extra-demo.md
+```
+
+These demos are designed to be deterministic, reproducible, and safe for air‑gapped environments.
+
+---
+
+## **12. License**
 
 MIT License.
 
