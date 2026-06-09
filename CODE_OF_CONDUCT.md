@@ -74,7 +74,7 @@ This Code of Conduct applies to:
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to:
 
-**security@seedtools.org**  
+**krunixbase@gmail.com**  
 (placeholder — replace with the final contact when ready)
 
 All complaints will be reviewed and investigated promptly and fairly.
