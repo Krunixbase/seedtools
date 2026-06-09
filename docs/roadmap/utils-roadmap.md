@@ -1,6 +1,6 @@
 # 🧭 **SeedTools Utils — Roadmap (12‑Month Plan)**
 
-SeedTools Utils (`seedtools_utils/`) is the shared deterministic utility layer used across Core, CLI, GUI, and all SeedTools tools.  
+SeedTools Utils is the shared deterministic utility layer used across Core, CLI, GUI, and all SeedTools tools.  
 It provides validation, encoding, formatting, hashing, error handling, and deterministic helper functions.
 
 This roadmap defines the development plan for the next 3, 6, and 12 months.
