@@ -13,21 +13,23 @@
   <img src="https://img.shields.io/badge/security-offline%20first-blue" />
   <img src="https://img.shields.io/badge/license-MIT-lightgrey" />
   <img src="https://img.shields.io/badge/python-3.10%2B-yellow" />
-
-  <!-- Donate badge (links to existing file in root) -->
   <a href="DONATE.md">
     <img src="https://img.shields.io/badge/Donate-BTC-black?logo=bitcoin&logoColor=white" />
   </a>
-
-  <!-- Explorer badge -->
   <a href="https://mempool.space/address/bc1qj2gwhsraad4stznukpp9my764nggmkjea84hd2">
     <img src="https://img.shields.io/badge/Explorer-mempool.space-orange?logo=bitcoin&logoColor=white" />
   </a>
 </p>
 
-SeedTools is an offline, deterministic toolkit for Bitcoin seed recovery, entropy analysis,  
-forensics, NGO verification workflows, and compliance automation.  
-Designed for high‑risk users, journalists, activists, and organizations operating in adversarial environments.
+SeedTools Suite is an **offline, deterministic security toolkit** for:
+
+- Bitcoin seed recovery  
+- entropy analysis  
+- crypto forensics  
+- NGO verification workflows  
+- compliance automation  
+
+Designed for **high‑risk users**, journalists, activists, and organizations operating in **adversarial environments**.
 
 ---
 
@@ -50,12 +52,16 @@ Designed for high‑risk users, journalists, activists, and organizations operat
 - **Data Flow Diagram**  
 - **Security Model**  
 
+*(Diagrams available in `docs/architecture/`)*
+
 ---
 
 ## **3. Recovery Pipeline**
 
 - **Recovery Pipeline**  
 - **Audit Trail**  
+
+*(See `docs/recovery/` for full workflow diagrams.)*
 
 ---
 
@@ -64,13 +70,17 @@ Designed for high‑risk users, journalists, activists, and organizations operat
 - **NGO Workflow**  
 - **NGO Compliance Pipeline**  
 
+*(See `docs/ngo/` for detailed process documentation.)*
+
 ---
 
 ## **5. Compliance Suite**
 
 - **Compliance Suite Architecture**  
-- **Compliance Rules Engine**  
+- **Rules Engine**  
 - **Compliance Diagram**  
+
+*(Located in `docs/compliance/`.)*
 
 ---
 
@@ -112,19 +122,13 @@ python seedtools.py --help
 - NGO reporting engine  
 - Full compliance automation  
 
-
-
-
-Szefie Andrzej — poniżej masz **gotową, elegancką sekcję Donate do README**, w pełni zgodną z Twoim stylem repo SeedTools.  
-Wstawiłem placeholder na adres BTC — podmienisz, gdy będziesz gotowy.
-
 ---
 
 ## **10. Donate**
 
 If you find SeedTools useful and want to support its development, security research, and maintenance, you can donate BTC.
 
-**Bitcoin (BTC):**  
+**Bitcoin (BTC):**
 ```
 bc1qj2gwhsraad4stznukpp9my764nggmkjea84hd2
 ```
@@ -146,9 +150,9 @@ MIT License.
 
 ---
 
-## Contact
+## **Contact**
 
 - Email: `krunixbase@gmail.com`  
-- Repository: `https://github.com/Krunixbase/seedtools`
+- Repository: `https://github.com/Krunixbase/seedtools`  
 
 ---
