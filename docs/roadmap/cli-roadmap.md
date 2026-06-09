@@ -1,6 +1,6 @@
 # 🧭 **SeedTools CLI — Roadmap (12‑Month Plan)**
 
-SeedTools CLI (`seedtools_cli/`) is the deterministic command‑line engine powering all non‑GUI workflows in the SeedTools Suite.  
+SeedTools CLI is the deterministic command‑line engine powering all non‑GUI workflows in the SeedTools Suite.  
 It is designed for:
 
 - air‑gapped systems  
