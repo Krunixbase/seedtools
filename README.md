@@ -1,4 +1,3 @@
----
 
 <p align="center">
   <img src="docs/assets/seedtools-logo.png" width="220" alt="SeedTools Logo"/>
