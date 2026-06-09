@@ -1,6 +1,6 @@
 # 🧭 **SeedTools Core — Roadmap (12‑Month Plan)**
 
-SeedTools Core (`seedtools_core/`) is the deterministic cryptographic engine powering the entire SeedTools Suite.  
+SeedTools Core is the deterministic cryptographic engine powering the entire SeedTools Suite.  
 It implements BIP standards, entropy tools, address generation, validation logic, and deterministic workflows used across CLI, GUI, and forensics modules.
 
 This roadmap defines the development plan for the next 3, 6, and 12 months.
