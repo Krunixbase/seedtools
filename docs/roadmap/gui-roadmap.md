@@ -1,6 +1,6 @@
 # 🧭 **SeedTools GUI — Roadmap (12‑Month Plan)**
 
-SeedTools GUI (`seedtools_gui/`) is the secure, deterministic user interface framework for all desktop tools in the SeedTools Suite.  
+SeedTools GUI is the secure, deterministic user interface framework for all desktop tools in the SeedTools Suite.  
 It provides secure components, workflow orchestration, deterministic rendering, and hardened‑mode UI behavior.
 
 This roadmap defines the development plan for the next 3, 6, and 12 months.
