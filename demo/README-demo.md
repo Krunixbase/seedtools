@@ -1,7 +1,3 @@
-> 📎 **Related:**  
-> For advanced test cases (high indexes, Taproot, extreme scans), see  
-> **[Extra Demo — Advanced Test Cases](README-seedtools-extra-demo.md)**.
-
 # **SeedTools 2.0 — Demo Pack**
 Real-world testing of the SeedTools 2.0 application.
 Screenshots show address generation, verification, BIP path scanning, and address validation.
