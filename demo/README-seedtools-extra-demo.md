@@ -1,7 +1,3 @@
-> 📎 **Related:**  
-> For basic deterministic tests and standard address generation, see  
-> **[Demo Pack — Standard Tests](README-demo.md)**.
-
 # **📸 Extra Demo — Advanced Test Cases (SeedTools 2.0)**
 
 This extended demo demonstrates SeedTools 2.0 in advanced scenarios:
