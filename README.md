@@ -193,9 +193,31 @@ Your support helps fund:
 
 Thank you for supporting open‑source security tools.
 
+# 11. **Why SeedTools?**
+
+SeedTools Suite was designed as a **next generation of security tools**, combining:
+
+- deterministic cryptographic operations
+- entropy analysis and forensics
+- NGO verification workflows
+- compliance automation
+- modular enterprise architecture
+
+Why SeedTools?
+
+- **Offline-first** — works in air-gapped environments
+- **Auditable** — every step is repeatable and verifiable
+- **Modular** — easily extensible and integrated
+- **Secure** — zero telemetry, zero network, zero API
+- **Practical** — real-world use cases for NGOs, security, and compliance
+- **Professional** — documentation, whitepaper, demo, roadmap
+
+SeedTools Suite is not just another "seed tool."
+It's a **security platform**.
+
 ---
 
-# 11. 🚀 Demo
+# 12. 🚀 Demo
 
 SeedTools includes deterministic, offline‑safe demos illustrating how the toolkit works in practice.
 
@@ -217,7 +239,7 @@ These demos are deterministic, reproducible, and safe for air‑gapped environme
 
 ---
 
-# 12. 📄 License
+# 13. 📄 License
 
 MIT License.
 
@@ -227,19 +249,5 @@ MIT License.
 
 **Email:** krunixbase@gmail.com  
 **Repository:** [https://github.com/Krunixbase/seedtools](https://github.com/Krunixbase/seedtools)  
-
----
-
-# ℹ️ About
-
-SeedTools is an offline deterministic toolkit for:
-
-- seed recovery  
-- entropy analysis  
-- crypto forensics  
-- NGO verification workflows  
-- compliance automation  
-
-Designed for high‑risk users, journalists, activists, and organizations operating in adversarial environments.
 
 ---
