@@ -140,6 +140,5 @@ You can reference assets from this folder in:
 
 All assets are version‑controlled and updated as the project evolves.
 
-```
 
 ---
