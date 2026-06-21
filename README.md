@@ -1,4 +1,4 @@
-
+# 📘 **SeedTools Suite**  
 <p align="center">
   <img src="docs/assets/seedtools-logo.png" width="220" alt="SeedTools Logo"/>
 </p>
@@ -22,8 +22,7 @@
   </a>
 </p>
 
-# 📘 **SeedTools Suite**  
-**Offline • Deterministic • Secure • Forensics & Compliance Toolkit**
+---
 
 SeedTools Suite is an offline, deterministic security toolkit for:
 
@@ -193,26 +192,28 @@ Your support helps fund:
 
 Thank you for supporting open‑source security tools.
 
+---
+
 # 11. **Why SeedTools?**
 
 SeedTools Suite was designed as a **next generation of security tools**, combining:
 
-- deterministic cryptographic operations
-- entropy analysis and forensics
-- NGO verification workflows
-- compliance automation
-- modular enterprise architecture
+- deterministic cryptographic operations  
+- entropy analysis and forensics  
+- NGO verification workflows  
+- compliance automation  
+- modular enterprise architecture  
 
 Why SeedTools?
 
-- **Offline-first** — works in air-gapped environments
-- **Auditable** — every step is repeatable and verifiable
-- **Modular** — easily extensible and integrated
-- **Secure** — zero telemetry, zero network, zero API
-- **Practical** — real-world use cases for NGOs, security, and compliance
-- **Professional** — documentation, whitepaper, demo, roadmap
+- **Offline-first** — works in air-gapped environments  
+- **Auditable** — every step is repeatable and verifiable  
+- **Modular** — easily extensible and integrated  
+- **Secure** — zero telemetry, zero network, zero API  
+- **Practical** — real-world use cases for NGOs, security, and compliance  
+- **Professional** — documentation, whitepaper, demo, roadmap  
 
-SeedTools Suite is not just another "seed tool."
+SeedTools Suite is not just another "seed tool."  
 It's a **security platform**.
 
 ---
@@ -223,9 +224,8 @@ SeedTools includes deterministic, offline‑safe demos illustrating how the tool
 
 ### Available demos
 
-- **[Basic Demo](demo/README-demo.md)** — core examples covering mnemonic → entropy → seed → address derivation.
-- **[Advanced Demo](demo/README-seedtools-extra-demo.md)** — extended workflows including Taproot, Ethereum, and multi‑path derivations.
- 
+— core examples covering mnemonic → entropy → seed → address derivation.  
+— extended workflows including Taproot, Ethereum, and multi‑path derivations.
 
 Demo files:
 
@@ -236,6 +236,27 @@ demo/
 ```
 
 These demos are deterministic, reproducible, and safe for air‑gapped environments.
+
+---
+
+# 12.1 🎥 Demo Videos
+
+SeedTools Suite includes three short demonstration videos showing deterministic, offline‑safe workflows using **official BIP‑39 test vectors** (12, 18 and 24 words).  
+All seeds come from the public BIP‑39 specification and **have no financial value**.
+
+### ▶️ Available demo videos
+
+- **12‑word demo** — deterministic seed → seed and seed → xprv verification  
+- **18‑word demo** — demonstration on a longer seed with deterministic output validation  
+- **24‑word demo** — full deterministic demonstration using the longest test vector  
+
+Video files are stored in the repository:
+
+```
+seedtools/demo/videos/
+```
+
+These videos are compressed for GitHub (<25 MB each) and safe for offline environments.
 
 ---
 
@@ -251,3 +272,4 @@ MIT License.
 **Repository:** [https://github.com/Krunixbase/seedtools](https://github.com/Krunixbase/seedtools)  
 
 ---
+
