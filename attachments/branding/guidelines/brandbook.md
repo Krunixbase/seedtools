@@ -1,4 +1,4 @@
-📘 SeedTools Brandbook**
+📘 SeedTools Brandbook
 
 ---
 
