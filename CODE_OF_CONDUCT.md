@@ -74,8 +74,7 @@ This Code of Conduct applies to:
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to:
 
-**krunixbase@gmail.com**  
-(placeholder — replace with the final contact when ready)
+**krunixbase@gmail.com**
 
 All complaints will be reviewed and investigated promptly and fairly.
 
