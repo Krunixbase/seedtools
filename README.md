@@ -259,7 +259,74 @@ These videos are compressed for GitHub (<25 MB each) and safe for offline enviro
 
 ---
 
-# 13. 📄 License
+# 13. 🛠️ **Development Workflow**
+
+SeedTools Suite uses a structured and auditable development workflow designed for security‑critical environments, deterministic builds, and long‑term maintainability.
+
+### **Branch Structure**
+
+- **main** — stable, production‑ready branch.  
+  Contains only reviewed and tested code. All release tags (`v1.x.x`) are created from `main`.
+
+- **dev** — active development branch.  
+  All new features, improvements, and refactors are merged here before stabilization.
+
+- **release/v1.x** — release preparation branches.  
+  Used for final QA, documentation updates, version bumps, and preparing stable releases.  
+  Example: `release/v1.0`.
+
+- **hotfix/v1.x.x** — emergency patches for production.  
+  Critical fixes start from `main` and are merged back into both `main` and `dev`.
+
+---
+
+### **Workflow Overview**
+
+1. Developers create feature branches from **dev**  
+   (`feature/short-description`)
+
+2. Completed features are merged into **dev** via Pull Requests
+
+3. When preparing a release:  
+   **dev → release/v1.x**
+
+4. After stabilization and QA:  
+   **release/v1.x → main**
+
+5. A version tag is created on **main**  
+   (`v1.0.0`, `v1.1.0`, etc.)
+
+6. Hotfixes start from **main** and merge back into both **main** and **dev**
+
+---
+
+### **Branch Naming Conventions**
+
+- Feature branches:  
+  **feature/short-description**
+
+- Bugfix branches:  
+  **bugfix/issue-id-description**
+
+- Release branches:  
+  **release/vX.Y**
+
+- Hotfix branches:  
+  **hotfix/vX.Y.Z**
+
+---
+
+### **Why This Workflow?**
+
+- Ensures deterministic, stable releases  
+- Keeps production code isolated from development  
+- Supports offline, auditable security workflows  
+- Matches expectations of security‑focused grant programs  
+- Enables clean versioning and long‑term maintenance  
+
+---
+
+# 14. 📄 License
 
 MIT License.
 
