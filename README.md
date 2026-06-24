@@ -326,7 +326,160 @@ SeedTools Suite uses a structured and auditable development workflow designed fo
 
 ---
 
-# 14. 📄 License
+# 14. 🛡️ Security Model
+
+SeedTools Suite follows a strict, offline‑first security model designed for adversarial environments, high‑risk users, and deterministic cryptographic workflows.  
+The model is based on four pillars: **Isolation**, **Determinism**, **Transparency**, and **Minimal Attack Surface**.
+
+---
+
+## **1. Isolation Model**
+
+SeedTools is designed to operate in fully offline, air‑gapped environments.
+
+- No network connections  
+- No telemetry  
+- No external API calls  
+- No automatic updates  
+- All operations run locally and deterministically  
+
+This ensures that sensitive data (mnemonics, entropy, seeds, keys, compliance evidence) never leaves the device.
+
+---
+
+## **2. Deterministic Execution**
+
+All cryptographic operations follow deterministic, reproducible workflows:
+
+- BIP‑39 → entropy → seed  
+- BIP‑32/44/49/84/86 derivation  
+- Taproot deterministic paths  
+- Deterministic forensics workflows  
+- Deterministic compliance evidence generation  
+
+This allows independent verification, reproducibility, and offline audits.
+
+---
+
+## **3. Trust Boundaries**
+
+SeedTools defines clear trust boundaries across modules:
+
+- **Core cryptography** (entropy, seed, derivation)  
+- **Forensics engine** (analysis, scanning, anomaly detection)  
+- **Compliance suite** (rules engine, audit trails)  
+- **NGO workflows** (identity, document integrity, verification)  
+- **CLI / GUI** (user interaction layer)
+
+Each boundary is isolated to prevent cross‑module data leakage.
+
+Full trust boundary documentation is available in:
+
+```
+docs/architecture/trust-boundaries.md
+```
+
+---
+
+## **4. Threat Model**
+
+SeedTools assumes an adversarial environment with threats including:
+
+- Device compromise  
+- Malware / keyloggers  
+- Supply‑chain attacks  
+- Side‑channel attacks  
+- Human error  
+- Data corruption  
+- Insider threats  
+- Forensics tampering  
+
+The toolkit mitigates these threats through:
+
+- Offline execution  
+- Deterministic workflows  
+- No external dependencies  
+- Minimal code surface  
+- Reproducible builds  
+- Clear audit trails  
+
+Detailed threat model:
+
+```
+docs/security/threat-model.md
+```
+
+---
+
+## **5. Attack Surface Reduction**
+
+SeedTools minimizes attack surface by design:
+
+- No networking stack  
+- No browser engine  
+- No remote calls  
+- No dynamic imports  
+- No background services  
+- Minimal dependencies  
+- Strict module boundaries  
+
+This dramatically reduces the number of possible attack vectors.
+
+---
+
+## **6. Hardened Mode**
+
+SeedTools includes a hardened mode for high‑risk users:
+
+- Read‑only execution  
+- No file writes  
+- No logs  
+- No caching  
+- No temporary files  
+- Memory‑only operations  
+
+Documentation:
+
+```
+docs/security/hardened-mode.md
+```
+
+---
+
+## **7. Masking Layer**
+
+Sensitive data is masked at every stage:
+
+- In‑memory masking  
+- Zeroization of buffers  
+- No plaintext persistence  
+- No accidental logging  
+- No stack traces with sensitive data  
+
+Documentation:
+
+```
+docs/security/masking-layer.md
+```
+
+---
+
+## **8. Security Documentation Index**
+
+All security documentation is located in:
+
+```
+docs/security/
+ ├── security-model.md
+ ├── threat-model.md
+ ├── attack-surface.md
+ ├── hardened-mode.md
+ └── masking-layer.md
+```
+
+---
+
+# 15. 📄 License
 
 MIT License.
 
