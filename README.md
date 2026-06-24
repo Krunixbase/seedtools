@@ -479,7 +479,41 @@ docs/security/
 
 ---
 
-# 15. 📄 License
+# 🌍 15. Krunixbase Manifest  
+> An ecosystem built on truth.  
+> Systems that do not lie.  
+> Tools that never guess.
+
+Krunixbase exists because the world needs software that is **always true** — regardless of context, device, or interpretation. This is the foundation of the entire ecosystem and the reason SeedTools Suite was created.
+
+---
+
+## 🔥 15.1 Core Principles
+
+- **Truth** — results are deterministic, predictable, and verifiable.  
+- **Determinism** — the same input always produces the same output.  
+- **Transparency** — no hidden logic, no magic, no ambiguity.  
+- **Security** — simplicity, modularity, and clarity form the basis of safety.  
+- **Minimalism** — no unnecessary features, no noise, no bloat.  
+- **Authenticity** — the ecosystem was built from real needs, not marketing.  
+- **Freedom** — tools that empower the user, not control them.  
+- **Responsibility** — if a tool can help people, it must be reliable.  
+- **Human‑centric design** — technology is a means, not the goal.
+
+---
+
+## 📄 15.2 Full Manifest  
+The complete version of the Krunixbase Manifest — describing the philosophy, mission, and values of the ecosystem — is available in the Krunixbase Ecosystem repository.
+
+---
+
+## 🧭 15.3 Why the Manifest Matters  
+The Manifest defines the identity of the project.  
+It shows that SeedTools Suite is not a random collection of utilities, but a part of a larger vision — an ecosystem built on truth, determinism, and responsibility.
+
+---
+
+# 16. 📄 License
 
 MIT License.
 
