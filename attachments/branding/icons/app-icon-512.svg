@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor">
-  <rect width="512" height="512" rx="64" fill="white"/>
-  <g transform="translate(256,256) scale(0.75) translate(-256,-256)">
-    <path d="M256 64l128 74v148l-128 74-128-74V138l128-74zm0 296l128 74v148l-128 74-128-74V434l128-74zm-192-112l128 74v148l-128 74-128-74V322l128-74zm384 0l128 74v148l-128 74-128-74V322l128-74z"/>
-  </g>
-</svg>
