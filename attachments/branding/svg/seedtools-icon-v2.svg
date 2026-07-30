@@ -1,60 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="512"
-    height="512"
-    viewBox="0 0 512 512"
-    preserveAspectRatio="xMidYMid">
+    width="605.6236"
+    height="525.0376"
+    viewBox="0 0 605.6236 525.0376"
+    preserveAspectRatio="xMidYMid"
+    style="background:#0b1f3b; color:#FFFFFF">
 
   <!-- DARK BLUE BACKGROUND -->
   <rect width="100%" height="100%" fill="#0b1f3b"/>
 
-  <!-- MASTER LOGO FRAGMENT (hexagon + branches) -->
-  <g transform="translate(0,20) scale(0.065)"
-     fill="none"
-     stroke="#FFFFFF"
-     stroke-width="40"
-     stroke-linecap="round"
-     stroke-linejoin="round">
+  <!-- ICON (fragment master-logo, w tej samej pozycji) -->
+  <g transform="matrix(0.1,0,0,-0.1,-455.0264,824)"
+     fill="currentColor"
+     stroke="none">
 
-    <!-- central hexagon (extracted from master path1) -->
-    <polygon
-      points="4000,5000 4300,5170 4300,5530 4000,5700 3700,5530 3700,5170"
-      stroke="#FFFFFF"
-      stroke-width="40"
-      fill="none"/>
+    <!-- CENTRAL HEXAGON (fragment path1) -->
+    <path d="m 4000,5700 300,-170 0,-360 -300,-170 -300,170 0,360 z"/>
 
-    <!-- inner hexagon -->
-    <polygon
-      points="4000,5150 4150,5230 4150,5470 4000,5550 3850,5470 3850,5230"
-      stroke="#FFFFFF"
-      stroke-width="30"
-      fill="none"/>
+    <!-- INNER HEXAGON -->
+    <path d="m 4000,5550 150,-80 0,-240 -150,-80 -150,80 0,240 z"/>
 
-    <!-- branches + nodes (extracted from master path2) -->
-
-    <!-- top branch -->
-    <line x1="4000" y1="5000" x2="4000" y2="4500"/>
+    <!-- BRANCHES + NODES (path2 fragment) -->
+    <!-- top -->
+    <path d="m 4000,5000 0,-500"/>
     <rect x="3900" y="4400" width="200" height="200" fill="#FFFFFF"/>
 
-    <!-- left branch -->
-    <line x1="3700" y1="5170" x2="3300" y2="4950"/>
+    <!-- left -->
+    <path d="m 3700,5170 -400,-220"/>
     <rect x="3200" y="4850" width="200" height="200" fill="#FFFFFF"/>
 
-    <!-- right branch -->
-    <line x1="4300" y1="5170" x2="4700" y2="4950"/>
+    <!-- right -->
+    <path d="m 4300,5170 400,-220"/>
     <rect x="4600" y="4850" width="200" height="200" fill="#FFFFFF"/>
 
   </g>
 
   <!-- TEXT -->
   <text
-    x="50%"
-    y="480"
-    font-family="Arial, sans-serif"
-    font-size="54"
-    fill="#FFFFFF"
-    text-anchor="middle">
+      x="50%"
+      y="95%"
+      font-family="Arial, sans-serif"
+      font-size="48"
+      fill="#FFFFFF"
+      text-anchor="middle">
     SeedTools
   </text>
 
