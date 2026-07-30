@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg 
+    xmlns="http://www.w3.org/2000/svg"
+    width="512"
+    height="512"
+    viewBox="0 0 512 512"
+    preserveAspectRatio="xMidYMid">
+
+  <!-- DARK BLUE BACKGROUND -->
+  <rect width="100%" height="100%" fill="#0b1f3b"/>
+
+  <!-- ICON -->
+  <g stroke="#FFFFFF" stroke-width="14" fill="none" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- CENTRAL HEXAGON -->
+    <polygon 
+      points="256,210 286,228 286,264 256,282 226,264 226,228" 
+      fill="none" 
+      stroke="#FFFFFF" 
+      stroke-width="14"/>
+
+    <!-- INNER HEXAGON -->
+    <polygon 
+      points="256,225 271,234 271,258 256,267 241,258 241,234" 
+      fill="none" 
+      stroke="#FFFFFF" 
+      stroke-width="10"/>
+
+    <!-- TOP BRANCH -->
+    <line x1="256" y1="210" x2="256" y2="150"/>
+    <rect x="246" y="140" width="20" height="20" fill="#FFFFFF"/>
+
+    <!-- LEFT BRANCH -->
+    <line x1="226" y1="228" x2="180" y2="200"/>
+    <rect x="165" y="190" width="20" height="20" fill="#FFFFFF"/>
+
+    <!-- RIGHT BRANCH -->
+    <line x1="286" y1="228" x2="332" y2="200"/>
+    <rect x="322" y="190" width="20" height="20" fill="#FFFFFF"/>
+
+  </g>
+
+  <!-- TEXT -->
+  <text 
+    x="50%" 
+    y="460" 
+    font-family="Arial, sans-serif" 
+    font-size="54" 
+    fill="#FFFFFF" 
+    text-anchor="middle">
+    SeedTools
+  </text>
+
+</svg>
+
+
