@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg 
+<svg
     xmlns="http://www.w3.org/2000/svg"
     width="512"
     height="512"
@@ -9,41 +9,51 @@
   <!-- DARK BLUE BACKGROUND -->
   <rect width="100%" height="100%" fill="#0b1f3b"/>
 
-  <!-- ICON -->
-  <g stroke="#FFFFFF" stroke-width="12" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <!-- MASTER LOGO FRAGMENT (hexagon + branches) -->
+  <g transform="translate(0,20) scale(0.065)"
+     fill="none"
+     stroke="#FFFFFF"
+     stroke-width="40"
+     stroke-linecap="round"
+     stroke-linejoin="round">
 
-    <!-- OUTER HEXAGON (większy, jak w PNG) -->
-    <polygon 
-      points="256,190 296,213 296,259 256,282 216,259 216,213" 
+    <!-- central hexagon (extracted from master path1) -->
+    <polygon
+      points="4000,5000 4300,5170 4300,5530 4000,5700 3700,5530 3700,5170"
+      stroke="#FFFFFF"
+      stroke-width="40"
       fill="none"/>
 
-    <!-- INNER HEXAGON -->
-    <polygon 
-      points="256,205 277,217 277,255 256,267 235,255 235,217" 
-      fill="none" 
-      stroke-width="10"/>
+    <!-- inner hexagon -->
+    <polygon
+      points="4000,5150 4150,5230 4150,5470 4000,5550 3850,5470 3850,5230"
+      stroke="#FFFFFF"
+      stroke-width="30"
+      fill="none"/>
 
-    <!-- TOP BRANCH -->
-    <line x1="256" y1="190" x2="256" y2="140"/>
-    <rect x="246" y="130" width="20" height="20" fill="#FFFFFF"/>
+    <!-- branches + nodes (extracted from master path2) -->
 
-    <!-- LEFT BRANCH -->
-    <line x1="216" y1="213" x2="180" y2="190"/>
-    <rect x="170" y="180" width="20" height="20" fill="#FFFFFF"/>
+    <!-- top branch -->
+    <line x1="4000" y1="5000" x2="4000" y2="4500"/>
+    <rect x="3900" y="4400" width="200" height="200" fill="#FFFFFF"/>
 
-    <!-- RIGHT BRANCH -->
-    <line x1="296" y1="213" x2="332" y2="190"/>
-    <rect x="322" y="180" width="20" height="20" fill="#FFFFFF"/>
+    <!-- left branch -->
+    <line x1="3700" y1="5170" x2="3300" y2="4950"/>
+    <rect x="3200" y="4850" width="200" height="200" fill="#FFFFFF"/>
+
+    <!-- right branch -->
+    <line x1="4300" y1="5170" x2="4700" y2="4950"/>
+    <rect x="4600" y="4850" width="200" height="200" fill="#FFFFFF"/>
 
   </g>
 
-  <!-- TEXT (bliżej ikony, jak w PNG) -->
-  <text 
-    x="50%" 
-    y="440" 
-    font-family="Arial, sans-serif" 
-    font-size="52" 
-    fill="#FFFFFF" 
+  <!-- TEXT -->
+  <text
+    x="50%"
+    y="480"
+    font-family="Arial, sans-serif"
+    font-size="54"
+    fill="#FFFFFF"
     text-anchor="middle">
     SeedTools
   </text>
