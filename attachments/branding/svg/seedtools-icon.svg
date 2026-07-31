@@ -3,61 +3,66 @@
     <defs>
         <style>
             .bg { fill: #00126b; }
-            .icon-path { fill: none; stroke: #ffffff; stroke-width: 9; stroke-linecap: square; stroke-linejoin: miter; stroke-miterlimit: 10; }
+            .icon-path { fill: none; stroke: #ffffff; stroke-width: 9; stroke-linecap: square; stroke-linejoin: miter; }
             .text-clean { 
                 fill: #ffffff; 
                 font-family: Arial, sans-serif; 
-                font-size: 88px; 
+                font-size: 92px; 
                 font-weight: 380; 
-                letter-spacing: 0.5px;
+                letter-spacing: 1px;
             }
         </style>
     </defs>
 
     <rect class="bg" width="100%" height="100%" />
 
-    <!-- ICON (scaled down ~10%) -->
-    <g transform="translate(0, 40) scale(0.90)">
-        <polygon class="icon-path" points="400,198 462.35,234 462.35,306 400,342 337.65,306 337.65,234" />
-        <polygon class="icon-path" points="400,242 424.25,256 424.25,284 400,298 375.75,284 375.75,256" />
+    <!-- ICON (manually centered, no scale/translate) -->
+    <g>
+        <!-- Outer Hexagon -->
+        <polygon class="icon-path"
+            points="400,210 458,244 458,308 400,342 342,308 342,244" />
+
+        <!-- Inner Hexagon -->
+        <polygon class="icon-path"
+            points="400,250 422,262 422,290 400,302 378,290 378,262" />
 
         <!-- TOP SUB-TREE -->
-        <line class="icon-path" x1="400" y1="198" x2="400" y2="154" />
-        <rect class="icon-path" x="386" y="126" width="28" height="28" />
-        <line class="icon-path" x1="400" y1="126" x2="400" y2="98" />
-        <line class="icon-path" x1="320" y1="98" x2="480" y2="98" />
-        <line class="icon-path" x1="400" y1="98" x2="400" y2="70" />
-        <rect class="icon-path" x="386" y="42" width="28" height="28" />
-        <line class="icon-path" x1="320" y1="98" x2="320" y2="126" />
-        <rect class="icon-path" x="306" y="126" width="28" height="28" />
-        <line class="icon-path" x1="480" y1="98" x2="480" y2="126" />
-        <rect class="icon-path" x="466" y="126" width="28" height="28" />
+        <line class="icon-path" x1="400" y1="210" x2="400" y2="170" />
+        <rect class="icon-path" x="386" y="142" width="28" height="28" />
+        <line class="icon-path" x1="400" y1="142" x2="400" y2="118" />
+        <line class="icon-path" x1="320" y1="118" x2="480" y2="118" />
+        <line class="icon-path" x1="400" y1="118" x2="400" y2="90" />
+        <rect class="icon-path" x="386" y="62" width="28" height="28" />
+        <line class="icon-path" x1="320" y1="118" x2="320" y2="146" />
+        <rect class="icon-path" x="306" y="146" width="28" height="28" />
+        <line class="icon-path" x1="480" y1="118" x2="480" y2="146" />
+        <rect class="icon-path" x="466" y="146" width="28" height="28" />
 
         <!-- BOTTOM-LEFT SUB-TREE -->
-        <line class="icon-path" x1="337.65" y1="306" x2="254" y2="354" />
-        <rect class="icon-path" x="226" y="348" width="28" height="28" />
-        <line class="icon-path" x1="240" y1="376" x2="240" y2="410" />
-        <line class="icon-path" x1="160" y1="410" x2="320" y2="410" />
-        <line class="icon-path" x1="160" y1="410" x2="160" y2="438" />
-        <rect class="icon-path" x="146" y="438" width="28" height="28" />
-        <line class="icon-path" x1="240" y1="410" x2="240" y2="438" />
-        <rect class="icon-path" x="226" y="438" width="28" height="28" />
-        <line class="icon-path" x1="320" y1="410" x2="320" y2="438" />
-        <rect class="icon-path" x="306" y="438" width="28" height="28" />
+        <line class="icon-path" x1="342" y1="308" x2="260" y2="354" />
+        <rect class="icon-path" x="232" y="348" width="28" height="28" />
+        <line class="icon-path" x1="246" y1="376" x2="246" y2="410" />
+        <line class="icon-path" x1="166" y1="410" x2="326" y2="410" />
+        <line class="icon-path" x1="166" y1="410" x2="166" y2="438" />
+        <rect class="icon-path" x="152" y="438" width="28" height="28" />
+        <line class="icon-path" x1="246" y1="410" x2="246" y2="438" />
+        <rect class="icon-path" x="232" y="438" width="28" height="28" />
+        <line class="icon-path" x1="326" y1="410" x2="326" y2="438" />
+        <rect class="icon-path" x="312" y="438" width="28" height="28" />
 
         <!-- BOTTOM-RIGHT SUB-TREE -->
-        <line class="icon-path" x1="462.35" y1="306" x2="546" y2="354" />
-        <rect class="icon-path" x="546" y="348" width="28" height="28" />
-        <line class="icon-path" x1="560" y1="376" x2="560" y2="410" />
-        <line class="icon-path" x1="480" y1="410" x2="640" y2="410" />
-        <line class="icon-path" x1="480" y1="410" x2="480" y2="438" />
-        <rect class="icon-path" x="466" y="438" width="28" height="28" />
-        <line class="icon-path" x1="560" y1="410" x2="560" y2="438" />
-        <rect class="icon-path" x="546" y="438" width="28" height="28" />
-        <line class="icon-path" x1="640" y1="410" x2="640" y2="438" />
-        <rect class="icon-path" x="626" y="438" width="28" height="28" />
+        <line class="icon-path" x1="458" y1="308" x2="540" y2="354" />
+        <rect class="icon-path" x="540" y="348" width="28" height="28" />
+        <line class="icon-path" x1="554" y1="376" x2="554" y2="410" />
+        <line class="icon-path" x1="474" y1="410" x2="634" y2="410" />
+        <line class="icon-path" x1="474" y1="410" x2="474" y2="438" />
+        <rect class="icon-path" x="460" y="438" width="28" height="28" />
+        <line class="icon-path" x1="554" y1="410" x2="554" y2="438" />
+        <rect class="icon-path" x="540" y="438" width="28" height="28" />
+        <line class="icon-path" x1="634" y1="410" x2="634" y2="438" />
+        <rect class="icon-path" x="620" y="438" width="28" height="28" />
     </g>
 
-    <!-- CLEAN TEXT (smaller, balanced, perfect spacing) -->
-    <text class="text-clean" x="400" y="610" text-anchor="middle">SeedTools</text>
+    <!-- PERFECTLY CENTERED TEXT -->
+    <text class="text-clean" x="400" y="630" text-anchor="middle">SeedTools</text>
 </svg>
