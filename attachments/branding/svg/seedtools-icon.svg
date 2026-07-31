@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 680" width="100%" height="100%">
+    <defs>
+        <style>
+            .bg { fill: #00126b; }
+            .icon-path { fill: none; stroke: #ffffff; stroke-width: 10; stroke-linecap: square; stroke-linejoin: miter; stroke-miterlimit: 10; }
+            .text-clean {
+                fill: #ffffff;
+                font-family: Arial, sans-serif;
+                font-size: 100px;
+                font-weight: 400;
+                letter-spacing: 1px;
+            }
+        </style>
+    </defs>
+
+    <rect class="bg" width="100%" height="100%" />
+
+    <!-- ICON (slightly lowered = visually smaller) -->
+    <g transform="translate(0, 30)">
+        <polygon class="icon-path"
+            points="400,198 462.35,234 462.35,306 400,342 337.65,306 337.65,234" />
+        <polygon class="icon-path"
+            points="400,242 424.25,256 424.25,284 400,298 375.75,284 375.75,256" />
+
+        <!-- TOP SUB-TREE -->
+        <line class="icon-path" x1="400" y1="198" x2="400" y2="154" />
+        <rect class="icon-path" x="386" y="126" width="28" height="28" />
+        <line class="icon-path" x1="400" y1="126" x2="400" y2="98" />
+        <line class="icon-path" x1="320" y1="98" x2="480" y2="98" />
+        <line class="icon-path" x1="400" y1="98" x2="400" y2="70" />
+        <rect class="icon-path" x="386" y="42" width="28" height="28" />
+        <line class="icon-path" x1="320" y1="98" x2="320" y2="126" />
+        <rect class="icon-path" x="306" y="126" width="28" height="28" />
+        <line class="icon-path" x1="480" y1="98" x2="480" y2="126" />
+        <rect class="icon-path" x="466" y="126" width="28" height="28" />
+
+        <!-- BOTTOM-LEFT SUB-TREE -->
+        <line class="icon-path" x1="337.65" y1="306" x2="254" y2="354" />
+        <rect class="icon-path" x="226" y="348" width="28" height="28" />
+        <line class="icon-path" x1="240" y1="376" x2="240" y2="410" />
+        <line class="icon-path" x1="160" y1="410" x2="320" y2="410" />
+        <line class="icon-path" x1="160" y1="410" x2="160" y2="438" />
+        <rect class="icon-path" x="146" y="438" width="28" height="28" />
+        <line class="icon-path" x1="240" y1="410" x2="240" y2="438" />
+        <rect class="icon-path" x="226" y="438" width="28" height="28" />
+        <line class="icon-path" x1="320" y1="410" x2="320" y2="438" />
+        <rect class="icon-path" x="306" y="438" width="28" height="28" />
+
+        <!-- BOTTOM-RIGHT SUB-TREE -->
+        <line class="icon-path" x1="462.35" y1="306" x2="546" y2="354" />
+        <rect class="icon-path" x="546" y="348" width="28" height="28" />
+        <line class="icon-path" x1="560" y1="376" x2="560" y2="410" />
+        <line class="icon-path" x1="480" y1="410" x2="640" y2="410" />
+        <line class="icon-path" x1="480" y1="410" x2="480" y2="438" />
+        <rect class="icon-path" x="466" y="438" width="28" height="28" />
+        <line class="icon-path" x1="560" y1="410" x2="560" y2="438" />
+        <rect class="icon-path" x="546" y="438" width="28" height="28" />
+        <line class="icon-path" x1="640" y1="410" x2="640" y2="438" />
+        <rect class="icon-path" x="626" y="438" width="28" height="28" />
+    </g>
+
+    <!-- CLEAN TEXT (smaller, lower, balanced) -->
+    <text class="text-clean" x="400" y="600" text-anchor="middle">SeedTools</text>
+</svg>
