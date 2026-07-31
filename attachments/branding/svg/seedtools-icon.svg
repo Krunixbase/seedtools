@@ -8,7 +8,7 @@
             .icon-path { 
                 fill: none; 
                 stroke: #ffffff; 
-                stroke-width: 10; 
+                stroke-width: 14; 
                 stroke-linecap: square; 
                 stroke-linejoin: miter; 
             }
