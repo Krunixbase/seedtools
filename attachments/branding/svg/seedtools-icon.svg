@@ -3,22 +3,30 @@
     <defs>
         <style>
             .bg { fill: #00126b; }
-            .icon-path { fill: none; stroke: #ffffff; stroke-width: 9; stroke-linecap: square; stroke-linejoin: miter; }
 
-            /* NEW FONT — matches your original branding */
+            /* FIX: icon thinner */
+            .icon-path { 
+                fill: none; 
+                stroke: #ffffff; 
+                stroke-width: 7; 
+                stroke-linecap: square; 
+                stroke-linejoin: miter; 
+            }
+
+            /* Your chosen text style */
             .text-clean { 
-                fill: #ffffff;
-                font-family: 'Inter', 'Roboto', 'Segoe UI', sans-serif;
-                font-size: 118px;
-                font-weight: 550;
+                fill: #ffffff; 
+                font-family: 'Inter', 'Roboto', 'Segoe UI', sans-serif; 
+                font-size: 118px; 
+                font-weight: 550; 
                 letter-spacing: 1.2px;
-        }
+            }
         </style>
     </defs>
 
     <rect class="bg" width="100%" height="100%" />
 
-    <!-- ICON (centered) -->
+    <!-- ICON (centered, thinner stroke) -->
     <g>
         <polygon class="icon-path"
             points="400,210 458,244 458,308 400,342 342,308 342,244" />
@@ -60,6 +68,6 @@
         <rect class="icon-path" x="620" y="438" width="28" height="28" />
     </g>
 
-    <!-- PERFECT TEXT POSITION (higher + wider + thicker + bigger) -->
+    <!-- PERFECT TEXT -->
     <text class="text-clean" x="400" y="585" text-anchor="middle">SeedTools</text>
 </svg>
