@@ -4,12 +4,14 @@
         <style>
             .bg { fill: #00126b; }
             .icon-path { fill: none; stroke: #ffffff; stroke-width: 9; stroke-linecap: square; stroke-linejoin: miter; }
+
+            /* NEW FONT — matches your original branding */
             .text-clean { 
                 fill: #ffffff; 
-                font-family: Arial, sans-serif; 
-                font-size: 108px; 
-                font-weight: 400; 
-                letter-spacing: 1.5px;
+                font-family: Inter, Roboto, sans-serif; 
+                font-size: 115px; 
+                font-weight: 500; 
+                letter-spacing: 1px;
             }
         </style>
     </defs>
@@ -58,6 +60,6 @@
         <rect class="icon-path" x="620" y="438" width="28" height="28" />
     </g>
 
-    <!-- PERFECT TEXT POSITION -->
-    <text class="text-clean" x="400" y="590" text-anchor="middle">SeedTools</text>
+    <!-- PERFECT TEXT POSITION (higher + wider + thicker + bigger) -->
+    <text class="text-clean" x="400" y="585" text-anchor="middle">SeedTools</text>
 </svg>
