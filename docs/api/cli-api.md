@@ -251,14 +251,11 @@ The CLI test suite will include:
 
 # 12. 📚 Related Documentation
 
-- **Core API**  
-- **Utils API**  
-- **GUI API**  
-- **CLI Roadmap**  
-- **Security Guide**  
+- **[Core API](../api/core-api.md)**  
+- **[Utils API](../api/utils-api.md)**  
+- **[GUI API](../api/gui-api.md)**  
+- **[CLI Roadmap](../roadmap/cli-roadmap.md)**   
 
 ---
 
 - **docs/api/index.md** (API table of contents)
-
-Daj tylko sygnał.
