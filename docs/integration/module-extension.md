@@ -22,4 +22,4 @@ Modules can be extended using the Enterprise SDK.
 
 ## 3. Related Docs
 
-- **[Deployment](ca://s?q=Explain_Deployment)**  
+- **[Deployment](../integration/deployment.md)**  
