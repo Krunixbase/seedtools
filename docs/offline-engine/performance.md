@@ -32,4 +32,4 @@ SeedTools Suite is optimized for offline, deterministic workloads.
 
 ## 4. Related Docs
 
-- **[Deterministic Execution](ca://s?q=Kontynuuj_Deterministic_Execution)**  
+- **[Deterministic Execution](../docs/offline-engine/deterministic-execution.md)**  
