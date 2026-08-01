@@ -24,4 +24,4 @@ SeedTools Suite uses a cloudless, offline-first compliance model.
 
 ## 3. Related Docs
 
-- **[GDPR](ca://s?q=Kontynuuj_GDPR)**  
+- **[GDPR](../compliance/gdpr.md)**  
