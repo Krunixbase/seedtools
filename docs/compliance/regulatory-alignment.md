@@ -23,4 +23,4 @@ SeedTools Suite is designed for regulated environments.
 
 ## 3. Related Docs
 
-- **[ISO 27001](ca://s?q=Explain_ISO_27001)**  
+- **[ISO 27001](../compliance/iso-27001.md)**  
