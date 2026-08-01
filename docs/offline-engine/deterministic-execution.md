@@ -31,7 +31,7 @@ Input → Validation → Core Engine → Audit Engine → Output
 
 ## 4. Related Docs
 
-- **Rendering Engine**  
+- **[Rendering Engine](../offline-engine/rendering-engine.md)**  
 - **Entropy Model**  
 - **Security Model**  
 
