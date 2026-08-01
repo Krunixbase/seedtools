@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
 
-  <!-- TŁO: jasny gradient -->
   <defs>
     <linearGradient id="light-bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="100%" stop-color="#e8fdf3"/>
+      <stop offset="0%" stop-color="#f0fff5"/>
+      <stop offset="100%" stop-color="#ddf7e8"/>
     </linearGradient>
   </defs>
+
   <rect width="1600" height="900" fill="url(#light-bg)"/>
 
-  <!-- GLOW -->
-  <circle cx="800" cy="450" r="300" fill="#66ffcc" opacity="0.25"/>
+  <circle cx="800" cy="450" r="300" fill="#ddf7e8"/>
 
-  <!-- HEXAGON OUTLINE -->
   <polygon
     points="800,200 1040,330 1040,570 800,700 560,570 560,330"
     fill="none"
@@ -22,7 +20,6 @@
     stroke-linejoin="round"
   />
 
-  <!-- SYMBOL SEEDTOOLS -->
   <g fill="none" stroke="#ffffff" stroke-width="12" stroke-linecap="square" stroke-linejoin="miter">
     <polygon points="800,360 858,394 858,458 800,492 742,458 742,394" />
     <polygon points="800,400 822,412 822,440 800,452 778,440 778,412" />
@@ -52,7 +49,7 @@
     <line x1="858" y1="458" x2="940" y2="504" />
     <rect x="940" y="498" width="28" height="28" />
     <line x1="954" y1="526" x2="954" y2="560" />
-    <line x1="874" y1="560" x2="1034" y1="560" />
+    <line x1="874" y1="560" x2="1034" y2="560" />
     <line x1="874" y1="560" x2="874" y2="588" />
     <rect x="860" y="588" width="28" height="28" />
     <line x1="954" y1="560" x2="954" y2="588" />
