@@ -22,4 +22,4 @@ SeedTools Suite supports offline, cloudless deployment.
 
 ## 3. Related Docs
 
-- **[Module Extension](ca://s?q=Explain_Module_Extension)**  
+- **[Module Extension](../integration/module-extension.md)**  
