@@ -31,8 +31,8 @@ Operation → Event Capture → Hashing → Integrity Chain → Export
 
 ## 4. Related Docs
 
-- **Forensic Logging**  
-- **Integrity Chain**  
+- **[Forensic Logging](../audit/forensic-logging.md)**  
+- **[Integrity Chain](../audit/integrity-chain.md)**  
 
 
 ---
