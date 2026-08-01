@@ -22,6 +22,6 @@ Audit logs can be exported offline in deterministic formats.
 
 ## 3. Related Docs
 
-- **Integrity Chain**  
+- **[Integrity Chain](../audit/integrity-chain.md)**  
 
 ---
