@@ -22,6 +22,6 @@ Event N Hash + Event N-1 Hash → Chain Hash
 
 ## 3. Related Docs
 
-- **Audit Engine**  
+- **[Audit Engine](../audit/audit-engine.md)**  
 
 ---
