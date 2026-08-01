@@ -15,4 +15,4 @@ The Enterprise SDK (2027) enables offline integration with SeedTools modules.
 
 ## 2. Related Docs
 
-- **[API Reference](../integration/api-rdference.md)**  
+- **[API Reference](../integration/api-reference.md)**  
