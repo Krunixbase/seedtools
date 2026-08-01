@@ -24,4 +24,4 @@ This document defines the offline API for integrators.
 
 ## 3. Related Docs
 
-- **[SDK Overview](ca://s?q=Kontynuuj_SDK_Overview)**  
+- **[SDK Overview](../integration/sdk-overview.md)**  
