@@ -26,4 +26,4 @@ SeedTools Suite is GDPR-ready by design.
 
 ## 3. Related Docs
 
-- **[Offline Compliance Model](ca://s?q=Kontynuuj_GDPR)**  
+- **[Offline Compliance Model](../compliance/offline-compliance-model.md)**  
