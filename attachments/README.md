@@ -23,9 +23,30 @@ attachments/
 │   ├── diagrams/
 │   └── exports/
 ├── branding/
-│   ├── logo/
-│   ├── colors/
-│   └── typography/
+│   readme-branding.md
+│   colors.md
+│   typography.md
+├── guidelines/
+│       brandbook.md
+├── svg/
+│       seedtools-logo-master.svg
+│       seedtools-logo-mono.svg
+│       seedtools-logo-dark.svg
+│       seedtools-logo-light.svg
+│       seedtools-logo-tagline.svg
+│       seedtools-icon.svg
+├── png/
+│       seedtools-logo-mono.png
+│       seedtools-logo-dark.png
+│       seedtools-logo-light.png
+│       seedtools-logo-tagline.png
+│       seedtools-icon-128.png
+│       seedtools-icon-256.png
+│       seedtools-icon-512.png
+│       seedtools-icon-1024.png
+├── splash/
+│        splash-dark.png
+│        splash-light.png
 ├── diagrams/
 │   ├── architecture/
 │   ├── data-flow/
