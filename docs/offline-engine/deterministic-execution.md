@@ -33,6 +33,6 @@ Input → Validation → Core Engine → Audit Engine → Output
 
 - **[Rendering Engine](../offline-engine/rendering-engine.md)**  
 - **[Entropy Model](../offline-engine/entropy-model.md)**  
-- **[Security Model](../docs/security-model.md)**  
+- **[Security Model](../security-model.md)**  
 
 ---
