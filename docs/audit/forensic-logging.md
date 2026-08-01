@@ -24,4 +24,4 @@ Forensic Logging captures every operation with deterministic metadata.
 
 ## 3. Related Docs
 
-- **[Audit Engine](ca://s?q=Kontynuuj_Forensic_Logging)**  
+- **[Audit Engine](../audit/audit-engine.md))**  
