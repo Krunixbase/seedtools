@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/assets/seedtools-logo-tagline.png" width="220" alt="SeedTools Logo"/>
+  <img src="docs/assets/seedtools-logo-tagline.svg" width="220" alt="SeedTools Logo"/>
 </p>
 
 <h1 align="center">SeedTools Suite</h1>
