@@ -1,7 +1,6 @@
 <p align="center">
   <img src="docs/assets/splash-special-icon.png" width="220" alt="SeedTools Logo"/>
 </p>
-<img src="attachments/branding/svg/splash-light.svg?raw=1" width="100%">
 
 <h1 align="center">SeedTools Suite</h1>
 
