@@ -170,7 +170,7 @@ When adding new branding assets:
 
 Branding assets follow the same versioning model as SeedTools:
 
-- updates tracked in `main`  
+- updates tracked in [main](
 - changes documented in release notes  
 - splash screens updated only for major releases  
 
