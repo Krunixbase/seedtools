@@ -95,7 +95,7 @@ All assets follow the SeedTools branding rules:
 
 ## Contribution Rules
 
-When adding new files to `attachments/`:
+When adding new files to [attachments/](/attachments/):
 
 - place assets in the correct sub‑folder  
 - follow SeedTools branding guidelines  
