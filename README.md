@@ -80,7 +80,7 @@ SeedTools includes a deterministic recovery pipeline for:
 
 Full recovery workflow documentation will be added in future releases.
 
-*(Folder [recovery](../recovery/) does not exist yet — documentation will be created later.)*
+*(Folder [recovery](../docs/recovery/) does not exist yet — documentation will be created later.)*
 
 ---
 
@@ -94,7 +94,7 @@ SeedTools supports NGO verification and audit workflows, including:
 
 Detailed NGO workflow documentation will be added in future releases.
 
-*(Folder [ngo](../ngo/) does not exist yet — documentation will be created later.)*
+*(Folder [ngo](../docs/ngo/) does not exist yet — documentation will be created later.)*
 
 ---
 
@@ -103,7 +103,7 @@ Detailed NGO workflow documentation will be added in future releases.
 The Compliance Suite is fully documented and available here:
 
 
-[compliance](../compliance/)
+[compliance](../docs/compliance/)
 
 
 It includes:
