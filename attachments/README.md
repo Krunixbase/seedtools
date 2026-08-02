@@ -1,6 +1,6 @@
 # SeedTools Attachments Directory
 
-The [attachments/](/attachments/) directory contains all **supplementary assets** used across SeedTools Suite.  
+The 'attachments/' directory contains all **supplementary assets** used across SeedTools Suite.  
 These materials support documentation, branding, presentations, and communication with grant reviewers, auditors, and enterprise users.
 
 Attachments are organized into deterministic sub‑folders:
