@@ -29,9 +29,9 @@ GUI must remain:
 
 # 2. 🗂 GUI Architecture Overview
 
-- **UI Principles**  
-- **UX Guidelines**  
-- **Component Documentation**  
+- **[UI Principles](../design/ui-principles.md)**  
+- **[UX Guidelines](../design/ux-guidelines.md)**  
+- **[Component Documentation](../design/components.md)**  
 
 ---
 
@@ -180,14 +180,14 @@ Forbidden:
 
 # 7. 📚 Related Documentation
 
-- **UI Principles**  
-- **UX Guidelines**  
-- **Component Documentation**  
-- **Security Guide**  
-- **Hardened Mode**  
-- **Memory Model**  
-- **Core Roadmap**  
-- **Utils Roadmap**  
-- **CLI Roadmap**  
+- **[UI Principles](../design/ui-principles.md)**  
+- **[UX Guidelines](../design/ux-guidelines.md)**  
+- **[Component Documentation](../design/components.md)**  
+- **[Security Guide](../guides/security.md)**  
+- **[Hardened Mode](../security/hardened-mode.md)**  
+- **[Memory Model](../security/memory-model.md)**  
+- **[Core Roadmap](../roadmap/core-roadmap.md)**  
+- **[Utils Roadmap](../roadmap/utils-roadmap.md)**  
+- **[CLI Roadmap](../roadmap/cli-roadmap.md)**  
 
 ---
