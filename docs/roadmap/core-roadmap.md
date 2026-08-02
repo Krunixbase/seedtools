@@ -177,12 +177,12 @@ Forbidden:
 
 # 7. 📚 Related Documentation
 
-- **Security Guide**  
-- **Memory Model**  
-- **Hardened Mode**  
-- **Modules Documentation**  
-- **CLI Roadmap**  
-- **Utils Roadmap**  
-- **GUI Roadmap**  
+- **[Security Guide](../guides/security.md)**  
+- **[Memory Model](../security/memory-model.md)**  
+- **[Hardened Mode](../security/hardened-mode.md)**  
+- **[Modules Documentation](../modules.md)**  
+- **[CLI Roadmap](../roadmap/cli-roadmap.md)**  
+- **[Utils Roadmap](../roadmap/utils-roadmap.md)**  
+- **[GUI Roadmap](../roadmap/gui-roadmap.md)**  
 
 ---
