@@ -1,6 +1,6 @@
 # SeedTools SVG Assets
 
-The 'svg/' directory contains all **vector‑based branding assets** for SeedTools Suite.  
+The `svg/` directory contains all **vector‑based branding assets** for SeedTools Suite.  
 These files are used for:
 
 - high‑resolution UI  
