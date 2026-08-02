@@ -1,6 +1,6 @@
 # SeedTools Branding Guidelines
 
-The [guidelines/](/attachments/branding/guidelines/) directory contains all **formal branding rules** for SeedTools Suite.  
+The 'guidelines/' directory contains all **formal branding rules** for SeedTools Suite.  
 These documents define how the visual identity must be used across:
 
 - documentation  
