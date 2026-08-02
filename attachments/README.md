@@ -1,16 +1,18 @@
-# SeedTools Suite — Attachments
+# SeedTools Attachments Directory
 
-The [attachments/](../attachments/) directory contains all non‑text assets used across the SeedTools Suite ecosystem.  
-It centralizes every visual, graphical, and presentation resource required for:
+The [attachments/](/attachments/) directory contains all **supplementary assets** used across SeedTools Suite.  
+These materials support documentation, branding, presentations, and communication with grant reviewers, auditors, and enterprise users.
 
-- grant applications (OpenSats, HRF, Spiral, BTCPay)
-- pitch decks and investor materials
-- documentation and architecture diagrams
-- branding and identity
-- screenshots, UI previews, and workflow examples
-- PDF exports of funding documents and microgrants
+Attachments are organized into deterministic sub‑folders:
 
-This folder ensures that all materials are consistent, accessible, and ready for reuse across the entire project.
+- branding assets  
+- pitch decks  
+- splash screens  
+- SVG/PNG logos  
+- guidelines  
+- documentation support files  
+
+This structure ensures that all visual and presentation materials remain **consistent, offline‑safe, and neon‑driven**, matching the SeedTools identity.
 
 ---
 
@@ -18,142 +20,102 @@ This folder ensures that all materials are consistent, accessible, and ready for
 
 ```
 attachments/
-├── README.md
-│
 ├── branding/
 │   ├── colors.md
-│   ├── readme-branding.md
 │   ├── typography.md
-│   │
+│   ├── readme-branding.md
 │   ├── guidelines/
-│   │   └── brandbook.md
-│   │
 │   ├── png/
-│   │   ├── seedtools-icon-128.png
-│   │   ├── seedtools-icon-256.png
-│   │   ├── seedtools-icon-512.png
-│   │   ├── seedtools-icon-1024.png
-│   │   ├── seedtools-logo-dark.png
-│   │   ├── seedtools-logo-light.png
-│   │   ├── seedtools-logo-mono.png
-│   │   └── seedtools-logo-tagline.png
-│   │
-│   ├── splash/
-│   │   ├── splash-light.png
-│   │   └── splash-special-icon.png
-│   │
-│   └── svg/
-│       ├── seedtools-icon.svg
-│       ├── seedtools-logo-dark.svg
-│       ├── seedtools-logo-light.svg
-│       ├── seedtools-logo-master.svg
-│       ├── seedtools-logo-mono.svg
-│       ├── seedtools-logo-special.svg
-│       ├── seedtools-logo-symbol.svg
-│       ├── seedtools-logo-tagline.svg
-│       ├── splash-dark.svg
-│       └── splash-light.svg
+│   ├── svg/
+│   └── splash/
 │
-├── misc/
-│   └── README.md
-│
-├── pdf/
-│   └── README.md
-│
-├── pitch-deck/
-│   ├── README.md
-│   └── slides/
-│       ├── slide‑01‑cover.png
-│       ├── slide‑02‑problem.png
-│       ├── slide‑03‑solution.png
-│       ├── slide‑04‑product.png
-│       ├── slide‑05‑modules‑wide.png
-│       ├── slide‑06‑architecture.png
-│       └── slide‑07‑workflow.png
-│
-└── screenshots/
+└── pitch-deck/
     └── README.md
 ```
 
 ---
 
-## Folder Descriptions
+## Sub‑Folders Overview
 
-### **[branding/](../attachments/branding/)**
-Complete visual identity of SeedTools Suite:
-- official logos (dark/light/mono/icon/tagline)
-- color palette
-- typography rules
-- brandbook
-- splash screens
-- vector and raster exports  
-Used across all documentation, pitch decks, and UI materials.
+### 1. Branding  
+Location: [branding/](/attachments/branding/)
 
----
+Contains the complete SeedTools visual identity:
 
-### **[misc/](../attachments/misc/)**
-Internal supporting materials:
-- drafts  
-- references  
-- temporary notes  
-Used during planning and documentation.
+- [colors.md](/attachments/branding/colors.md)  
+- [typography.md](/attachments/branding/typography.md)  
+- [Brandbook](/attachments/branding/guidelines/brandbook.md)  
+- [png/](/attachments/branding/png/)  
+- [svg/](/attachments/branding/svg/)  
+- [splash/](/attachments/branding/splash/)  
+
+Branding is **deterministic**, **minimal**, and **enterprise‑grade**.
 
 ---
 
-### **[pdf/](../attachments/pdf/)**
-Contains all PDF exports:
-- microgrant proposals  
-- funding documents  
-- executive summaries  
-- one‑pagers  
-Used directly in grant submissions.
+### 2. Pitch Deck  
+Location: [attachments/pitch-deck/](/attachments/pitch-deck/)
+
+Contains:
+
+- presentation slides  
+- diagrams  
+- workflow illustrations  
+- grant‑ready materials  
+- SeedTools overview decks  
+
+Reference:  
+- [README pitch‑deck](/attachments/pitch-deck/README.md)
 
 ---
 
-### **[pitch-deck/](../attachments/pitch-deck)**
-Assets for the SeedTools Suite pitch deck:
-- slide PNG exports  
-- architecture diagrams  
-- workflow diagrams  
-- cover slides  
-Used in investor materials and grant applications.
+## Purpose of Attachments
 
----
+Attachments serve as the **visual and communicative backbone** of SeedTools Suite.  
+They are used in:
 
-### **[screenshots/](../attachments/screenshots/)**
-Screenshots of CLI and GUI:
-- module previews  
-- workflows  
-- examples for documentation  
-Used in README files and user guides.
-
----
-
-## Purpose of This Directory
-
-The [attachments/](../attachments/) folder exists to:
-
-- keep all visual assets in one place  
-- ensure consistency across all documents  
-- simplify grant submissions  
-- support pitch deck generation  
-- provide a clean structure for contributors and reviewers  
-- maintain a professional, enterprise‑grade documentation ecosystem  
-
-It is a **core component** of the SeedTools documentation and funding workflow.
-
----
-
-## Usage
-
-You can reference assets from this folder in:
-
-- README files  
-- documentation in [docs](../docs/)  
-- pitch deck exports  
+- documentation [docs/](/docs/)  
 - grant submissions  
+- security audits  
+- enterprise onboarding  
 - marketing materials  
-- internal planning documents  
+- UI previews  
+- splash screens  
+- GitHub social previews  
 
-All assets are version‑controlled and updated as the project evolves.
+All assets follow the SeedTools branding rules:
 
+- neon identity  
+- deterministic spacing  
+- offline‑safe rendering  
+- consistent typography  
+- strict color palette  
+
+---
+
+## Contribution Rules
+
+When adding new files to `attachments/`:
+
+- place assets in the correct sub‑folder  
+- follow SeedTools branding guidelines  
+- include both PNG + SVG when applicable  
+- maintain deterministic naming conventions  
+- avoid gradients, shadows, or stylistic noise  
+- update relevant README files  
+- keep folder structure clean and minimal  
+
+---
+
+## Related Documentation
+
+- [Branding Directory](/attachments/branding/readme-branding.md)  
+- [Color Palette](/attachments/branding/colors.md)  
+- [Typography Rules](/attachments/branding/typography.md)  
+- [Brandbook](/attachments/branding/guidelines/brandbook.md)  
+- [Splash Screens](/attachments/branding/splash/)  
+- [SVG Assets](/attachments/branding/svg/)  
+- [PNG Assets](/attachments/branding/png/)  
+- [Pitch Deck](/attachments/pitch-deck/)  
+
+---
