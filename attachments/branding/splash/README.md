@@ -1,6 +1,6 @@
 # SeedTools Splash Screens
 
-The [splash/](/attachments/branding/splash/) directory contains all **splash screen assets** used across SeedTools Suite.  
+The `splash/` directory contains all **splash screen assets** used across SeedTools Suite.  
 Splash screens define the **first visual impression** of the toolkit — clean, deterministic, neon‑driven, and offline‑safe.
 
 They are used in:
