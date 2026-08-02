@@ -57,27 +57,27 @@ branding/
 ## **Branding Components**
 
 ### **1. Colors**
-Defined in `colors.md`.  
+Defined in [colors.md](/attachments/branding/colors.md) 
 Includes the official neon palette, dark/light backgrounds, and usage rules.
 
 - Primary neon: **#00FF88**  
 - Dark background: **#00126B**  
 - Light background: **#F5F7FF**
 
-Explore: **Color Palette**
+Explore: **[Color Palette](/attachments/branding/colors.md)**
 
 ---
 
 ### **2. Typography**
-Defined in `typography.md`.  
+Defined in [typography.md](/attachments/branding/typography.md) 
 Includes font families, weights, sizing rules, and deterministic spacing.
 
-Explore: **Typography Rules**
+Explore: **[Typography Rules](/attachments/branding/typography.md)**
 
 ---
 
 ### **3. Brandbook**
-Located in `guidelines/brandbook.md`.  
+Located in [guidelines/brandbook.md](/attachments/branding/guidelines/brandbook.md)
 Contains:
 
 - logo safe‑areas  
@@ -86,7 +86,7 @@ Contains:
 - usage in UI and documentation  
 - deterministic layout rules  
 
-Explore: **Brandbook**
+Explore: **[Brandbook](/attachments/branding/guidelines/brandbook.md)**
 
 ---
 
