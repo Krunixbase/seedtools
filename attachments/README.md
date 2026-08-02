@@ -79,7 +79,7 @@ attachments/
 
 ## Folder Descriptions
 
-**[branding/](../attachments/branding/)**
+### **[branding/](../attachments/branding/)**
 Complete visual identity of SeedTools Suite:
 - official logos (dark/light/mono/icon/tagline)
 - color palette
@@ -91,7 +91,7 @@ Used across all documentation, pitch decks, and UI materials.
 
 ---
 
-**[misc/](../attachments/misc/)**
+### **[misc/](../attachments/misc/)**
 Internal supporting materials:
 - drafts  
 - references  
@@ -100,7 +100,7 @@ Used during planning and documentation.
 
 ---
 
-**[pdf/](../attachments/pdf/)**
+### **[pdf/](../attachments/pdf/)**
 Contains all PDF exports:
 - microgrant proposals  
 - funding documents  
@@ -110,7 +110,7 @@ Used directly in grant submissions.
 
 ---
 
-**[pitch-deck/](../attachments/pitch-deck)**
+### **[pitch-deck/](../attachments/pitch-deck)**
 Assets for the SeedTools Suite pitch deck:
 - slide PNG exports  
 - architecture diagrams  
@@ -120,7 +120,7 @@ Used in investor materials and grant applications.
 
 ---
 
-**[screenshots/](../attachments/screenshots/)**
+### **[screenshots/](../attachments/screenshots/)**
 Screenshots of CLI and GUI:
 - module previews  
 - workflows  
