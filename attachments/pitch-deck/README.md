@@ -1,6 +1,6 @@
 # SeedTools Pitch Deck
 
-The [attachments/pitch-deck/](/attachments/pitch-deck/) directory contains all **presentation materials** used to introduce SeedTools Suite in a clear, professional, and deterministic way.  
+The 'attachments/pitch-deck/' directory contains all **presentation materials** used to introduce SeedTools Suite in a clear, professional, and deterministic way.  
 These slides are designed for:
 
 - grant applications  
