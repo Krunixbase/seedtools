@@ -1,6 +1,6 @@
 # SeedTools PNG Assets
 
-The [png/](/attachments/branding/png/) directory contains all **raster branding assets** for SeedTools Suite.  
+The `png/` directory contains all **raster branding assets** for SeedTools Suite.  
 PNG files are optimized for:
 
 - documentation  
