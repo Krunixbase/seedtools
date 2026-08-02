@@ -18,118 +18,114 @@ This folder ensures that all materials are consistent, accessible, and ready for
 
 ```
 attachments/
-├── pitch-deck/
-│   ├── slides/
-│   ├── diagrams/
-│   └── exports/
+├── README.md
+│
 ├── branding/
-│   readme-branding.md
-│   colors.md
-│   typography.md
-├── guidelines/
-│       brandbook.md
-├── svg/
-│       seedtools-logo-master.svg
-│       seedtools-logo-mono.svg
-│       seedtools-logo-dark.svg
-│       seedtools-logo-light.svg
-│       seedtools-logo-tagline.svg
-│       seedtools-icon.svg
-├── png/
-│       seedtools-logo-mono.png
-│       seedtools-logo-dark.png
-│       seedtools-logo-light.png
-│       seedtools-logo-tagline.png
-│       seedtools-icon-128.png
-│       seedtools-icon-256.png
-│       seedtools-icon-512.png
-│       seedtools-icon-1024.png
-├── splash/
-│        splash-dark.png
-│        splash-light.png
-├── diagrams/
-│   ├── architecture/
-│   ├── data-flow/
-│   └── module-map/
-├── screenshots/
-│   ├── cli/
-│   └── desktop/
+│   ├── colors.md
+│   ├── readme-branding.md
+│   ├── typography.md
+│   │
+│   ├── guidelines/
+│   │   └── brandbook.md
+│   │
+│   ├── png/
+│   │   ├── seedtools-icon-128.png
+│   │   ├── seedtools-icon-256.png
+│   │   ├── seedtools-icon-512.png
+│   │   ├── seedtools-icon-1024.png
+│   │   ├── seedtools-logo-dark.png
+│   │   ├── seedtools-logo-light.png
+│   │   ├── seedtools-logo-mono.png
+│   │   └── seedtools-logo-tagline.png
+│   │
+│   ├── splash/
+│   │   ├── splash-light.png
+│   │   └── splash-special-icon.png
+│   │
+│   └── svg/
+│       ├── seedtools-icon.svg
+│       ├── seedtools-logo-dark.svg
+│       ├── seedtools-logo-light.svg
+│       ├── seedtools-logo-master.svg
+│       ├── seedtools-logo-mono.svg
+│       ├── seedtools-logo-special.svg
+│       ├── seedtools-logo-symbol.svg
+│       ├── seedtools-logo-tagline.svg
+│       ├── splash-dark.svg
+│       └── splash-light.svg
+│
+├── misc/
+│   └── README.md
+│
 ├── pdf/
-│   ├── microgrants/
-│   └── funding/
-└── misc/
-    ├── references/
-    └── drafts/
+│   └── README.md
+│
+├── pitch-deck/
+│   ├── README.md
+│   └── slides/
+│       ├── slide‑01‑cover.png
+│       ├── slide‑02‑problem.png
+│       ├── slide‑03‑solution.png
+│       ├── slide‑04‑product.png
+│       ├── slide‑05‑modules‑wide.png
+│       ├── slide‑06‑architecture.png
+│       └── slide‑07‑workflow.png
+│
+└── screenshots/
+    └── README.md
 ```
 
 ---
 
 ## Folder Descriptions
 
-### **pitch-deck/**
-Contains all assets used in the SeedTools Suite pitch deck:
-- slide exports (PNG/JPG)
-- diagrams included in the presentation
-- PDF exports (full, lite, HRF, OpenSats)
-- UI mockups and visual elements
-
-Used heavily in grant submissions and investor presentations.
-
----
-
 ### **branding/**
-Contains the complete visual identity of SeedTools Suite:
-- official logos (dark/light/mono/icon)
-- color palette and usage rules
-- typography guidelines
-
-Ensures consistent branding across all materials.
-
----
-
-### **diagrams/**
-Contains all technical diagrams:
-- system architecture
-- module map
-- data flow
-- recovery pipeline
-- compliance suite architecture
-- NGO workflows
-
-Used in documentation, pitch decks, and grant applications.
+Complete visual identity of SeedTools Suite:
+- official logos (dark/light/mono/icon/tagline)
+- color palette
+- typography rules
+- brandbook
+- splash screens
+- vector and raster exports  
+Used across all documentation, pitch decks, and UI materials.
 
 ---
 
-### **screenshots/**
-Contains CLI and GUI screenshots:
-- module previews
-- workflows
-- examples for documentation and manuals
-
-Used in README, user guides, and grant materials.
+### **misc/**
+Internal supporting materials:
+- drafts  
+- references  
+- temporary notes  
+Used during planning and documentation.
 
 ---
 
 ### **pdf/**
 Contains all PDF exports:
-- microgrant proposals
-- funding documents
-- executive summary
-- one‑pager
-- full grant package
-
-These files are used directly in submissions.
+- microgrant proposals  
+- funding documents  
+- executive summaries  
+- one‑pagers  
+Used directly in grant submissions.
 
 ---
 
-### **misc/**
-Contains supporting materials:
-- references
-- drafts
-- notes
-- early diagrams
+### **pitch-deck/**
+Assets for the SeedTools Suite pitch deck:
+- slide PNG exports  
+- architecture diagrams  
+- workflow diagrams  
+- cover slides  
+Used in investor materials and grant applications.
 
-Used internally during planning and documentation.
+---
+
+### **screenshots/**
+Screenshots of CLI and GUI:
+- module previews  
+- workflows  
+- examples for documentation  
+Used in README files and user guides.
 
 ---
 
@@ -161,5 +157,3 @@ You can reference assets from this folder in:
 
 All assets are version‑controlled and updated as the project evolves.
 
-
----
