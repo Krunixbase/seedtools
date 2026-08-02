@@ -38,7 +38,7 @@ attachments/
 ## Sub‑Folders Overview
 
 ### 1. Branding  
-Location: [branding/](/attachments/branding/)
+Location: 'branding/'
 
 Contains the complete SeedTools visual identity:
 
@@ -54,7 +54,7 @@ Branding is **deterministic**, **minimal**, and **enterprise‑grade**.
 ---
 
 ### 2. Pitch Deck  
-Location: [attachments/pitch-deck/](/attachments/pitch-deck/)
+Location: 'attachments/pitch-deck/'
 
 Contains:
 
@@ -95,7 +95,7 @@ All assets follow the SeedTools branding rules:
 
 ## Contribution Rules
 
-When adding new files to [attachments/](/attachments/):
+When adding new files to 'attachments/' :
 
 - place assets in the correct sub‑folder  
 - follow SeedTools branding guidelines  
