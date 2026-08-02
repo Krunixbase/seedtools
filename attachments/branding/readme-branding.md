@@ -1,198 +1,176 @@
-# 📘 **SeedTools — Branding Documentation**
+# **SeedTools Branding Directory**
 
-## 1. **Introduction**
-SeedTools is an **offline Bitcoin recovery toolkit** built around security, determinism, and clarity.  
-The visual identity reflects these values through **minimalism, structure, and technical precision**.
-
-This document defines:
-
-- visual identity  
-- logo usage rules  
-- color palette  
-- typography  
-- file structure  
-- usage guidelines  
-
----
-
-## 2. **Visual Identity**
-
-### 2.1 **Main Logo**
-The SeedTools logo consists of:
-
-- a central hexagon (security, cryptographic structure)  
-- branching deterministic paths (HD wallet derivation)  
-- square nodes (keys, addresses, data blocks)  
-- the “SeedTools” logotype  
-
-Available versions:
-
-- **Light version** (white on dark backgrounds)  
-- **Dark version** (dark blue on light backgrounds)  
-- **Monochrome version** (black, for print)  
-- **Tagline version** with *Offline Bitcoin Recovery Toolkit*
-
-Files:  
-- **seedtools-logo-light.svg**  
-- **seedtools-logo-dark.svg**  
-- **seedtools-logo-mono.svg**  
-- **seedtools-logo-tagline.svg**  
-
----
-
-### 2.2 **SeedTools Icon**
-A standalone geometric symbol representing deterministic structure and cryptographic order.
-
-Used for:
-
-- favicons  
-- GitHub avatars  
-- UI icons  
-- app icons  
-
-File:  
-- **seedtools-icon.png**  
-
----
-
-### 2.3 **Splash Screens**
-Minimalistic startup screens:
-
-- **Dark splash** — white logo on black/navy  
-- **Light splash** — dark logo on white  
-
-Files:  
-- **splash-dark.png**  
-- **splash-light.png**  
-
----
-
-## 3. **Color Palette**
-
-Reference: **colors.md**
-
-### 3.1 **Primary Colors**
-| Name | Hex | Usage |
-|------|------|--------|
-| Primary Blue | `#0A1A2F` | logotype, headers, UI |
-| Accent Blue | `#1F4FFF` | links, active states |
-
-### 3.2 **Neutral Colors**
-| Name | Hex | Usage |
-|------|------|--------|
-| White | `#FFFFFF` | backgrounds |
-| Black | `#000000` | mono logo, print |
-
-### 3.3 **Extended Palette**
-| Name | Hex | Usage |
-|------|------|--------|
-| Navy | `#0D1220` | dark splash, hero sections |
-| Soft Gray | `#E6E8EC` | dividers, subtle backgrounds |
-
----
-
-## 4. **Typography**
-
-Reference: **typography.md**
-
-### 4.1 **Primary Fonts**
-- **Inter** — UI, documentation  
-- **JetBrains Mono** — code, CLI  
-- **IBM Plex Sans** — optional headings  
-
-### 4.2 **Hierarchy**
-- H1: 32–40 px, bold  
-- H2: 24–28 px, semibold  
-- H3: 18–20 px, medium  
-- Body: 15–16 px, regular  
-- Code: JetBrains Mono, 14–15 px  
-
----
-
-## 5. **Logo Usage Guidelines**
-
-### 5.1 **Clear Space**
-Maintain padding equal to the height of the central hexagon.
-
-### 5.2 **Minimum Size**
-- Logo with text: **120 px width**  
-- Icon only: **32 px**
-
-### 5.3 **Background Rules**
-- Light logo → dark backgrounds  
-- Dark logo → light backgrounds  
-- Mono logo → print  
-
-### 5.4 **Tagline Usage**
-Use tagline in:
+The `branding/` directory contains the complete visual identity system for **SeedTools Suite**.  
+It provides all logos, icons, splash screens, colors, typography rules, and brand guidelines used across:
 
 - documentation  
-- splash screens  
-- grant materials  
+- pitch decks  
+- grant submissions  
+- UI previews  
+- marketing materials  
+- enterprise compliance documents  
 
-Avoid tagline in:
-
-- favicons  
-- small UI elements  
-- app icons  
-
----
-
-## 6. **Prohibited Modifications**
-Do **not**:
-
-- distort or stretch the logo  
-- change colors outside the palette  
-- add shadows, gradients, or effects  
-- rotate the symbol  
-- modify geometry  
-- place logo on low‑contrast backgrounds  
+Branding in SeedTools is **deterministic, neon‑driven, offline‑safe, and consistent across the entire ecosystem**.
 
 ---
 
-## 7. **Branding Folder Structure**
+## **Folder Structure**
 
 ```
 branding/
-├── logo/
-│   ├── seedtools-logo-light.svg
-│   ├── seedtools-logo-dark.svg
-│   ├── seedtools-logo-mono.svg
-│   ├── seedtools-logo-tagline.svg
-│   └── seedtools-icon.png
 ├── colors.md
+├── readme-branding.md
 ├── typography.md
+│
+├── guidelines/
+│   └── brandbook.md
+│
+├── png/
+│   ├── seedtools-icon-128.png
+│   ├── seedtools-icon-256.png
+│   ├── seedtools-icon-512.png
+│   ├── seedtools-icon-1024.png
+│   ├── seedtools-logo-dark.png
+│   ├── seedtools-logo-light.png
+│   ├── seedtools-logo-mono.png
+│   └── seedtools-logo-tagline.png
+│
 ├── splash/
-│   ├── splash-dark.png
-│   └── splash-light.png
-└── readme-branding.md
+│   ├── splash-light.png
+│   └── splash-special-icon.png
+│
+└── svg/
+    ├── seedtools-icon.svg
+    ├── seedtools-logo-dark.svg
+    ├── seedtools-logo-light.svg
+    ├── seedtools-logo-master.svg
+    ├── seedtools-logo-mono.svg
+    ├── seedtools-logo-special.svg
+    ├── seedtools-logo-symbol.svg
+    ├── seedtools-logo-tagline.svg
+    ├── splash-dark.svg
+    └── splash-light.svg
 ```
 
 ---
 
-## 8. **Brand Usage Examples**
+## **Branding Components**
 
-Reference: **Brand Usage Examples**
+### **1. Colors**
+Defined in `colors.md`.  
+Includes the official neon palette, dark/light backgrounds, and usage rules.
 
-Examples include:
+- Primary neon: **#00FF88**  
+- Dark background: **#00126B**  
+- Light background: **#F5F7FF**
 
-- documentation headers  
-- GitHub README  
-- CLI examples  
-- splash screens  
-- grant slides  
-- social media  
+Explore: **Color Palette**
+
+---
+
+### **2. Typography**
+Defined in `typography.md`.  
+Includes font families, weights, sizing rules, and deterministic spacing.
+
+Explore: **Typography Rules**
+
+---
+
+### **3. Brandbook**
+Located in `guidelines/brandbook.md`.  
+Contains:
+
+- logo safe‑areas  
+- spacing rules  
+- do/don’t examples  
+- usage in UI and documentation  
+- deterministic layout rules  
+
+Explore: **Brandbook**
+
+---
+
+### **4. Logos (PNG + SVG)**
+
+#### **PNG exports**
+Used for:
+
+- documentation  
+- pitch decks  
+- screenshots  
+- UI previews  
+
+Explore: **[PNG Logos](/attachments/branding/png)**
+
+#### **SVG exports**
+Used for:
+
+- high‑resolution scaling  
 - print materials  
+- splash screens  
+- deterministic UI rendering  
+
+Explore: **[SVG Logos](/attachments/branding/svg)**
 
 ---
 
-## 9. **License & Usage**
-Branding assets may be used exclusively for:
+### **5. Splash Screens**
+Located in [splash/](/attachments/branding/splash/)
 
-- SeedTools Suite  
-- Krunixbase repositories  
-- grant applications  
-- official documentation  
-- promotional materials related to SeedTools  
+Includes:
+
+- **splash-light.png** — light variant  
+- **splash-special-icon.png** — neon special icon splash  
+
+Explore: **[Splash Screens](/attachments/branding/splash/)**
 
 ---
+
+## **Branding Philosophy**
+
+SeedTools branding follows the same principles as the software:
+
+- **Deterministic** — consistent across all contexts  
+- **Minimal** — no noise, no clutter  
+- **Neon Identity** — clear, recognizable, modern  
+- **Offline‑safe** — no external dependencies  
+- **Enterprise‑grade** — suitable for audits, grants, and security reviews  
+
+Branding is not decoration.  
+It is **identity**, **clarity**, and **trust**.
+
+---
+
+## **Usage**
+
+You can use assets from this folder in:
+
+- documentation (`docs/`)  
+- pitch decks (`attachments/pitch-deck/`)  
+- grant submissions  
+- UI previews  
+- marketing materials  
+- compliance documents  
+
+---
+
+## **Contribution Rules**
+
+When adding new branding assets:
+
+- follow the neon palette  
+- maintain deterministic spacing  
+- include both PNG + SVG  
+- update this README if structure changes  
+- keep filenames consistent with existing naming conventions  
+
+---
+
+## **Versioning**
+
+Branding assets follow the same versioning model as SeedTools:
+
+- updates tracked in `main`  
+- changes documented in release notes  
+- splash screens updated only for major releases  
+
