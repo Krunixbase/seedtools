@@ -168,7 +168,7 @@ The CLI module is planned and documented here:
 
 Full roadmap is available here:
 
-- **[SeedTools PRO Roadmap](docs/roadmap/)**  
+- **[SeedTools PRO Roadmap](roadmap/roadmap-pro.md)**  
 
 ---
 
