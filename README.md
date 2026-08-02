@@ -80,7 +80,7 @@ SeedTools includes a deterministic recovery pipeline for:
 
 Full recovery workflow documentation will be added in future releases.
 
-*(Folder `docs/recovery/` does not exist yet — documentation will be created later.)*
+*(Folder [recovery](../recovery/) does not exist yet — documentation will be created later.)*
 
 ---
 
@@ -94,7 +94,7 @@ SeedTools supports NGO verification and audit workflows, including:
 
 Detailed NGO workflow documentation will be added in future releases.
 
-*(Folder `docs/ngo/` does not exist yet — documentation will be created later.)*
+*(Folder [ngo](../ngo/) does not exist yet — documentation will be created later.)*
 
 ---
 
@@ -102,9 +102,9 @@ Detailed NGO workflow documentation will be added in future releases.
 
 The Compliance Suite is fully documented and available here:
 
-```
-docs/compliance/
-```
+
+[compliance](../compliance/)
+
 
 It includes:
 
@@ -129,9 +129,9 @@ SeedTools Suite consists of the following modules:
 
 Module documentation is located in:
 
-```
-modules/
-```
+
+[modules](modules/)
+
 
 ---
 
@@ -153,8 +153,8 @@ python seedtools.py --help
 
 The CLI module is planned and documented here:
 
-- **CLI API**  
-- **CLI Roadmap**  
+- **[CLI API](../api/cli-api.md)**  
+- **[CLI Roadmap](../roadmap/cli-roadmap.md)**  
 
 ---
 
@@ -251,9 +251,9 @@ All seeds come from the public BIP‑39 specification and **have no financial va
 
 Video files are stored in the repository:
 
-```
-seedtools/demo/videos/
-```
+
+[Demo_Videos](demo/videos/)
+
 
 These videos are compressed for GitHub (<25 MB each) and safe for offline environments.
 
@@ -375,9 +375,9 @@ Each boundary is isolated to prevent cross‑module data leakage.
 
 Full trust boundary documentation is available in:
 
-```
-docs/architecture/trust-boundaries.md
-```
+
+[Trust_Boundaries](../architecture/trust-boundaries.md)
+
 
 ---
 
@@ -405,9 +405,9 @@ The toolkit mitigates these threats through:
 
 Detailed threat model:
 
-```
-docs/security/threat-model.md
-```
+
+[Threat_Model](../security/threat-model.md)
+
 
 ---
 
@@ -440,9 +440,9 @@ SeedTools includes a hardened mode for high‑risk users:
 
 Documentation:
 
-```
-docs/security/hardened-mode.md
-```
+
+[Hardened_Mode](../security/hardened-mode.md)
+
 
 ---
 
@@ -458,9 +458,9 @@ Sensitive data is masked at every stage:
 
 Documentation:
 
-```
-docs/security/masking-layer.md
-```
+
+[Masking_Layer](../security/masking-layer.md)
+
 
 ---
 
@@ -522,7 +522,7 @@ MIT License.
 # 📬 Contact
 
 **Email:** krunixbase@gmail.com  
-**Repository:** [https://github.com/Krunixbase/seedtools](https://github.com/Krunixbase/seedtools)  
+**Repository:** https://github.com/Krunixbase/seedtools
 
 ---
 
