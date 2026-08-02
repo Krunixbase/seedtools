@@ -1,6 +1,6 @@
 # SeedTools Suite — Attachments
 
-The `attachments/` directory contains all non‑text assets used across the SeedTools Suite ecosystem.  
+The [attachments/](../attachments/) directory contains all non‑text assets used across the SeedTools Suite ecosystem.  
 It centralizes every visual, graphical, and presentation resource required for:
 
 - grant applications (OpenSats, HRF, Spiral, BTCPay)
