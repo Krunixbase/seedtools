@@ -80,7 +80,7 @@ SeedTools includes a deterministic recovery pipeline for:
 
 Full recovery workflow documentation will be added in future releases.
 
-*(Folder [recovery](../docs/recovery/) does not exist yet — documentation will be created later.)*
+*(Folder [recovery](docs/recovery/) does not exist yet — documentation will be created later.)*
 
 ---
 
@@ -94,7 +94,7 @@ SeedTools supports NGO verification and audit workflows, including:
 
 Detailed NGO workflow documentation will be added in future releases.
 
-*(Folder [ngo](../docs/ngo/) does not exist yet — documentation will be created later.)*
+*(Folder [ngo](docs/ngo/) does not exist yet — documentation will be created later.)*
 
 ---
 
@@ -103,7 +103,7 @@ Detailed NGO workflow documentation will be added in future releases.
 The Compliance Suite is fully documented and available here:
 
 
-[compliance](../docs/compliance/)
+[compliance](docs/compliance/)
 
 
 It includes:
@@ -376,7 +376,7 @@ Each boundary is isolated to prevent cross‑module data leakage.
 Full trust boundary documentation is available in:
 
 
-[trust boundaries](../architecture/trust-boundaries.md)
+[trust boundaries](docs/rchitecture/trust-boundaries.md)
 
 
 ---
@@ -406,7 +406,7 @@ The toolkit mitigates these threats through:
 Detailed threat model:
 
 
-[threat model](../security/threat-model.md)
+[threat model](docs/security/threat-model.md)
 
 
 ---
@@ -441,7 +441,7 @@ SeedTools includes a hardened mode for high‑risk users:
 Documentation:
 
 
-[hardened mode](../security/hardened-mode.md)
+[hardened mode](docs/security/hardened-mode.md)
 
 
 ---
@@ -459,7 +459,7 @@ Sensitive data is masked at every stage:
 Documentation:
 
 
-[masking layer](../security/masking-layer.md)
+[masking layer](docs/security/masking-layer.md)
 
 
 ---
