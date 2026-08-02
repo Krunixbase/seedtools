@@ -376,7 +376,7 @@ Each boundary is isolated to prevent cross‑module data leakage.
 Full trust boundary documentation is available in:
 
 
-[trust boundaries](docs/rchitecture/trust-boundaries.md)
+[trust boundaries](docs/architecture/trust-boundaries.md)
 
 
 ---
