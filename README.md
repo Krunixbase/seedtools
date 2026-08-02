@@ -252,7 +252,7 @@ All seeds come from the public BIP‑39 specification and **have no financial va
 Video files are stored in the repository:
 
 
-[Demo_Videos](demo/videos/)
+[demo videos](demo/videos/)
 
 
 These videos are compressed for GitHub (<25 MB each) and safe for offline environments.
@@ -376,7 +376,7 @@ Each boundary is isolated to prevent cross‑module data leakage.
 Full trust boundary documentation is available in:
 
 
-[Trust_Boundaries](../architecture/trust-boundaries.md)
+[trust boundaries](../architecture/trust-boundaries.md)
 
 
 ---
@@ -406,7 +406,7 @@ The toolkit mitigates these threats through:
 Detailed threat model:
 
 
-[Threat_Model](../security/threat-model.md)
+[threat model](../security/threat-model.md)
 
 
 ---
@@ -441,7 +441,7 @@ SeedTools includes a hardened mode for high‑risk users:
 Documentation:
 
 
-[Hardened_Mode](../security/hardened-mode.md)
+[hardened mode](../security/hardened-mode.md)
 
 
 ---
@@ -459,7 +459,7 @@ Sensitive data is masked at every stage:
 Documentation:
 
 
-[Masking_Layer](../security/masking-layer.md)
+[masking layer](../security/masking-layer.md)
 
 
 ---
