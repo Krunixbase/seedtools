@@ -153,8 +153,8 @@ python seedtools.py --help
 
 The CLI module is planned and documented here:
 
-- **[CLI API](../api/cli-api.md)**  
-- **[CLI Roadmap](../roadmap/cli-roadmap.md)**  
+- **[CLI API](docs/api/cli-api.md)**  
+- **[CLI Roadmap](docs/roadmap/cli-roadmap.md)**  
 
 ---
 
@@ -168,7 +168,7 @@ The CLI module is planned and documented here:
 
 Full roadmap is available here:
 
-- **SeedTools PRO Roadmap**  
+- **[SeedTools PRO Roadmap](docs/roadmap/)**  
 
 ---
 
