@@ -29,9 +29,9 @@ Core must remain:
 
 # 2. 🗂 Core Architecture Overview
 
-- **Architecture Diagram**  
-- **Module Documentation**  
-- **Security Guide**  
+- **[Architecture Diagrams](../architecture/diagrams.md)**  
+- **[Module Documentation](../modules.md)**  
+- **[Security Guide](../guides/security.md)**  
 
 ---
 
