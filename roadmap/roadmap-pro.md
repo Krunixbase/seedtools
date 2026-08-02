@@ -72,7 +72,7 @@ This roadmap outlines the **3‑month, 6‑month, and 12‑month development pla
 
 # **🔍 Module‑Level Roadmaps**
 
-- **[Core Roadmap](../roadmap/suite-roadmap.md)**  
+- **[Core Roadmap](../roadmap/core-roadmap.md)**  
 - **[Desktop Roadmap](../roadmap/desktop-roadmap.md)**  
 - **[Path Explorer Roadmap](../roadmap/path-roadmap.md)**  
 - **[Scanner Roadmap](../roadmap/scanner-roadmap.md)**  
