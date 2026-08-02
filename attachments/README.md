@@ -131,7 +131,7 @@ Used in README files and user guides.
 
 ## Purpose of This Directory
 
-The `attachments/` folder exists to:
+The [attachments/](../attachments/) folder exists to:
 
 - keep all visual assets in one place  
 - ensure consistency across all documents  
