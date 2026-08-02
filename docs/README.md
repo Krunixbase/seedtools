@@ -1,7 +1,7 @@
 # SeedTools Documentation Index
 
 The `docs/` directory contains the complete documentation system for **SeedTools Suite**.  
-It covers architecture, modules, security model, compliance workflows, CLI/API references, and all materials needed for audits and enterprise use.
+It provides architecture, modules, security model, compliance workflows, CLI/API references, and all technical materials required for audits, enterprise onboarding, and deterministic offline usage.
 
 Documentation in SeedTools is:
 
@@ -9,6 +9,7 @@ Documentation in SeedTools is:
 - offline‑safe  
 - modular  
 - enterprise‑grade  
+- neon‑consistent  
 
 ---
 
@@ -28,11 +29,11 @@ docs/
 
 ---
 
-## 🧱 Architecture
+## 🧱 Architecture Documentation
 
-Location: `docs/architecture/`
+Location: `/docs/architecture/`
 
-Includes:
+Contains:
 
 - `system-architecture.md`  
 - `modules.md`  
@@ -40,11 +41,19 @@ Includes:
 - `trust-boundaries.md`  
 - `diagrams.md`  
 
+Architecture docs define:
+
+- module interactions  
+- deterministic workflows  
+- trust boundaries  
+- internal data flow  
+- system‑level design  
+
 ---
 
-## 🛡 Security
+## 🛡 Security Documentation
 
-Location: `docs/security/`
+Location: `/docs/security/`
 
 Includes:
 
@@ -54,11 +63,19 @@ Includes:
 - `hardened-mode.md`  
 - `masking-layer.md`  
 
+Security docs describe:
+
+- offline‑first model  
+- isolation guarantees  
+- deterministic cryptography  
+- hardened execution paths  
+- masking and zeroization rules  
+
 ---
 
 ## 📚 Compliance Suite
 
-Location: `docs/compliance/`
+Location: `/docs/compliance/`
 
 Includes:
 
@@ -67,35 +84,44 @@ Includes:
 - Compliance Diagram  
 - GDPR / SOC2 / IAM / Licensing workflows  
 
+Compliance Suite integrates with:
+
+- NGOs  
+- enterprises  
+- regulated environments  
+- audit workflows  
+
 ---
 
-## 🔄 Recovery (planned)
+## 🔄 Recovery Pipeline (Planned)
 
-Location: `docs/recovery/` *(planned)*
+Location: `/docs/recovery/` *(folder will be created later)*
 
 Will include:
 
 - mnemonic → entropy → seed → keys  
 - deterministic path exploration  
 - anomaly detection  
+- offline recovery workflows  
 
 ---
 
-## 🛡 NGO Workflows (planned)
+## 🛡 NGO Workflows (Planned)
 
-Location: `docs/ngo/` *(planned)*
+Location: `/docs/ngo/` *(folder will be created later)*
 
 Will include:
 
 - identity verification  
 - document integrity checks  
 - compliance evidence generation  
+- NGO audit workflows  
 
 ---
 
-## 🖥 CLI & API
+## 🖥 CLI & API Documentation
 
-Location: `docs/api/`
+Location: `/docs/api/`
 
 Includes:
 
@@ -104,34 +130,53 @@ Includes:
 
 Roadmap:
 
-- `docs/roadmap/cli-roadmap.md`
+- `/docs/roadmap/cli-roadmap.md`
+
+---
+
+## 🗺 Roadmap Documentation
+
+Location: `/docs/roadmap/`
+
+Includes:
+
+- CLI Roadmap  
+- GUI Roadmap *(future)*  
+- Module Roadmap *(future)*  
 
 ---
 
 ## 🖼 Documentation Assets
 
-Location: `docs/assets/`
+Location: `/docs/assets/`
 
 Contains:
 
+- splash screens  
 - diagrams  
 - icons  
-- splash visuals used in docs  
+- architecture graphics  
 
-Related visual assets:
+Branding assets come from:
 
-- [splash/](/attachments/branding/splash/)
-- [Splash Screens](/attachments/branding/splash/)
-- [attachments/pitch-deck/](/attachments/pitch-deck/)
+- [branding/](/attachments/branding/)  
+- [splash/](/attachments/branding/splash/)  
+- [Color Palette](/attachments/branding/colors.md)  
+- [Typography Rules](/attachments/branding/typography.md)  
+- [Brandbook](/attachments/branding/guidelines/brandbook.md)
 
 ---
 
-## 🔗 Related Sections
+## 🧩 Related Repository Sections
 
-- [docs/](/docs/)
-- [attachments/pitch-deck/](/attachments/pitch-deck/)
-- [splash/](/attachments/branding/splash/)
-- [Splash Screens](/attachments/branding/splash/)
+- Main README → `/README.md`  
+- Attachments → `/attachments/`  
+- Pitch Deck → `/attachments/pitch-deck/`  
+- Branding → `/attachments/branding/`  
+- Splash Screens → `/attachments/branding/splash/`  
+- Color Palette → `/attachments/branding/colors.md`  
+- Typography → `/attachments/branding/typography.md`  
+- Brandbook → `/attachments/branding/guidelines/brandbook.md`
 
 ---
 
@@ -139,9 +184,11 @@ Related visual assets:
 
 When adding new documentation:
 
-- keep structure minimal and deterministic  
-- use local paths under `docs/`  
-- place visuals in `docs/assets/`  
-- update this README when structure changes
+- follow deterministic formatting  
+- keep sections minimal and structured  
+- use local links (`/docs/...`)  
+- include diagrams in `/docs/assets/`  
+- update this README when structure changes  
+- maintain consistency with SeedTools branding  
 
 ---
