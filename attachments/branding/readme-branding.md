@@ -1,6 +1,6 @@
 # **SeedTools Branding Directory**
 
-The `branding/` directory contains the complete visual identity system for **SeedTools Suite**.  
+The [branding/](/attachments/branding/) directory contains the complete visual identity system for **SeedTools Suite**.  
 It provides all logos, icons, splash screens, colors, typography rules, and brand guidelines used across:
 
 - documentation  
@@ -145,8 +145,8 @@ It is **identity**, **clarity**, and **trust**.
 
 You can use assets from this folder in:
 
-- documentation (`docs/`)  
-- pitch decks (`attachments/pitch-deck/`)  
+- documentation [docs/](/docs/)  
+- pitch decks [attachments/pitch-deck/](/attachments/pitch-deck/)  
 - grant submissions  
 - UI previews  
 - marketing materials  
