@@ -1,6 +1,6 @@
 # **SeedTools Desktop — Roadmap**
 
-SeedTools Desktop is the **primary graphical environment** of the entire Suite.  
+SeedTools Desktop is the **primary graphical environment** of the entire Suite.
 Its mission is to deliver a **secure, deterministic, offline‑first UX** for all recovery, forensics, and diagnostic workflows.
 
 This roadmap defines the next 12 months of development.
@@ -11,11 +11,11 @@ This roadmap defines the next 12 months of development.
 
 SeedTools Desktop becomes:
 
-- the **flagship GUI application** of the Suite  
-- the **safest Bitcoin recovery environment** available offline  
-- the **visual orchestrator** for all workflows  
-- the **educational layer** explaining BIP standards and wallet logic  
-- the **NGO‑ready interface** for high‑risk field operations  
+- the **flagship GUI application** of the Suite
+- the **safest Bitcoin recovery environment** available offline
+- the **visual orchestrator** for all workflows
+- the **educational layer** explaining BIP standards and wallet logic
+- the **NGO‑ready interface** for high‑risk field operations
 
 ---
 
@@ -23,29 +23,25 @@ SeedTools Desktop becomes:
 
 The goal: deliver a stable, secure, deterministic Desktop MVP.
 
-
-
-
-
-- **Desktop Core MVP**  
+- **Desktop Core MVP**
   Base application shell, navigation, offline‑first architecture.
 
-- **Workflow Engine v1**  
+- **Workflow Engine v1**
   Step‑based deterministic workflow system.
 
-- **Secure Input Components**  
+- **Secure Input Components**
   Masked fields, isolated buffers, zeroization.
 
-- **Recovery Workflow MVP**  
+- **Recovery Workflow MVP**
   Mnemonic → Validation → Derivation → Address Generation.
 
-- **Forensics Workflow MVP**  
+- **Forensics Workflow MVP**
   Entropy/mnemonic analysis, drift detection, corruption mapping.
 
-- **Preset Manager v1**  
+- **Preset Manager v1**
   BIP presets, wallet presets, NGO presets.
 
-- **Desktop UX v1**  
+- **Desktop UX v1**
   Clean layout, unified theme, accessible navigation.
 
 ---
@@ -54,32 +50,28 @@ The goal: deliver a stable, secure, deterministic Desktop MVP.
 
 The goal: expand capabilities, add automation, improve UX, and integrate all tools.
 
-
-
-
-
-- **Advanced Recovery PRO**  
+- **Advanced Recovery PRO**
   Mixed‑wallet detection, multi‑account scanning, path heuristics.
 
-- **Forensics PRO**  
+- **Forensics PRO**
   Anomaly signatures, entropy drift scoring, corruption classification.
 
-- **Address Tools Integration**  
+- **Address Tools Integration**
   Batch verification, ownership matching, address metadata.
 
-- **Entropy Tools Integration**  
+- **Entropy Tools Integration**
   Entropy health scoring, checksum reconstruction.
 
-- **Mnemonic Tools Integration**  
+- **Mnemonic Tools Integration**
   Structure analysis, entropy conversion, checksum inspection.
 
-- **Path Explorer Integration**  
+- **Path Explorer Integration**
   Path validation, BIP detection, key derivation.
 
-- **Export Module v1**  
+- **Export Module v1**
   Recovery reports, forensics reports, address maps.
 
-- **UX Enhancements**  
+- **UX Enhancements**
   Better navigation, improved accessibility, smoother workflow transitions.
 
 ---
@@ -88,26 +80,22 @@ The goal: expand capabilities, add automation, improve UX, and integrate all too
 
 The goal: deliver a fully mature, secure, reproducible, NGO‑ready Desktop environment.
 
-
-
-
-
-- **Hardened Mode PRO**  
+- **Hardened Mode PRO**
   Zero‑trace execution, no disk writes, memory isolation.
 
-- **Cross‑Tool Automation Engine**  
+- **Cross‑Tool Automation Engine**
   Recovery → Forensics → Export workflows.
 
-- **Interoperability Layer**  
+- **Interoperability Layer**
   Shared data models, unified state, cross‑app sync.
 
-- **Desktop PRO Dashboard**  
+- **Desktop PRO Dashboard**
   Forensic visualizations, entropy graphs, path maps.
 
-- **Reproducible Builds**  
+- **Reproducible Builds**
   Deterministic binaries + verification instructions.
 
-- **NGO Field Mode**  
+- **NGO Field Mode**
   Simplified workflows, preset‑driven UX, safe defaults.
 
 ---
@@ -116,11 +104,11 @@ The goal: deliver a fully mature, secure, reproducible, NGO‑ready Desktop envi
 
 SeedTools Desktop evolves along five global pillars:
 
-- **Security** — hardened mode, zero‑trace, offline‑first  
-- **Determinism** — reproducible builds, predictable outputs  
-- **Interoperability** — shared models, cross‑tool workflows  
-- **Accessibility** — guided UX, NGO presets, high‑contrast mode  
-- **Automation** — multi‑tool orchestration, CLI integration  
+- **Security** — hardened mode, zero‑trace, offline‑first
+- **Determinism** — reproducible builds, predictable outputs
+- **Interoperability** — shared models, cross‑tool workflows
+- **Accessibility** — guided UX, NGO presets, high‑contrast mode
+- **Automation** — multi‑tool orchestration, CLI integration
 
 ---
 
@@ -128,10 +116,10 @@ SeedTools Desktop evolves along five global pillars:
 
 SeedTools Desktop becomes:
 
-- the **most trusted Bitcoin recovery GUI** in the world  
-- the **default NGO tool** for high‑risk environments  
-- the **reference implementation** for deterministic wallet logic  
-- the **visual hub** of the entire SeedTools Suite  
-- fully **offline**, **auditable**, **reproducible**, and **secure**  
+- the **most trusted Bitcoin recovery GUI** in the world
+- the **default NGO tool** for high‑risk environments
+- the **reference implementation** for deterministic wallet logic
+- the **visual hub** of the entire SeedTools Suite
+- fully **offline**, **auditable**, **reproducible**, and **secure**
 
 ---
