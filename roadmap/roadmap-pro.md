@@ -2,7 +2,7 @@
 
 ## **Overview**
 
-SeedTools Suite is an offline‑first Bitcoin recovery and forensics toolkit.  
+SeedTools Suite is an offline‑first Bitcoin recovery and forensics toolkit.
 This roadmap outlines the **3‑month, 6‑month, and 12‑month development plan**, aligned with grant applications (OpenSats, HRF, BTCPay).
 
 ---
@@ -10,18 +10,18 @@ This roadmap outlines the **3‑month, 6‑month, and 12‑month development pla
 # **📅 3‑Month Plan (Q1)** — *Foundation & Stability*
 
 ### **Core Goals**
-- deterministic recovery engine v2  
-- entropy inspector improvements  
-- BIP32/44/49/84/86 path explorer refinements  
-- Taproot scanning stability  
-- documentation restructuring  
+- deterministic recovery engine v2
+- entropy inspector improvements
+- BIP32/44/49/84/86 path explorer refinements
+- Taproot scanning stability
+- documentation restructuring
 
 ### **Milestones**
-- **Core Engine v2** — deterministic, modular, test‑ready  
-- **Entropy Inspector v2** — entropy scoring, heuristics  
-- **Path Explorer UX** — presets, templates  
-- **Taproot Forensics Base** — script path detection  
-- **Docs Overhaul** — new README, security model  
+- **Core Engine v2** — deterministic, modular, test‑ready
+- **Entropy Inspector v2** — entropy scoring, heuristics
+- **Path Explorer UX** — presets, templates
+- **Taproot Forensics Base** — script path detection
+- **Docs Overhaul** — new README, security model
 
 ### **Status**
 🟢 In progress
@@ -31,18 +31,18 @@ This roadmap outlines the **3‑month, 6‑month, and 12‑month development pla
 # **📅 6‑Month Plan (Q2–Q3)** — *NGO Workflows & Desktop*
 
 ### **Core Goals**
-- NGO‑ready offline workflows  
-- printable audit reports  
-- desktop GUI (offline, auditable)  
-- Safe Mode for high‑risk users  
-- reproducible builds v2  
+- NGO‑ready offline workflows
+- printable audit reports
+- desktop GUI (offline, auditable)
+- Safe Mode for high‑risk users
+- reproducible builds v2
 
 ### **Milestones**
-- **NGO Workflow Pack** — templates, flows, reports  
-- **Printable Reports** — PDF‑ready offline exports  
-- **Desktop GUI Alpha** — PySide/Qt offline interface  
-- **Safe Mode** — restricted environment for activists  
-- **Reproducible Builds v2** — pinned deps, deterministic env  
+- **NGO Workflow Pack** — templates, flows, reports
+- **Printable Reports** — PDF‑ready offline exports
+- **Desktop GUI Alpha** — PySide/Qt offline interface
+- **Safe Mode** — restricted environment for activists
+- **Reproducible Builds v2** — pinned deps, deterministic env
 
 ### **Status**
 🟡 Planned
@@ -52,18 +52,18 @@ This roadmap outlines the **3‑month, 6‑month, and 12‑month development pla
 # **📅 12‑Month Plan (Q4)** — *Forensics, Automation & Enterprise*
 
 ### **Core Goals**
-- advanced Taproot forensics  
-- multi‑wallet scanning  
-- automation engine  
-- hardened CLI  
-- security review  
+- advanced Taproot forensics
+- multi‑wallet scanning
+- automation engine
+- hardened CLI
+- security review
 
 ### **Milestones**
-- **Taproot Forensics PRO** — script path mapping, heuristics  
-- **Multi‑Wallet Scanner** — parallel scanning, batching  
-- **Automation Engine** — cross‑tool workflows  
-- **Hardened CLI** — sandboxed execution  
-- **Security Review** — independent audit  
+- **Taproot Forensics PRO** — script path mapping, heuristics
+- **Multi‑Wallet Scanner** — parallel scanning, batching
+- **Automation Engine** — cross‑tool workflows
+- **Hardened CLI** — sandboxed execution
+- **Security Review** — independent audit
 
 ### **Status**
 🟡 Planned
@@ -72,11 +72,31 @@ This roadmap outlines the **3‑month, 6‑month, and 12‑month development pla
 
 # **🔍 Module‑Level Roadmaps**
 
-- **[Core Roadmap](../docs/roadmap/core-roadmap.md)**  
-- **[Desktop Roadmap](../roadmap/desktop-roadmap.md)**  
-- **[Path Explorer Roadmap](../roadmap/path-roadmap.md)**  
-- **[Scanner Roadmap](../roadmap/scanner-roadmap.md)**  
-- **[Architecture Roadmap](../roadmap/architecture-roadmap.md)**  
+### Core Components
+
+- [**Core Roadmap**](../docs/roadmap/core-roadmap.md)
+- [**Utils Roadmap**](../docs/roadmap/utils-roadmap.md)
+- [**GUI Roadmap**](../docs/roadmap/gui-roadmap.md)
+- [**CLI Roadmap**](../docs/roadmap/cli-roadmap.md)
+
+### Platform & Applications
+
+- [**Desktop Roadmap**](../roadmap/desktop-roadmap.md)
+- [**Launcher Roadmap**](../roadmap/launcher-roadmap.md)
+
+### Functional Tools
+
+- [**Recovery Roadmap**](../roadmap/recovery-roadmap.md)
+- [**Forensics Roadmap**](../roadmap/forensics-roadmap.md)
+- [**Mnemonic Roadmap**](../roadmap/mnemonic-roadmap.md)
+- [**Entropy Roadmap**](../roadmap/entropy-roadmap.md)
+- [**Path Explorer Roadmap**](../roadmap/path-roadmap.md)
+- [**Scanner Roadmap**](../roadmap/scanner-roadmap.md)
+
+### Architecture & Security
+
+- [**Architecture Roadmap**](../roadmap/architecture-roadmap.md)
+- [**Security Roadmap**](../roadmap/security-roadmap.md)
 
 ---
 
@@ -97,19 +117,19 @@ This roadmap outlines the **3‑month, 6‑month, and 12‑month development pla
 
 # **🎯 Strategic Priorities**
 
-1. **Offline‑first security**  
-2. **NGO‑ready workflows**  
-3. **Deterministic recovery**  
-4. **Taproot forensics**  
-5. **Desktop GUI**  
-6. **Reproducible builds**  
+1. **Offline‑first security**
+2. **NGO‑ready workflows**
+3. **Deterministic recovery**
+4. **Taproot forensics**
+5. **Desktop GUI**
+6. **Reproducible builds**
 7. **Auditability & transparency**
 
 ---
 
 # **📬 Contact**
 
-For roadmap discussions or contributions:  
+For roadmap discussions or contributions:
 **krunixbase@gmail.com**
 
 ---
