@@ -7,6 +7,37 @@ This roadmap outlines the **3‑month, 6‑month, and 12‑month development pla
 
 ---
 
+## 🏗️ Project Structure
+
+SeedTools Suite consists of four core modules and multiple applications.
+
+### Core Modules
+
+- Core
+- Utils
+- GUI
+- CLI
+
+### Applications
+
+- Launcher
+- Desktop
+- Recovery
+- Forensics
+- Mnemonic
+- Entropy Inspector
+- Path Explorer
+- Address Scanner
+
+### Strategic Components
+
+- Architecture
+- Security
+- Documentation
+- Funding Programs
+
+---
+
 # **📅 3‑Month Plan (Q1)** — *Foundation & Stability*
 
 ### **Core Goals**
