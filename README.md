@@ -25,11 +25,11 @@
 
 SeedTools Suite is an offline, deterministic security toolkit for:
 
-- Bitcoin seed recovery  
-- entropy analysis  
-- crypto forensics  
-- NGO verification workflows  
-- compliance automation  
+- Bitcoin seed recovery
+- entropy analysis
+- crypto forensics
+- NGO verification workflows
+- compliance automation
 
 Designed for high‑risk users, journalists, activists, and organizations operating in adversarial environments.
 
@@ -37,28 +37,47 @@ Designed for high‑risk users, journalists, activists, and organizations operat
 
 # 1. ⭐ Features Overview
 
-- deterministic seed recovery  
-- entropy analysis & anomaly detection  
-- BIP32/44/49/84/86/Taproot path exploration  
-- address & UTXO scanning  
-- NGO verification workflows  
-- compliance automation (GDPR, SOC2, IAM, Licensing)  
-- offline audit trail generation  
+- deterministic seed recovery
+- entropy analysis & anomaly detection
+- BIP32/44/49/84/86/Taproot path exploration
+- address & UTXO scanning
+- NGO verification workflows
+- compliance automation (GDPR, SOC2, IAM, Licensing)
+- offline audit trail generation
 
 ---
 
-# 2. 🏗 Architecture
+# 2. 🏗 Project Structure
 
-Architecture documentation:
+SeedTools Suite consists of four core modules and multiple applications.
 
-```
-docs/architecture/
- ├── system-architecture.md
- ├── modules.md
- ├── data-flow.md
- ├── trust-boundaries.md
- └── diagrams.md
-```
+## Core Modules
+
+- SeedTools Core
+- SeedTools Utils
+- SeedTools GUI
+- SeedTools CLI
+
+## Applications
+
+- SeedTools Launcher
+- SeedTools Desktop
+
+## Functional Tools
+
+- Recovery Tool
+- Forensics Tool
+- Mnemonic Tools
+- Entropy Inspector
+- Path Explorer
+- Address Scanner
+
+## Strategic Components
+
+- Architecture Layer
+- Security Layer
+- Documentation
+- Funding Programs
 
 ---
 
@@ -66,9 +85,9 @@ docs/architecture/
 
 Deterministic pipeline:
 
-- mnemonic → entropy → seed → keys  
-- path exploration  
-- anomaly detection  
+- mnemonic → entropy → seed → keys
+- path exploration
+- anomaly detection
 
 *(Folder `/docs/recovery/` will be added later.)*
 
@@ -78,9 +97,9 @@ Deterministic pipeline:
 
 NGO workflows include:
 
-- identity verification  
-- document integrity checks  
-- compliance evidence generation  
+- identity verification
+- document integrity checks
+- compliance evidence generation
 
 *(Folder `/docs/ngo/` will be added later.)*
 
@@ -94,28 +113,53 @@ Compliance Suite documentation:
 
 Includes:
 
-- architecture  
-- rules engine  
-- diagrams  
-- GDPR / SOC2 / IAM / Licensing workflows  
+- architecture
+- rules engine
+- diagrams
+- GDPR / SOC2 / IAM / Licensing workflows
 
 ---
 
 # 6. 🧩 Modules
 
-Module documentation:
-
-- [modules](/modules/)
-
 Modules:
 
-- Mnemonic Tools  
-- Entropy Tools  
-- Path Explorer  
-- Scanner  
-- Forensics Engine  
-- Compliance Suite  
-- Reporting Engine  
+- SeedTools Core
+- SeedTools Utils
+- SeedTools GUI
+- SeedTools CLI
+
+Applications:
+
+- Launcher
+- Desktop
+
+Tools:
+
+- Recovery
+- Forensics
+- Mnemonic
+- Entropy
+- Path
+- Scanner
+
+Modules:
+- [Suite Roadmap](/roadmap/suite-roadmap.md)
+- [PRO Roadmap](/roadmap/roadmap-pro.md)
+- [Architecture Roadmap](/roadmap/architecture-roadmap.md)
+- [Security Roadmap](/roadmap/security-roadmap.md)
+
+Applications:
+- [Desktop Roadmap](/roadmap/desktop-roadmap.md)
+- [Launcher Roadmap](/roadmap/launcher-roadmap.md)
+
+Tools:
+- [Recovery Roadmap](/roadmap/recovery-roadmap.md)
+- [Forensics Roadmap](/roadmap/forensics-roadmap.md)
+- [Mnemonic Roadmap](/roadmap/mnemonic-roadmap.md)
+- [Entropy Roadmap](/roadmap/entropy-roadmap.md)
+- [Path Roadmap](/roadmap/path-roadmap.md)
+- [Scanner Roadmap](/roadmap/scanner-roadmap.md)
 
 ---
 
@@ -137,18 +181,18 @@ python seedtools.py --help
 
 CLI documentation:
 
-- [CLI API](/docs/api/cli-api.md)  
-- [CLI Roadmap](/docs/roadmap/cli-roadmap.md)  
+- [CLI API](/docs/api/cli-api.md)
+- [CLI Roadmap](/docs/roadmap/cli-roadmap.md)
 
 ---
 
 # 9. 🗺 Roadmap
 
-- Desktop GUI  
-- Shamir Tools  
-- Taproot forensics  
-- NGO reporting engine  
-- Full compliance automation  
+- Desktop GUI
+- Shamir Tools
+- Taproot forensics
+- NGO reporting engine
+- Full compliance automation
 
 Full roadmap:
 
@@ -170,20 +214,20 @@ bc1qj2gwhsraad4stznukpp9my764nggmkjea84hd2
 
 SeedTools Suite combines:
 
-- deterministic cryptography  
-- entropy forensics  
-- NGO workflows  
-- compliance automation  
-- modular enterprise architecture  
+- deterministic cryptography
+- entropy forensics
+- NGO workflows
+- compliance automation
+- modular enterprise architecture
 
 SeedTools is:
 
-- Offline-first  
-- Auditable  
-- Modular  
-- Secure  
-- Practical  
-- Professional  
+- Offline-first
+- Auditable
+- Modular
+- Secure
+- Practical
+- Professional
 
 SeedTools is a **security platform**, not just a seed tool.
 
@@ -213,18 +257,18 @@ Demo videos:
 
 Branch structure:
 
-- main  
-- dev  
-- release/v1.x  
-- hotfix/v1.x.x  
+- main
+- dev
+- release/v1.x
+- hotfix/v1.x.x
 
 Workflow:
 
-1. feature → dev  
-2. dev → release  
-3. release → main  
-4. tag  
-5. hotfix → main + dev  
+1. feature → dev
+2. dev → release
+3. release → main
+4. tag
+5. hotfix → main + dev
 
 ---
 
@@ -232,17 +276,17 @@ Workflow:
 
 Security documentation:
 
-- [trust boundaries](/docs/architecture/trust-boundaries.md)  
-- [threat model](/docs/security/threat-model.md)  
-- [hardened mode](/docs/security/hardened-mode.md)  
+- [trust boundaries](/docs/architecture/trust-boundaries.md)
+- [threat model](/docs/security/threat-model.md)
+- [hardened mode](/docs/security/hardened-mode.md)
 - [masking layer](/docs/security/masking-layer.md)
 
 ---
 
 # 🌍 15. Krunixbase Manifest
 
-> An ecosystem built on truth.  
-> Systems that do not lie.  
+> An ecosystem built on truth.
+> Systems that do not lie.
 > Tools that never guess.
 
 ---
@@ -255,7 +299,7 @@ MIT License.
 
 # 📬 Contact
 
-**Email:** krunixbase@gmail.com  
+**Email:** krunixbase@gmail.com
 **Repository:** https://github.com/Krunixbase/seedtools
 
 
