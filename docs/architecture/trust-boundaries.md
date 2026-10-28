@@ -6,44 +6,63 @@ SeedTools Suite enforces strict trust boundaries between layers to minimize atta
 
 ## 1. Trust Levels Overview
 
-| Layer                | Trust Level |
-|----------------------|-------------|
-| UI                   | Low         |
-| Controllers          | Medium      |
-| Application Modules  | Medium      |
-| Core Layer           | High        |
-| Security Modules     | High        |
-| System Services      | Medium      |
+### Architecture Mapping
+
+UI:
+- SeedTools CLI
+- SeedTools Desktop
+- SeedTools Launcher
+
+Application Modules:
+- Recovery Tool
+- Mnemonic Tools
+- Entropy Tools
+- Path Explorer
+- Scanner
+- Forensics Engine
+
+Core Layer:
+- Crypto Core
+- Entropy Engine
+- Forensics Core
+- Storage Engine
+- Utils Layer
+
+System Services:
+- Logging
+- Configuration Manager
+- Dependency Resolver
+- Reproducible Environment Manager
 
 ---
 
 ## 2. Boundary Definitions
 
 ### 2.1 UI → Controllers
-- UI is untrusted  
-- Controllers validate all input  
-- No sensitive data stored in UI  
+- UI is untrusted
+- Controllers validate all input
+- No sensitive data stored in UI
 
 ### 2.2 Controllers → Application Modules
-- Controllers enforce deterministic flow  
-- Modules cannot bypass controllers  
+- Controllers enforce deterministic flow
+- Modules cannot bypass controllers
 
 ### 2.3 Application Modules → Core Layer
-- Modules cannot access cryptographic primitives directly  
-- Core Layer is isolated and trusted  
+- Modules cannot access cryptographic primitives directly
+- Core Layer is isolated and trusted
 
 ### 2.4 Core Layer → System Services
-- Only deterministic, validated operations  
-- No external dependencies  
+- Only deterministic, validated operations
+- No external dependencies
 
 ---
 
 ## 3. Security Guarantees
 
-- No cross-layer memory sharing  
-- No implicit trust between modules  
-- All boundaries enforce validation  
-- Core Layer remains isolated  
+- No cross-layer memory sharing
+- No implicit trust between modules
+- All boundaries enforce validation
+- Core Layer remains isolated
 
 ---
 
@@ -57,8 +76,8 @@ SeedTools Suite enforces strict trust boundaries between layers to minimize atta
 
 ## 5. Related Docs
 
-- **Security Model**  
-- **Attack Surface**  
-- **System Architecture**  
+- **Security Model**
+- **Attack Surface**
+- **System Architecture**
 
 ---
