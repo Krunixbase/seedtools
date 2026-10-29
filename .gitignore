@@ -1,0 +1,23 @@
+# Visual Studio
+.vs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# IDE
+.vscode/
+
+# OS files
+Thumbs.db
+.DS_Store
