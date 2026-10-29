@@ -115,7 +115,7 @@ If you discover a vulnerability:
 
 1. **Do NOT open a public issue.**
 2. Contact the maintainer privately at:  
-   **krunixbase@gmail.com**
+   **seedtoolssuite@gmail.com**
 3. Provide a reproducible test case if possible.
 
 ---
