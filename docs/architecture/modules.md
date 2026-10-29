@@ -106,7 +106,7 @@ They are **semi‑trusted** and isolated from cryptographic primitives.
 ### 2.0 Recovery Tool
 
 Responsibilities:
-- deterministic recovry workflows
+- deterministic recovery workflows
 - seed reconstruction
 - derivation workflow orchestration
 
