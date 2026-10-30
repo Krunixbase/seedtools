@@ -2,7 +2,7 @@
 
 This directory contains the complete financing, grant, and sustainability documentation for **SeedTools Suite** — a deterministic, offline‑first toolkit for Bitcoin seed recovery, forensics, entropy diagnostics, and wallet structure analysis.
 
-The structure is designed for reviewers from OpenSats, HRF, Spiral, BTCPay, and other funding organizations.  
+The structure is designed for reviewers from OpenSats, HRF, Spiral, BTCPay, and other funding organizations.
 All documents are modular, consistent, and aligned with the SeedTools 2.0 roadmap.
 
 ---
@@ -10,7 +10,7 @@ All documents are modular, consistent, and aligned with the SeedTools 2.0 roadma
 ## 📁 Folder Structure
 
 ```
-financial/
+financing/
 │
 ├── executive-summary.md
 ├── impact-statement.md
@@ -54,9 +54,9 @@ If you are evaluating SeedTools Suite for funding, we recommend reviewing the do
 ### **1. High‑Level Overview**
 Start with the core documents:
 
-- `executive-summary.md`  
-- `one-pager.md`  
-- `pitch-deck.md`  
+- `executive-summary.md`
+- `one-pager.md`
+- `pitch-deck.md`
 
 These provide a concise overview of the mission, problem, and solution.
 
@@ -66,9 +66,9 @@ These provide a concise overview of the mission, problem, and solution.
 
 These documents explain why SeedTools matters and who it helps:
 
-- `impact-statement.md`  
-- `risk-mitigation.md`  
-- `sustainability-plan.md`  
+- `impact-statement.md`
+- `risk-mitigation.md`
+- `sustainability-plan.md`
 
 ---
 
@@ -76,9 +76,9 @@ These documents explain why SeedTools matters and who it helps:
 
 These files outline the development plan and measurable milestones:
 
-- `grant-milestones.md`  
-- `../roadmap/roadmap-pro.md`  
-- `../roadmap/milestones.md`  
+- `grant-milestones.md`
+- `../roadmap/roadmap-pro.md`
+- `../roadmap/milestones.md`
 
 ---
 
@@ -86,7 +86,7 @@ These files outline the development plan and measurable milestones:
 
 The full budget and allocation strategy:
 
-- `budget-breakdown.md`  
+- `budget-breakdown.md`
 
 ---
 
@@ -95,45 +95,47 @@ The full budget and allocation strategy:
 Each subfolder contains a complete, tailored application package:
 
 ### **OpenSats**
-- `opensats-application.md`  
-- `opensats-budget.md`  
-- `opensats-onepager.md`  
-- `opensats-roadmap.md`  
+- `opensats-application.md`
+- `opensats-budget.md`
+- `opensats-onepager.md`
+- `opensats-roadmap.md`
 
 ### **Human Rights Foundation (HRF)**
-- `hrf-application.md`  
-- `hrf-budget.md`  
-- `hrf-impact.md`  
-- `hrf-onepager.md`  
+- `hrf-application.md`
+- `hrf-budget.md`
+- `hrf-impact.md`
+- `hrf-onepager.md`
 
 ### **BTCPay Foundation**
-- `btcpay-application.md`  
-- `btcpay-integration-plan.md`  
-- `btcpay-onepager.md`  
+- `btcpay-application.md`
+- `btcpay-integration-plan.md`
+- `btcpay-onepager.md`
 
 ### **Spiral (Block/Square)**
-- `spiral-application.md`  
-- `spiral-impact.md`  
-- `spiral-onepager.md`  
-- `spiral-roadmap.md`  
+- `spiral-application.md`
+- `spiral-impact.md`
+- `spiral-onepager.md`
+- `spiral-roadmap.md`
 
 ---
 
 ## 🔗 Related Documentation
 
 ### Product Documentation
-- `../product/architecture.md`  
-- `../product/modules.md`  
-- `../product/features.md`  
+- ../product/product-overview.md
+- ../product/product-architecture.md
+- ../product/product-components.md
+- ../product/product-security.md
+- ../product/product-spec.md
 
 ### Roadmap
-- `../roadmap/roadmap-pro.md`  
-- `../roadmap/milestones.md`  
+- `../roadmap/roadmap-pro.md`
+- `../roadmap/milestones.md`
 
 ### Demo & Case Studies
-- `../demo/scenarios/`  
-- `../demo/corrupted-mnemonics/`  
-- `../demo/case-studies/`  
+- `../demo/scenarios/`
+- `../demo/corrupted-mnemonics/`
+- `../demo/case-studies/`
 
 ---
 
