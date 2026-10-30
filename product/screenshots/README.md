@@ -2,7 +2,7 @@
 
 All screenshots related to the SeedTools Suite — including UI previews, demo flows, and module showcases — are stored in:
 
-[`product/screenshots/`](product/screenshots/)
+[product/screenshots/](/product/screenshots/)
 
 This folder includes:
 - application views  
