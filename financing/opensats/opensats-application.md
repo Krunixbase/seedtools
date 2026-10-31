@@ -1,13 +1,17 @@
 # **SeedTools Suite — OpenSats Grant Application**
 
-## **1. Project Name**
-**SeedTools Suite — offline-first, forensics, open-source Bitcoin recovery**
+### 1. Project Name
+
+SeedTools Suite
 
 ---
 
 ## **2. Project Summary (1–3 sentences)**
-SeedTools Suite — offline-first, open-source Bitcoin recovery, entropy analysis and security platform. Analyzing corrupted backups, scanning BIP paths, and verifying addresses.It is designed for high‑risk users, activists, journalists, and NGOs who need secure, private, air‑gapped wallet recovery tools.
-The project strengthens Bitcoin self‑custody by providing deterministic, transparent, offline‑first recovery workflows.
+SeedTools Suite is an offline-first, open-source Bitcoin recovery,
+forensics, entropy analysis and security platform.
+
+It analyzes corrupted backups, scans derivation paths,
+verifies addresses, and provides deterministic recovery workflows.
 
 ---
 
