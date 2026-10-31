@@ -1,13 +1,13 @@
 # **Spiral Grant Application**
-**Project:** SeedTools 2.0 — Offline HD Wallet Recovery & Forensics Toolkit
-**Applicant:** Andrzej (Krunixbase)
-**License:** MIT (FOSS)
-
+Project: SeedTools Suite — Offline-First Bitcoin Recovery, Forensics & Security Platform
+Applicant: Andrzej / Krunixbase
+License: MIT (FOSS)
 ---
 
 ## 1. Project overview
 
-**SeedTools 2.0** is an **offline, open‑source toolkit** for:
+SeedTools Suite is an offline-first, open-source Bitcoin recovery, forensics,
+entropy analysis and security platform for:
 
 - recovering Bitcoin HD wallets,
 - analyzing corrupted or incomplete mnemonics,
@@ -53,7 +53,7 @@ SeedTools is designed to fill exactly this gap.
 
 ## 3. Proposed solution
 
-SeedTools 2.0 provides a **modular toolkit** with:
+SeedTools Suite provides a modular toolkit with:
 
 - **Core deterministic engine**
   - BIP32/39/44/49/84/86

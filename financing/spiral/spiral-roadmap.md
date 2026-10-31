@@ -1,8 +1,8 @@
-# **SeedTools 2.0 — Roadmap (Spiral Edition)**
+# **SeedTools Suite — Roadmap (Spiral Edition)**
 
 ## **Overview**
 
-This roadmap outlines the development of SeedTools 2.0 over an 18‑month period.
+This roadmap outlines the development of SeedTools Suite over an 18‑month period.
 It focuses on:
 
 - deterministic recovery,

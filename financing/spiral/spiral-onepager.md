@@ -1,7 +1,9 @@
-# **SeedTools 2.0 — One‑Pager (Spiral Edition)**
+# **SeedTools Suite — One-Pager (Spiral Edition)**
 
 ## **What is SeedTools?**
-SeedTools 2.0 is an **offline, open‑source toolkit** for deterministic Bitcoin wallet recovery and forensic analysis.
+SeedTools Suite is an offline-first, open-source Bitcoin recovery, forensics,
+entropy analysis and security platform.
+
 It helps users recover HD wallets, analyze corrupted mnemonics, verify derivation paths, and validate addresses — all without exposing private data or relying on third parties.
 
 SeedTools is designed as a **public good** for the Bitcoin ecosystem: transparent, auditable, offline‑first, and MIT‑licensed.
