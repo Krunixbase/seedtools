@@ -1,8 +1,9 @@
-# **SeedTools 2.0 — Integration Plan for BTCPay Server**
+# **SeedTools Suite — Integration Plan for BTCPay Server**
 
 ## **1. Overview**
 
-SeedTools 2.0 is an offline, open‑source toolkit designed to help BTCPay merchants recover wallets, verify derivation paths, analyze corrupted backups, and validate addresses without exposing private data.
+SeedTools Suite is an offline-first, open-source Bitcoin recovery, forensics,
+entropy analysis and security platform.
 
 This document outlines the integration plan between SeedTools and BTCPay Server, focusing on deterministic wallet compatibility, merchant workflows, and security improvements.
 

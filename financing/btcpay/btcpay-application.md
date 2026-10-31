@@ -1,13 +1,15 @@
 # **BTCPay Server Grant Application**
-**Project: SeedTools 2.0 — Offline HD Wallet Recovery & Forensics Toolkit**
-**Applicant: Andrzej (Krunixbase)**
-**License: MIT**
+Project: SeedTools Suite — Offline-First Bitcoin Recovery, Forensics & Security Platform
+Applicant: Andrzej / Krunixbase
+License: MIT
 
 ---
 
 # **1. Project Summary**
 
-SeedTools 2.0 is an **offline, open‑source toolkit** for recovering Bitcoin HD wallets, analyzing corrupted mnemonics, scanning derivation paths, and verifying addresses.
+SeedTools Suite is an offline-first, open-source Bitcoin recovery, forensics,
+entropy analysis and security platform.
+
 It is designed for users who rely on self‑custody — including merchants using BTCPay Server — and need secure, private, air‑gapped recovery workflows.
 
 SeedTools strengthens the Bitcoin ecosystem by reducing permanent loss of funds and improving wallet interoperability.
