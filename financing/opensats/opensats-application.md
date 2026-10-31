@@ -1,13 +1,12 @@
-# **SeedTools 2.0 — OpenSats Grant Application**
+# **SeedTools Suite — OpenSats Grant Application**
 
 ## **1. Project Name**
-**SeedTools 2.0 — Offline HD Wallet Recovery & Forensics Toolkit**
+**SeedTools Suite — offline-first, forensics, open-source Bitcoin recovery**
 
 ---
 
 ## **2. Project Summary (1–3 sentences)**
-SeedTools 2.0 is an offline, open‑source toolkit for recovering Bitcoin HD wallets, analyzing corrupted backups, scanning BIP paths, and verifying addresses.
-It is designed for high‑risk users, activists, journalists, and NGOs who need secure, private, air‑gapped wallet recovery tools.
+SeedTools Suite — offline-first, open-source Bitcoin recovery, entropy analysis and security platform. Analyzing corrupted backups, scanning BIP paths, and verifying addresses.It is designed for high‑risk users, activists, journalists, and NGOs who need secure, private, air‑gapped wallet recovery tools.
 The project strengthens Bitcoin self‑custody by providing deterministic, transparent, offline‑first recovery workflows.
 
 ---
@@ -31,7 +30,7 @@ SeedTools fills this gap.
 ---
 
 ## **4. Proposed Solution**
-SeedTools 2.0 provides:
+SeedTools Suite provides:
 
 - deterministic HD wallet recovery
 - deep derivation path scanning (0 → X)
