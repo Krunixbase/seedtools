@@ -1,13 +1,15 @@
 # **Human Rights Foundation — Bitcoin Development Fund Application**
-**Project: SeedTools 2.0 — Offline HD Wallet Recovery & Forensics Toolkit**
-**Applicant: Andrzej (Krunixbase)**
-**License: MIT (FOSS)**
+Project: SeedTools Suite — Offline-First Bitcoin Recovery, Forensics & Security Platform
+Applicant: Andrzej / Krunixbase
+License: MIT (FOSS)
 
 ---
 
 # **1. Project Summary**
 
-SeedTools 2.0 is an **offline, open‑source toolkit** that enables safe recovery of Bitcoin HD wallets, analysis of corrupted mnemonics, and forensic verification of addresses and derivation paths.
+SeedTools Suite is an offline-first, open-source Bitcoin recovery, forensics,
+entropy analysis and security platform.
+
 It is designed specifically for **activists, journalists, and high‑risk users** operating in authoritarian environments where digital security is critical.
 
 SeedTools provides deterministic, transparent, air‑gapped workflows that allow users to recover funds **without exposing private data** or relying on third parties.

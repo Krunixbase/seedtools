@@ -1,7 +1,8 @@
-# **SeedTools 2.0 — One‑Pager (HRF Edition)**
+# **SeedTools Suite — One-Pager (HRF Edition)**
 
 ## **What is SeedTools?**
-SeedTools 2.0 is an **offline, open‑source toolkit** that helps activists, journalists, and high‑risk users safely recover Bitcoin wallets, analyze corrupted mnemonics, and verify addresses without exposing sensitive data.
+SeedTools Suite is an offline-first, open-source Bitcoin recovery, forensics,
+entropy analysis and security platform.
 
 It is designed for people operating in **authoritarian environments**, where digital security and privacy are essential for survival.
 
