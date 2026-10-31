@@ -1,7 +1,10 @@
-# **SeedTools 2.0 — One‑Pager (BTCPay Edition)**
+# **SeedTools Suite — One-Pager (BTCPay Edition)**
 
 ## **What is SeedTools?**
-SeedTools 2.0 is an **offline, open‑source toolkit** that helps merchants and self‑custody users safely recover Bitcoin wallets, verify derivation paths, analyze corrupted backups, and validate addresses — all without exposing private data.
+SeedTools Suite is an offline-first, open-source Bitcoin recovery, forensics,
+entropy analysis and security platform.
+
+ It helps merchants and self‑custody users safely recover Bitcoin wallets, verify derivation paths, analyze corrupted backups, and validate addresses — all without exposing private data.
 
 It is designed for BTCPay Server users who rely on deterministic wallet structures and secure backups.
 
