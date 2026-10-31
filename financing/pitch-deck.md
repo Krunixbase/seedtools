@@ -3,8 +3,8 @@
 ---
 
 ## **1. Title Slide — SeedTools Suite**
-**Deterministic Bitcoin Recovery & Forensics**  
-Offline‑first. Transparent. NGO‑ready.  
+**Deterministic Bitcoin Recovery, Forensics & Security Platform**
+Offline‑first. Transparent. NGO‑ready.
 A public good for high‑risk users.
 
 👉 **Executive Summary**
@@ -12,15 +12,15 @@ A public good for high‑risk users.
 ---
 
 ## **2. The Problem**
-Bitcoin is unforgiving.  
+Bitcoin is unforgiving.
 Millions of users lose access due to:
 
-- corrupted mnemonics  
-- missing or uncertain words  
-- entropy drift  
-- unknown derivation paths  
-- confiscated or tampered devices  
-- unsafe online recovery tools  
+- corrupted mnemonics
+- missing or uncertain words
+- entropy drift
+- unknown derivation paths
+- confiscated or tampered devices
+- unsafe online recovery tools
 
 **One mistake = permanent loss.**
 
@@ -31,12 +31,12 @@ Millions of users lose access due to:
 ## **3. The Opportunity**
 There is **no deterministic, offline‑safe, transparent toolkit** for:
 
-- NGOs  
-- high‑risk users  
-- support teams  
-- auditors  
-- researchers  
-- wallet developers  
+- NGOs
+- high‑risk users
+- support teams
+- auditors
+- researchers
+- wallet developers
 
 SeedTools fills this gap as a **public good**.
 
@@ -45,14 +45,14 @@ SeedTools fills this gap as a **public good**.
 ## **4. The Solution — SeedTools Suite**
 A modular, deterministic, offline‑first ecosystem:
 
-- **Recovery Tool**  
-- **Forensics Tool**  
-- **Entropy Inspector**  
-- **Mnemonic Tools**  
-- **Path Explorer**  
-- **Address Scanner**  
-- **Desktop App**  
-- **CLI**  
+- **Recovery Tool**
+- **Forensics Tool**
+- **Entropy Inspector**
+- **Mnemonic Tools**
+- **Path Explorer**
+- **Address Scanner**
+- **Desktop App**
+- **CLI**
 - **Suite Launcher**
 
 👉 **Product Modules**
@@ -60,11 +60,11 @@ A modular, deterministic, offline‑first ecosystem:
 ---
 
 ## **5. Why Now**
-- Bitcoin adoption is accelerating  
-- NGOs increasingly rely on Bitcoin  
-- High‑risk users need safe recovery workflows  
-- Wallet complexity is growing  
-- No existing tool meets NGO‑grade requirements  
+- Bitcoin adoption is accelerating
+- NGOs increasingly rely on Bitcoin
+- High‑risk users need safe recovery workflows
+- Wallet complexity is growing
+- No existing tool meets NGO‑grade requirements
 
 SeedTools becomes the **standard**.
 
@@ -73,12 +73,12 @@ SeedTools becomes the **standard**.
 ## **6. Product Architecture**
 **Deterministic + Modular + Offline‑Only**
 
-- reproducible builds  
-- transparent algorithms  
-- shared engines  
-- zero telemetry  
-- hardened mode  
-- cross‑module automation  
+- reproducible builds
+- transparent algorithms
+- shared engines
+- zero telemetry
+- hardened mode
+- cross‑module automation
 
 👉 **Architecture**
 
@@ -103,29 +103,29 @@ Use deterministic engines as reference implementations.
 ---
 
 ## **8. Roadmap (12 Months)**
-- Core deterministic engines  
-- Recovery Engine v1  
-- Forensics & Entropy modules  
-- Mnemonic & Path tools  
-- Address Scanner  
-- Desktop App v1  
-- CLI v1  
-- Suite Launcher  
-- Hardened Mode PRO  
-- Reproducible builds  
-- NGO field testing  
-- v1.0 release  
+- Core deterministic engines
+- Recovery Engine v1
+- Forensics & Entropy modules
+- Mnemonic & Path tools
+- Address Scanner
+- Desktop App v1
+- CLI v1
+- Suite Launcher
+- Hardened Mode PRO
+- Reproducible builds
+- NGO field testing
+- v1.0 release
 
 👉 **Grant Milestones**
 
 ---
 
 ## **9. Traction & Validation**
-- Full roadmap for all modules  
-- NGO‑ready workflows  
-- Deterministic engines in development  
-- Strong alignment with OpenSats, HRF, Spiral  
-- Clear demand from high‑risk communities  
+- Full roadmap for all modules
+- NGO‑ready workflows
+- Deterministic engines in development
+- Strong alignment with OpenSats, HRF, Spiral
+- Clear demand from high‑risk communities
 
 ---
 
@@ -134,12 +134,12 @@ Use deterministic engines as reference implementations.
 
 Breakdown:
 
-- Core development — 42k  
-- Security & reproducibility — 12k  
-- Desktop & CLI — 10k  
-- Documentation — 6k  
-- NGO support — 5k  
-- Infrastructure — 5k  
+- Core development — 42k
+- Security & reproducibility — 12k
+- Desktop & CLI — 10k
+- Documentation — 6k
+- NGO support — 5k
+- Infrastructure — 5k
 
 👉 **Budget Breakdown**
 
@@ -148,12 +148,12 @@ Breakdown:
 ## **11. Sustainability**
 SeedTools is built for long‑term stability:
 
-- deterministic architecture  
-- reproducible builds  
-- modular codebase  
-- NGO partnerships  
-- periodic grants (not continuous funding)  
-- low‑cost offline infrastructure  
+- deterministic architecture
+- reproducible builds
+- modular codebase
+- NGO partnerships
+- periodic grants (not continuous funding)
+- low‑cost offline infrastructure
 
 👉 **Sustainability Plan**
 
@@ -162,12 +162,12 @@ SeedTools is built for long‑term stability:
 ## **12. Closing — Why SeedTools**
 SeedTools Suite is:
 
-- the safest recovery toolkit  
-- the most transparent  
-- the most deterministic  
-- the most NGO‑ready  
-- the most reproducible  
-- the most modular  
+- the safest recovery toolkit
+- the most transparent
+- the most deterministic
+- the most NGO‑ready
+- the most reproducible
+- the most modular
 
 **SeedTools is not a product — it is infrastructure.**
 
