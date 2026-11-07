@@ -1,0 +1,32 @@
+{
+    "module_id": "mnemonic-tools",
+    "name": "Mnemonic Tools",
+    "version": "1.0.0",
+    "category": "Analysis",
+    "status": "available",
+    "location": "applications/mnemonic-tools",
+    "description": "Mnemonic validation, checksum verification, diagnostics, and BIP39 recovery support workflows.",
+    "documentation": [
+        "README.md",
+        "roadmap.md"
+    ],
+    "launch_methods": [
+        "desktop",
+        "workflow"
+    ],
+    "workflows": [
+        "Recovery Mode",
+        "Entropy Diagnostics Mode",
+        "Guided Recovery PRO",
+        "Hardened Recovery Workflow"
+    ],
+    "dependencies": [],
+    "tags": [
+        "bitcoin",
+        "bip39",
+        "mnemonic",
+        "checksum",
+        "recovery",
+        "validation"
+    ]
+}

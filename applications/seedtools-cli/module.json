@@ -1,0 +1,35 @@
+{
+    "module_id": "seedtools-cli",
+    "name": "SeedTools CLI",
+    "version": "1.0.0",
+    "category": "Interface",
+    "status": "available",
+    "location": "applications/seedtools-cli",
+    "description": "Command-line interface providing scripting, automation, and advanced access to SeedTools Suite functionality.",
+    "documentation": [
+        "README.md",
+        "roadmap.md"
+    ],
+    "launch_methods": [
+        "cli"
+    ],
+    "workflows": [
+        "Recovery Mode",
+        "Forensics Mode",
+        "Address Verification Mode",
+        "Entropy Diagnostics Mode",
+        "Guided Recovery PRO",
+        "Hardened Recovery Workflow"
+    ],
+    "dependencies": [],
+    "tags": [
+        "bitcoin",
+        "cli",
+        "terminal",
+        "automation",
+        "scripting",
+        "recovery",
+        "forensics",
+        "security"
+    ]
+}

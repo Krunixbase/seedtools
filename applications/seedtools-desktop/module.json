@@ -1,0 +1,42 @@
+{
+    "module_id": "seedtools-desktop",
+    "name": "SeedTools Desktop",
+    "version": "1.0.0",
+    "category": "Interface",
+    "status": "available",
+    "location": "applications/seedtools-desktop",
+    "description": "Primary graphical user interface providing access to SeedTools Suite applications, workflows, and recovery operations.",
+    "documentation": [
+        "README.md",
+        "roadmap.md"
+    ],
+    "launch_methods": [
+        "desktop"
+    ],
+    "workflows": [
+        "Recovery Mode",
+        "Forensics Mode",
+        "Address Verification Mode",
+        "Entropy Diagnostics Mode",
+        "Guided Recovery PRO",
+        "Hardened Recovery Workflow"
+    ],
+    "dependencies": [
+        "recovery-tool",
+        "forensics-tool",
+        "entropy-inspector",
+        "mnemonic-tools",
+        "path-explorer",
+        "address-scanner"
+    ],
+    "tags": [
+        "bitcoin",
+        "desktop",
+        "gui",
+        "recovery",
+        "forensics",
+        "security",
+        "workflow",
+        "suite"
+    ]
+}

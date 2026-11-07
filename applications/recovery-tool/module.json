@@ -1,0 +1,29 @@
+{
+    "module_id": "recovery-tool",
+    "name": "Recovery Tool",
+    "version": "1.0.0",
+    "category": "Recovery",
+    "status": "available",
+    "location": "applications/recovery-tool",
+    "description": "Deterministic Bitcoin wallet recovery workflows.",
+    "documentation": [
+        "README.md",
+        "roadmap.md"
+    ],
+    "launch_methods": [
+        "desktop",
+        "cli",
+        "workflow"
+    ],
+    "workflows": [
+        "Recovery Mode",
+        "Address Verification Mode"
+    ],
+    "dependencies": [],
+    "tags": [
+        "bitcoin",
+        "wallet",
+        "recovery",
+        "bip39"
+    ]
+}

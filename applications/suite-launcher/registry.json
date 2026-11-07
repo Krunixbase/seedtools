@@ -1,0 +1,44 @@
+{
+    "version": "1.0.0",
+    "registry_name": "SeedTools Suite Registry",
+    "generated_by": "Suite Launcher",
+    "last_updated": "2026-10-18",
+    "modules": [
+        {
+            "module_id": "recovery-tool",
+            "location": "applications/recovery-tool"
+        },
+        {
+            "module_id": "forensics-tool",
+            "location": "applications/forensics-tool"
+        },
+        {
+            "module_id": "entropy-inspector",
+            "location": "applications/entropy-inspector"
+        },
+        {
+            "module_id": "mnemonic-tools",
+            "location": "applications/mnemonic-tools"
+        },
+        {
+            "module_id": "path-explorer",
+            "location": "applications/path-explorer"
+        },
+        {
+            "module_id": "address-scanner",
+            "location": "applications/address-scanner"
+        },
+        {
+            "module_id": "seedtools-cli",
+            "location": "applications/seedtools-cli"
+        },
+        {
+            "module_id": "seedtools-desktop",
+            "location": "applications/seedtools-desktop"
+        },
+        {
+            "module_id": "suite-launcher",
+            "location": "applications/suite-launcher"
+        }
+    ]
+}

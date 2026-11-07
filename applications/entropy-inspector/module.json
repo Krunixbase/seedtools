@@ -1,0 +1,31 @@
+{
+    "module_id": "entropy-inspector",
+    "name": "Entropy Inspector",
+    "version": "1.0.0",
+    "category": "Entropy",
+    "status": "available",
+    "location": "applications/entropy-inspector",
+    "description": "Entropy diagnostics, randomness analysis, anomaly detection, and entropy quality verification workflows.",
+    "documentation": [
+        "README.md",
+        "roadmap.md"
+    ],
+    "launch_methods": [
+        "desktop",
+        "workflow"
+    ],
+    "workflows": [
+        "Entropy Diagnostics Mode",
+        "Forensics Mode",
+        "Guided Recovery PRO"
+    ],
+    "dependencies": [],
+    "tags": [
+        "bitcoin",
+        "entropy",
+        "randomness",
+        "analysis",
+        "diagnostics",
+        "security"
+    ]
+}

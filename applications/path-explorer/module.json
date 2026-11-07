@@ -1,0 +1,37 @@
+{
+    "module_id": "path-explorer",
+    "name": "Path Explorer",
+    "version": "1.0.0",
+    "category": "Analysis",
+    "status": "available",
+    "location": "applications/path-explorer",
+    "description": "Derivation path discovery, BIP traversal, wallet structure analysis, and address derivation verification workflows.",
+    "documentation": [
+        "README.md",
+        "roadmap.md"
+    ],
+    "launch_methods": [
+        "desktop",
+        "workflow"
+    ],
+    "workflows": [
+        "Recovery Mode",
+        "Address Verification Mode",
+        "Wallet Structure Audit",
+        "Guided Recovery PRO",
+        "Hardened Recovery Workflow"
+    ],
+    "dependencies": [],
+    "tags": [
+        "bitcoin",
+        "bip32",
+        "bip44",
+        "bip49",
+        "bip84",
+        "bip86",
+        "derivation",
+        "path",
+        "wallet",
+        "analysis"
+    ]
+}

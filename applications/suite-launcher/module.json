@@ -1,0 +1,52 @@
+{
+    "module_id": "suite-launcher",
+    "name": "Suite Launcher",
+    "version": "1.0.0",
+    "category": "Launcher",
+    "status": "available",
+    "location": "applications/suite-launcher",
+    "description": "Central orchestration layer of SeedTools Suite providing module discovery, workflow access, documentation hub, settings management, and unified navigation.",
+    "documentation": [
+        "README.md",
+        "roadmap.md",
+        "launcher-architecture.md",
+        "launcher-modules.md",
+        "launcher-workflows.md",
+        "launcher-mvp.md",
+        "launcher-ui.md",
+        "launcher-development-plan.md",
+        "launcher-registry-format.md",
+        "module-discovery.md"
+    ],
+    "launch_methods": [
+        "desktop"
+    ],
+    "workflows": [
+        "Recovery Mode",
+        "Forensics Mode",
+        "Address Verification Mode",
+        "Entropy Diagnostics Mode",
+        "Guided Recovery PRO",
+        "Hardened Recovery Workflow"
+    ],
+    "dependencies": [
+        "recovery-tool",
+        "forensics-tool",
+        "entropy-inspector",
+        "mnemonic-tools",
+        "path-explorer",
+        "address-scanner",
+        "seedtools-cli",
+        "seedtools-desktop"
+    ],
+    "tags": [
+        "launcher",
+        "registry",
+        "workflow",
+        "orchestration",
+        "navigation",
+        "documentation",
+        "offline-first",
+        "suite"
+    ]
+}
