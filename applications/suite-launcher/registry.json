@@ -1,44 +1,330 @@
 {
-    "version": "1.0.0",
-    "registry_name": "SeedTools Suite Registry",
-    "generated_by": "Suite Launcher",
-    "last_updated": "2026-10-18",
-    "modules": [
-        {
-            "module_id": "recovery-tool",
-            "location": "applications/recovery-tool"
-        },
-        {
-            "module_id": "forensics-tool",
-            "location": "applications/forensics-tool"
-        },
-        {
-            "module_id": "entropy-inspector",
-            "location": "applications/entropy-inspector"
-        },
-        {
-            "module_id": "mnemonic-tools",
-            "location": "applications/mnemonic-tools"
-        },
-        {
-            "module_id": "path-explorer",
-            "location": "applications/path-explorer"
-        },
-        {
-            "module_id": "address-scanner",
-            "location": "applications/address-scanner"
-        },
-        {
-            "module_id": "seedtools-cli",
-            "location": "applications/seedtools-cli"
-        },
-        {
-            "module_id": "seedtools-desktop",
-            "location": "applications/seedtools-desktop"
-        },
-        {
-            "module_id": "suite-launcher",
-            "location": "applications/suite-launcher"
-        }
-    ]
+  "version": "1.0.0",
+  "registry_name": "SeedTools Suite Registry",
+  "generated_by": "registry-builder.py",
+  "modules": [
+    {
+      "module_id": "address-scanner",
+      "name": "Address Scanner",
+      "version": "1.0.0",
+      "category": "Analysis",
+      "status": "available",
+      "location": "applications/address-scanner",
+      "description": "Bitcoin address discovery, address verification, wallet scanning, and reporting workflows.",
+      "documentation": [
+        "README.md",
+        "roadmap.md"
+      ],
+      "launch_methods": [
+        "desktop",
+        "workflow"
+      ],
+      "workflows": [
+        "Address Verification Mode",
+        "Forensics Mode",
+        "Recovery Mode",
+        "Wallet Structure Audit",
+        "Guided Recovery PRO"
+      ],
+      "dependencies": [],
+      "tags": [
+        "bitcoin",
+        "address",
+        "scanner",
+        "verification",
+        "wallet",
+        "analysis",
+        "forensics"
+      ]
+    },
+    {
+      "module_id": "entropy-inspector",
+      "name": "Entropy Inspector",
+      "version": "1.0.0",
+      "category": "Entropy",
+      "status": "available",
+      "location": "applications/entropy-inspector",
+      "description": "Entropy diagnostics, randomness analysis, anomaly detection, and entropy quality verification workflows.",
+      "documentation": [
+        "README.md",
+        "roadmap.md"
+      ],
+      "launch_methods": [
+        "desktop",
+        "workflow"
+      ],
+      "workflows": [
+        "Entropy Diagnostics Mode",
+        "Forensics Mode",
+        "Guided Recovery PRO"
+      ],
+      "dependencies": [],
+      "tags": [
+        "bitcoin",
+        "entropy",
+        "randomness",
+        "analysis",
+        "diagnostics",
+        "security"
+      ]
+    },
+    {
+      "module_id": "forensics-tool",
+      "name": "Forensics Tool",
+      "version": "1.0.0",
+      "category": "Forensics",
+      "status": "available",
+      "location": "applications/forensics-tool",
+      "description": "Bitcoin wallet forensic analysis and recovery investigation workflows.",
+      "documentation": [
+        "README.md",
+        "roadmap.md"
+      ],
+      "launch_methods": [
+        "desktop",
+        "workflow"
+      ],
+      "workflows": [
+        "Forensics Mode",
+        "Wallet Structure Audit",
+        "Guided Recovery PRO"
+      ],
+      "dependencies": [],
+      "tags": [
+        "bitcoin",
+        "forensics",
+        "wallet",
+        "analysis",
+        "investigation",
+        "recovery"
+      ]
+    },
+    {
+      "module_id": "mnemonic-tools",
+      "name": "Mnemonic Tools",
+      "version": "1.0.0",
+      "category": "Analysis",
+      "status": "available",
+      "location": "applications/mnemonic-tools",
+      "description": "Mnemonic validation, checksum verification, diagnostics, and BIP39 recovery support workflows.",
+      "documentation": [
+        "README.md",
+        "roadmap.md"
+      ],
+      "launch_methods": [
+        "desktop",
+        "workflow"
+      ],
+      "workflows": [
+        "Recovery Mode",
+        "Entropy Diagnostics Mode",
+        "Guided Recovery PRO",
+        "Hardened Recovery Workflow"
+      ],
+      "dependencies": [],
+      "tags": [
+        "bitcoin",
+        "bip39",
+        "mnemonic",
+        "checksum",
+        "recovery",
+        "validation"
+      ]
+    },
+    {
+      "module_id": "path-explorer",
+      "name": "Path Explorer",
+      "version": "1.0.0",
+      "category": "Analysis",
+      "status": "available",
+      "location": "applications/path-explorer",
+      "description": "Derivation path discovery, BIP traversal, wallet structure analysis, and address derivation verification workflows.",
+      "documentation": [
+        "README.md",
+        "roadmap.md"
+      ],
+      "launch_methods": [
+        "desktop",
+        "workflow"
+      ],
+      "workflows": [
+        "Recovery Mode",
+        "Address Verification Mode",
+        "Wallet Structure Audit",
+        "Guided Recovery PRO",
+        "Hardened Recovery Workflow"
+      ],
+      "dependencies": [],
+      "tags": [
+        "bitcoin",
+        "bip32",
+        "bip44",
+        "bip49",
+        "bip84",
+        "bip86",
+        "derivation",
+        "path",
+        "wallet",
+        "analysis"
+      ]
+    },
+    {
+      "module_id": "recovery-tool",
+      "name": "Recovery Tool",
+      "version": "1.0.0",
+      "category": "Recovery",
+      "status": "available",
+      "location": "applications/recovery-tool",
+      "description": "Deterministic Bitcoin wallet recovery workflows.",
+      "documentation": [
+        "README.md",
+        "roadmap.md"
+      ],
+      "launch_methods": [
+        "desktop",
+        "cli",
+        "workflow"
+      ],
+      "workflows": [
+        "Recovery Mode",
+        "Address Verification Mode"
+      ],
+      "dependencies": [],
+      "tags": [
+        "bitcoin",
+        "wallet",
+        "recovery",
+        "bip39"
+      ]
+    },
+    {
+      "module_id": "seedtools-cli",
+      "name": "SeedTools CLI",
+      "version": "1.0.0",
+      "category": "Interface",
+      "status": "available",
+      "location": "applications/seedtools-cli",
+      "description": "Command-line interface providing scripting, automation, and advanced access to SeedTools Suite functionality.",
+      "documentation": [
+        "README.md",
+        "roadmap.md"
+      ],
+      "launch_methods": [
+        "cli"
+      ],
+      "workflows": [
+        "Recovery Mode",
+        "Forensics Mode",
+        "Address Verification Mode",
+        "Entropy Diagnostics Mode",
+        "Guided Recovery PRO",
+        "Hardened Recovery Workflow"
+      ],
+      "dependencies": [],
+      "tags": [
+        "bitcoin",
+        "cli",
+        "terminal",
+        "automation",
+        "scripting",
+        "recovery",
+        "forensics",
+        "security"
+      ]
+    },
+    {
+      "module_id": "seedtools-desktop",
+      "name": "SeedTools Desktop",
+      "version": "1.0.0",
+      "category": "Interface",
+      "status": "available",
+      "location": "applications/seedtools-desktop",
+      "description": "Primary graphical user interface providing access to SeedTools Suite applications, workflows, and recovery operations.",
+      "documentation": [
+        "README.md",
+        "roadmap.md"
+      ],
+      "launch_methods": [
+        "desktop"
+      ],
+      "workflows": [
+        "Recovery Mode",
+        "Forensics Mode",
+        "Address Verification Mode",
+        "Entropy Diagnostics Mode",
+        "Guided Recovery PRO",
+        "Hardened Recovery Workflow"
+      ],
+      "dependencies": [
+        "recovery-tool",
+        "forensics-tool",
+        "entropy-inspector",
+        "mnemonic-tools",
+        "path-explorer",
+        "address-scanner"
+      ],
+      "tags": [
+        "bitcoin",
+        "desktop",
+        "gui",
+        "recovery",
+        "forensics",
+        "security",
+        "workflow",
+        "suite"
+      ]
+    },
+    {
+      "module_id": "suite-launcher",
+      "name": "Suite Launcher",
+      "version": "1.0.0",
+      "category": "Launcher",
+      "status": "available",
+      "location": "applications/suite-launcher",
+      "description": "Central orchestration layer of SeedTools Suite providing module discovery, workflow access, documentation hub, settings management, and unified navigation.",
+      "documentation": [
+        "README.md",
+        "roadmap.md",
+        "launcher-architecture.md",
+        "launcher-modules.md",
+        "launcher-workflows.md",
+        "launcher-mvp.md",
+        "launcher-ui.md",
+        "launcher-development-plan.md",
+        "launcher-registry-format.md",
+        "module-discovery.md"
+      ],
+      "launch_methods": [
+        "desktop"
+      ],
+      "workflows": [
+        "Recovery Mode",
+        "Forensics Mode",
+        "Address Verification Mode",
+        "Entropy Diagnostics Mode",
+        "Guided Recovery PRO",
+        "Hardened Recovery Workflow"
+      ],
+      "dependencies": [
+        "recovery-tool",
+        "forensics-tool",
+        "entropy-inspector",
+        "mnemonic-tools",
+        "path-explorer",
+        "address-scanner",
+        "seedtools-cli",
+        "seedtools-desktop"
+      ],
+      "tags": [
+        "launcher",
+        "registry",
+        "workflow",
+        "orchestration",
+        "navigation",
+        "documentation",
+        "offline-first",
+        "suite"
+      ]
+    }
+  ]
 }

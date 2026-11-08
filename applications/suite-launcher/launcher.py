@@ -1,6 +1,7 @@
 import json
 from pathlib import Path
 
+from launcher_actions import module_actions_menu
 
 REGISTRY_FILE = Path(__file__).parent / "registry.json"
 
@@ -8,7 +9,6 @@ REGISTRY_FILE = Path(__file__).parent / "registry.json"
 def load_registry():
     with REGISTRY_FILE.open("r", encoding="utf-8") as f:
         return json.load(f)
-
 
 def display_modules(registry):
     print("\nSeedTools Suite Launcher")
@@ -70,10 +70,11 @@ def launcher_loop():
             print("Invalid selection.")
             continue
 
-        display_module_details(modules[index])
+        module = modules[index]
 
-        input("\nPress ENTER to continue...")
+        display_module_details(module)
 
+        module_actions_menu(module)
 
 def main():
     launcher_loop()
