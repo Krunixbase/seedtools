@@ -1,10 +1,6 @@
 from pathlib import Path
 
-
-def launch_module(module):
-    print(f"\n[LAUNCH]")
-    print(f"Launching: {module['name']}")
-    print(f"Location: {module['location']}")
+from launcher_runner import launch_module
 
 
 def show_documentation(module):
