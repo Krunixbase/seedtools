@@ -1,4 +1,4 @@
-{
+ {
     "module_id": "suite-launcher",
     "name": "Suite Launcher",
     "version": "1.0.0",
@@ -18,9 +18,16 @@
         "launcher-registry-format.md",
         "module-discovery.md"
     ],
+
     "launch_methods": [
+        "cli",
         "desktop"
     ],
+
+    "entrypoints": {
+     "cli": "launcher.py"
+    },
+
     "workflows": [
         "Recovery Mode",
         "Forensics Mode",

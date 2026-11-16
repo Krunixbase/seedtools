@@ -19,6 +19,7 @@
         "desktop",
         "workflow"
       ],
+      "entrypoints": {},
       "workflows": [
         "Address Verification Mode",
         "Forensics Mode",
@@ -295,8 +296,12 @@
         "module-discovery.md"
       ],
       "launch_methods": [
+        "cli",
         "desktop"
       ],
+      "entrypoints": {
+        "cli": "launcher.py"
+      },
       "workflows": [
         "Recovery Mode",
         "Forensics Mode",
