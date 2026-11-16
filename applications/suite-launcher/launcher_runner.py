@@ -1,5 +1,11 @@
 from pathlib import Path
 
+def detect_entrypoints(module):
+    """
+    Return module entrypoints.
+    """
+
+    return module.get("entrypoints", {})
 
 def resolve_module_directory(module):
     """
@@ -28,14 +34,29 @@ def validate_module(module):
         "directory": str(module_dir)
     }
 
+def validate_entrypoints(module):
+    """
+    Validate module entrypoints.
+    """
+
+    module_dir = resolve_module_directory(module)
+
+    entrypoints = detect_entrypoints(module)
+
+    results = {}
+
+    for name, entrypoint in entrypoints.items():
+
+        entrypoint_path = module_dir / entrypoint
+
+        results[name] = {
+            "path": str(entrypoint_path),
+            "exists": entrypoint_path.exists()
+        }
+
+    return results
 
 def launch_module(module):
-    """
-    MVP launcher action.
-
-    Current version validates module metadata
-    and module directory before execution.
-    """
 
     print("\n[RUNNER]")
 
@@ -44,11 +65,25 @@ def launch_module(module):
     print(f"Module: {module['name']}")
     print(f"Location: {validation['directory']}")
 
-    if validation["exists"]:
-        print("Status: READY")
-    else:
+    if not validation["exists"]:
         print("Status: NOT FOUND")
+        return
 
+    print("Status: READY")
+
+    entrypoints = validate_entrypoints(module)
+
+    if not entrypoints:
+        print("Entrypoints: NOT DEFINED")
+        return
+
+    print("\nEntrypoints:")
+
+    for name, info in entrypoints.items():
+
+        status = "FOUND" if info["exists"] else "MISSING"
+
+        print(f" - {name}: {status}")
 
 def show_module_info(module):
     """
