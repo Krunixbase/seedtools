@@ -1,5 +1,28 @@
 from pathlib import Path
 
+def execute_entrypoint(module):
+    """
+    Prepare module execution.
+    """
+
+    entrypoints = validate_entrypoints(module)
+
+    if not entrypoints:
+        print("Entrypoints: NOT DEFINED")
+        return
+
+    print("\n[EXECUTE ENTRYPOINT]")
+
+    for name, info in entrypoints.items():
+
+        if info["exists"]:
+            print(f"Selected: {name}")
+            print(f"Path: {info['path']}")
+            print("Status: EXECUTABLE")
+            return
+
+    print("Status: NO VALID ENTRYPOINT")
+
 def detect_entrypoints(module):
     """
     Return module entrypoints.
@@ -85,6 +108,8 @@ def launch_module(module):
 
         print(f" - {name}: {status}")
 
+    execute_entrypoint(module)
+
 def show_module_info(module):
     """
     Display runtime information.
@@ -101,3 +126,4 @@ def show_module_info(module):
 
     for method in module.get("launch_methods", []):
         print(f" - {method}")
+
