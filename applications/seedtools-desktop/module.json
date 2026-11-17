@@ -13,6 +13,9 @@
     "launch_methods": [
         "desktop"
     ],
+
+    "entrypoints": {},
+
     "workflows": [
         "Recovery Mode",
         "Forensics Mode",

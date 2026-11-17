@@ -6,20 +6,27 @@
     "status": "available",
     "location": "applications/forensics-tool",
     "description": "Bitcoin wallet forensic analysis and recovery investigation workflows.",
+
     "documentation": [
         "README.md",
         "roadmap.md"
     ],
+
     "launch_methods": [
         "desktop",
         "workflow"
     ],
+
+    "entrypoints": {},
+
     "workflows": [
         "Forensics Mode",
         "Wallet Structure Audit",
         "Guided Recovery PRO"
     ],
+
     "dependencies": [],
+
     "tags": [
         "bitcoin",
         "forensics",

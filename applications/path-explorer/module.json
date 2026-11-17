@@ -14,6 +14,9 @@
         "desktop",
         "workflow"
     ],
+
+    "entrypoints": {},
+
     "workflows": [
         "Recovery Mode",
         "Address Verification Mode",

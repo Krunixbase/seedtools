@@ -13,6 +13,9 @@
     "launch_methods": [
         "cli"
     ],
+
+    "entrypoints": {},
+
     "workflows": [
         "Recovery Mode",
         "Forensics Mode",
