@@ -19,9 +19,37 @@ def execute_entrypoint(module):
             print(f"Selected: {name}")
             print(f"Path: {info['path']}")
             print("Status: EXECUTABLE")
+
+            run_entrypoint(module)
+
             return
 
     print("Status: NO VALID ENTRYPOINT")
+
+def run_entrypoint(module):
+    """
+    Simulate module execution.
+    """
+
+    entrypoints = validate_entrypoints(module)
+
+    if not entrypoints:
+        print("Status: NOT RUNNABLE")
+        return
+
+    print("\n[RUN ENTRYPOINT]")
+
+    for name, info in entrypoints.items():
+
+        if info["exists"]:
+
+            print(f"Selected: {name}")
+            print(f"Path: {info['path']}")
+            print("Status: RUNNING")
+
+            return
+
+    print("Status: NO RUNNABLE ENTRYPOINT")
 
 def detect_entrypoints(module):
     """
