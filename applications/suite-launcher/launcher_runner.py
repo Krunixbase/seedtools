@@ -5,52 +5,35 @@ def execute_entrypoint(module):
     Prepare module execution.
     """
 
-    entrypoints = validate_entrypoints(module)
+    selected = select_runnable_entrypoint(module)
 
-    if not entrypoints:
-        print("Entrypoints: NOT DEFINED")
+    if not selected:
+        print("Status: NO VALID ENTRYPOINT")
         return
 
     print("\n[EXECUTE ENTRYPOINT]")
+    print(f"Selected: {selected['name']}")
+    print(f"Path: {selected['path']}")
+    print("Status: EXECUTABLE")
 
-    for name, info in entrypoints.items():
-
-        if info["exists"]:
-            print(f"Selected: {name}")
-            print(f"Path: {info['path']}")
-            print("Status: EXECUTABLE")
-
-            run_entrypoint(module)
-
-            return
-
-    print("Status: NO VALID ENTRYPOINT")
+    run_entrypoint(module)
 
 def run_entrypoint(module):
     """
     Simulate module execution.
     """
 
-    entrypoints = validate_entrypoints(module)
+    selected = select_runnable_entrypoint(module)
 
-    if not entrypoints:
+    if not selected:
         print("Status: NOT RUNNABLE")
         return
 
     print("\n[RUN ENTRYPOINT]")
-
-    for name, info in entrypoints.items():
-
-        if info["exists"]:
-
-            print(f"Selected: {name}")
-            print(f"Path: {info['path']}")
-            print("Status: RUNNING")
-            print("Status: COMPLETED")
-
-            return
-
-    print("Status: NO RUNNABLE ENTRYPOINT")
+    print(f"Selected: {selected['name']}")
+    print(f"Path: {selected['path']}")
+    print("Status: RUNNING")
+    print("Status: COMPLETED")
 
 def detect_entrypoints(module):
     """
@@ -107,6 +90,25 @@ def validate_entrypoints(module):
         }
 
     return results
+
+def select_runnable_entrypoint(module):
+    """
+    Select first runnable entrypoint.
+    """
+
+    entrypoints = validate_entrypoints(module)
+
+    for name, info in entrypoints.items():
+
+        if info["exists"]:
+
+            return {
+                "name": name,
+                "path": info["path"],
+                "exists": True
+            }
+
+    return None
 
 def launch_module(module):
 
