@@ -38,13 +38,19 @@ def run_entrypoint(module):
     launch_real_process(selected)
 
 def launch_real_process(selected):
-    """
-    Prepare real process execution.
-    """
+
+    if not selected:
+        print("Process: FAILED")
+        return
 
     print("\n[REAL EXECUTION]")
     print(f"Selected: {selected['name']}")
     print(f"Path: {selected['path']}")
+
+    if not Path(selected["path"]).exists():
+        print("Process: FAILED")
+        return
+
     print("Process: PREPARED")
 
 def detect_entrypoints(module):
@@ -169,4 +175,5 @@ def show_module_info(module):
 
     for method in module.get("launch_methods", []):
         print(f" - {method}")
+
 
