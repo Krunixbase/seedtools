@@ -46,6 +46,7 @@ def run_entrypoint(module):
             print(f"Selected: {name}")
             print(f"Path: {info['path']}")
             print("Status: RUNNING")
+            print("Status: COMPLETED")
 
             return
 

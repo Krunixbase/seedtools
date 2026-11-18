@@ -54,6 +54,7 @@
         "desktop",
         "workflow"
       ],
+      "entrypoints": {},
       "workflows": [
         "Entropy Diagnostics Mode",
         "Forensics Mode",
@@ -85,6 +86,7 @@
         "desktop",
         "workflow"
       ],
+      "entrypoints": {},
       "workflows": [
         "Forensics Mode",
         "Wallet Structure Audit",
@@ -116,6 +118,7 @@
         "desktop",
         "workflow"
       ],
+      "entrypoints": {},
       "workflows": [
         "Recovery Mode",
         "Entropy Diagnostics Mode",
@@ -148,6 +151,7 @@
         "desktop",
         "workflow"
       ],
+      "entrypoints": {},
       "workflows": [
         "Recovery Mode",
         "Address Verification Mode",
@@ -186,6 +190,7 @@
         "cli",
         "workflow"
       ],
+      "entrypoints": {},
       "workflows": [
         "Recovery Mode",
         "Address Verification Mode"
@@ -213,6 +218,7 @@
       "launch_methods": [
         "cli"
       ],
+      "entrypoints": {},
       "workflows": [
         "Recovery Mode",
         "Forensics Mode",
@@ -248,6 +254,7 @@
       "launch_methods": [
         "desktop"
       ],
+      "entrypoints": {},
       "workflows": [
         "Recovery Mode",
         "Forensics Mode",
