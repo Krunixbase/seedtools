@@ -1,4 +1,5 @@
 from pathlib import Path
+import subprocess
 
 def execute_entrypoint(module):
     """
@@ -41,7 +42,7 @@ def launch_real_process(selected):
 
     if not selected:
         print("Process: FAILED")
-        return
+        return False
 
     print("\n[REAL EXECUTION]")
     print(f"Selected: {selected['name']}")
@@ -49,9 +50,14 @@ def launch_real_process(selected):
 
     if not Path(selected["path"]).exists():
         print("Process: FAILED")
-        return
+        return False
 
     print("Process: PREPARED")
+
+    # placeholder for the future:
+    # subprocess.run(...)
+
+    return True
 
 def detect_entrypoints(module):
     """
