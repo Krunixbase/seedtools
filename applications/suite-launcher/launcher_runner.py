@@ -35,6 +35,18 @@ def run_entrypoint(module):
     print("Status: RUNNING")
     print("Status: COMPLETED")
 
+    launch_real_process(selected)
+
+def launch_real_process(selected):
+    """
+    Prepare real process execution.
+    """
+
+    print("\n[REAL EXECUTION]")
+    print(f"Selected: {selected['name']}")
+    print(f"Path: {selected['path']}")
+    print("Process: PREPARED")
+
 def detect_entrypoints(module):
     """
     Return module entrypoints.
