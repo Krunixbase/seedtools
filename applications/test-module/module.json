@@ -1,0 +1,24 @@
+{
+  "module_id": "test-module",
+  "name": "Test Module",
+  "version": "1.0.0",
+  "category": "Testing",
+  "status": "available",
+  "location": "applications/test-module",
+
+  "description": "Test module used for Real Execution Layer validation.",
+
+  "launch_methods": [
+    "cli"
+  ],
+
+  "entrypoints": {
+    "cli": "main.py"
+  },
+
+  "workflows": [],
+  "dependencies": [],
+  "tags": [
+    "test"
+  ]
+}
