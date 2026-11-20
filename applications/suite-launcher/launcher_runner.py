@@ -52,10 +52,20 @@ def launch_real_process(selected):
         print("Process: FAILED")
         return False
 
-    print("Process: PREPARED")
+    result = subprocess.run(
+        ["python", selected["path"]],
+        capture_output=True,
+        text=True
+    )
 
-    # placeholder for the future:
-    # subprocess.run(...)
+    print("Process: EXECUTED")
+
+    if result.stdout:
+        print(result.stdout)
+
+    if result.stderr:
+        print("[STDERR]")
+        print(result.stderr)
 
     return True
 
